@@ -1,0 +1,5 @@
+  File "/home/delewlew/ros2_tutorial_workspace_2/src/install/python_package_that_uses_the_library/lib/python3.10/site-packages/python_package_that_uses_the_library/node_that_uses_the_library.py", line 5
+    from python_package_with_a_library
+                                      ^
+SyntaxError: invalid syntax
+

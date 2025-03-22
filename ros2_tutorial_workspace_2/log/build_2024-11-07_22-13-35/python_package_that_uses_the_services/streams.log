@@ -1,0 +1,41 @@
+[2.896s] Invoking command in '/home/delewlew/ros2_tutorial_workspace_2/src/python_package_that_uses_the_services': PYTHONPATH=/home/delewlew/ros2_tutorial_workspace_2/build/python_package_that_uses_the_services/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/delewlew/ros2_tutorial_workspace_2/install/python_package_that_uses_the_services/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/python_package_that_uses_the_services build --build-base /home/delewlew/ros2_tutorial_workspace_2/build/python_package_that_uses_the_services/build install --record /home/delewlew/ros2_tutorial_workspace_2/build/python_package_that_uses_the_services/install.log --single-version-externally-managed install_data
+[3.626s] running egg_info
+[3.629s] creating ../../build/python_package_that_uses_the_services/python_package_that_uses_the_services.egg-info
+[3.630s] writing ../../build/python_package_that_uses_the_services/python_package_that_uses_the_services.egg-info/PKG-INFO
+[3.632s] writing dependency_links to ../../build/python_package_that_uses_the_services/python_package_that_uses_the_services.egg-info/dependency_links.txt
+[3.632s] writing entry points to ../../build/python_package_that_uses_the_services/python_package_that_uses_the_services.egg-info/entry_points.txt
+[3.633s] writing requirements to ../../build/python_package_that_uses_the_services/python_package_that_uses_the_services.egg-info/requires.txt
+[3.633s] writing top-level names to ../../build/python_package_that_uses_the_services/python_package_that_uses_the_services.egg-info/top_level.txt
+[3.634s] writing manifest file '../../build/python_package_that_uses_the_services/python_package_that_uses_the_services.egg-info/SOURCES.txt'
+[3.646s] reading manifest file '../../build/python_package_that_uses_the_services/python_package_that_uses_the_services.egg-info/SOURCES.txt'
+[3.651s] writing manifest file '../../build/python_package_that_uses_the_services/python_package_that_uses_the_services.egg-info/SOURCES.txt'
+[3.651s] running build
+[3.651s] running build_py
+[3.651s] creating /home/delewlew/ros2_tutorial_workspace_2/build/python_package_that_uses_the_services/build
+[3.652s] creating /home/delewlew/ros2_tutorial_workspace_2/build/python_package_that_uses_the_services/build/lib
+[3.652s] creating /home/delewlew/ros2_tutorial_workspace_2/build/python_package_that_uses_the_services/build/lib/python_package_that_uses_the_services
+[3.652s] copying python_package_that_uses_the_services/what_is_the_point_service_client_node.py -> /home/delewlew/ros2_tutorial_workspace_2/build/python_package_that_uses_the_services/build/lib/python_package_that_uses_the_services
+[3.653s] copying python_package_that_uses_the_services/what_is_the_point_service_server_node.py -> /home/delewlew/ros2_tutorial_workspace_2/build/python_package_that_uses_the_services/build/lib/python_package_that_uses_the_services
+[3.654s] copying python_package_that_uses_the_services/__init__.py -> /home/delewlew/ros2_tutorial_workspace_2/build/python_package_that_uses_the_services/build/lib/python_package_that_uses_the_services
+[3.655s] running install
+[3.656s] running install_lib
+[3.658s] creating /home/delewlew/ros2_tutorial_workspace_2/install/python_package_that_uses_the_services/lib/python3.10/site-packages/python_package_that_uses_the_services
+[3.658s] copying /home/delewlew/ros2_tutorial_workspace_2/build/python_package_that_uses_the_services/build/lib/python_package_that_uses_the_services/what_is_the_point_service_client_node.py -> /home/delewlew/ros2_tutorial_workspace_2/install/python_package_that_uses_the_services/lib/python3.10/site-packages/python_package_that_uses_the_services
+[3.658s] copying /home/delewlew/ros2_tutorial_workspace_2/build/python_package_that_uses_the_services/build/lib/python_package_that_uses_the_services/what_is_the_point_service_server_node.py -> /home/delewlew/ros2_tutorial_workspace_2/install/python_package_that_uses_the_services/lib/python3.10/site-packages/python_package_that_uses_the_services
+[3.658s] copying /home/delewlew/ros2_tutorial_workspace_2/build/python_package_that_uses_the_services/build/lib/python_package_that_uses_the_services/__init__.py -> /home/delewlew/ros2_tutorial_workspace_2/install/python_package_that_uses_the_services/lib/python3.10/site-packages/python_package_that_uses_the_services
+[3.659s] byte-compiling /home/delewlew/ros2_tutorial_workspace_2/install/python_package_that_uses_the_services/lib/python3.10/site-packages/python_package_that_uses_the_services/what_is_the_point_service_client_node.py to what_is_the_point_service_client_node.cpython-310.pyc
+[3.661s] byte-compiling /home/delewlew/ros2_tutorial_workspace_2/install/python_package_that_uses_the_services/lib/python3.10/site-packages/python_package_that_uses_the_services/what_is_the_point_service_server_node.py to what_is_the_point_service_server_node.cpython-310.pyc
+[3.663s] byte-compiling /home/delewlew/ros2_tutorial_workspace_2/install/python_package_that_uses_the_services/lib/python3.10/site-packages/python_package_that_uses_the_services/__init__.py to __init__.cpython-310.pyc
+[3.663s] running install_data
+[3.665s] creating /home/delewlew/ros2_tutorial_workspace_2/install/python_package_that_uses_the_services/share/ament_index
+[3.665s] creating /home/delewlew/ros2_tutorial_workspace_2/install/python_package_that_uses_the_services/share/ament_index/resource_index
+[3.665s] creating /home/delewlew/ros2_tutorial_workspace_2/install/python_package_that_uses_the_services/share/ament_index/resource_index/packages
+[3.666s] copying resource/python_package_that_uses_the_services -> /home/delewlew/ros2_tutorial_workspace_2/install/python_package_that_uses_the_services/share/ament_index/resource_index/packages
+[3.666s] copying package.xml -> /home/delewlew/ros2_tutorial_workspace_2/install/python_package_that_uses_the_services/share/python_package_that_uses_the_services
+[3.666s] running install_egg_info
+[3.668s] Copying ../../build/python_package_that_uses_the_services/python_package_that_uses_the_services.egg-info to /home/delewlew/ros2_tutorial_workspace_2/install/python_package_that_uses_the_services/lib/python3.10/site-packages/python_package_that_uses_the_services-0.0.0-py3.10.egg-info
+[3.671s] running install_scripts
+[3.717s] Installing what_is_the_point_service_client_node script to /home/delewlew/ros2_tutorial_workspace_2/install/python_package_that_uses_the_services/lib/python_package_that_uses_the_services
+[3.717s] Installing what_is_the_point_service_server_node script to /home/delewlew/ros2_tutorial_workspace_2/install/python_package_that_uses_the_services/lib/python_package_that_uses_the_services
+[3.718s] writing list of installed files to '/home/delewlew/ros2_tutorial_workspace_2/build/python_package_that_uses_the_services/install.log'
+[3.790s] Invoked command in '/home/delewlew/ros2_tutorial_workspace_2/src/python_package_that_uses_the_services' returned '0': PYTHONPATH=/home/delewlew/ros2_tutorial_workspace_2/build/python_package_that_uses_the_services/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/delewlew/ros2_tutorial_workspace_2/install/python_package_that_uses_the_services/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/python_package_that_uses_the_services build --build-base /home/delewlew/ros2_tutorial_workspace_2/build/python_package_that_uses_the_services/build install --record /home/delewlew/ros2_tutorial_workspace_2/build/python_package_that_uses_the_services/install.log --single-version-externally-managed install_data

@@ -1,0 +1,21 @@
+[0.587s] Invoking command in '/home/delewlew/assessments/week7/src/rat_description_pkg': PYTHONPATH=/home/delewlew/assessments/week7/src/build/rat_description_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/delewlew/assessments/week7/src/install/rat_description_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/rat_description_pkg build --build-base /home/delewlew/assessments/week7/src/build/rat_description_pkg/build install --record /home/delewlew/assessments/week7/src/build/rat_description_pkg/install.log --single-version-externally-managed install_data
+[0.768s] running egg_info
+[0.769s] writing ../build/rat_description_pkg/rat_description_pkg.egg-info/PKG-INFO
+[0.769s] writing dependency_links to ../build/rat_description_pkg/rat_description_pkg.egg-info/dependency_links.txt
+[0.769s] writing entry points to ../build/rat_description_pkg/rat_description_pkg.egg-info/entry_points.txt
+[0.769s] writing requirements to ../build/rat_description_pkg/rat_description_pkg.egg-info/requires.txt
+[0.769s] writing top-level names to ../build/rat_description_pkg/rat_description_pkg.egg-info/top_level.txt
+[0.771s] reading manifest file '../build/rat_description_pkg/rat_description_pkg.egg-info/SOURCES.txt'
+[0.772s] writing manifest file '../build/rat_description_pkg/rat_description_pkg.egg-info/SOURCES.txt'
+[0.772s] running build
+[0.772s] running build_py
+[0.772s] running install
+[0.772s] running install_lib
+[0.773s] running install_data
+[0.773s] copying urdf/brianna.urdf -> /home/delewlew/assessments/week7/src/install/rat_description_pkg/share/rat_description_pkg/urdf
+[0.774s] running install_egg_info
+[0.775s] removing '/home/delewlew/assessments/week7/src/install/rat_description_pkg/lib/python3.10/site-packages/rat_description_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.775s] Copying ../build/rat_description_pkg/rat_description_pkg.egg-info to /home/delewlew/assessments/week7/src/install/rat_description_pkg/lib/python3.10/site-packages/rat_description_pkg-0.0.0-py3.10.egg-info
+[0.776s] running install_scripts
+[0.792s] writing list of installed files to '/home/delewlew/assessments/week7/src/build/rat_description_pkg/install.log'
+[0.810s] Invoked command in '/home/delewlew/assessments/week7/src/rat_description_pkg' returned '0': PYTHONPATH=/home/delewlew/assessments/week7/src/build/rat_description_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/delewlew/assessments/week7/src/install/rat_description_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/rat_description_pkg build --build-base /home/delewlew/assessments/week7/src/build/rat_description_pkg/build install --record /home/delewlew/assessments/week7/src/build/rat_description_pkg/install.log --single-version-externally-managed install_data

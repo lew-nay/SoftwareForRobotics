@@ -1,0 +1,20 @@
+running egg_info
+writing ../build/CA8_package_incomplete/CA8_package_incomplete.egg-info/PKG-INFO
+writing dependency_links to ../build/CA8_package_incomplete/CA8_package_incomplete.egg-info/dependency_links.txt
+writing entry points to ../build/CA8_package_incomplete/CA8_package_incomplete.egg-info/entry_points.txt
+writing requirements to ../build/CA8_package_incomplete/CA8_package_incomplete.egg-info/requires.txt
+writing top-level names to ../build/CA8_package_incomplete/CA8_package_incomplete.egg-info/top_level.txt
+reading manifest file '../build/CA8_package_incomplete/CA8_package_incomplete.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../build/CA8_package_incomplete/CA8_package_incomplete.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying launch/sim_robot.launch.py -> /home/delewlew/assessments/week8/src/install/CA8_package_incomplete/share/CA8_package_incomplete/launch
+running install_egg_info
+removing '/home/delewlew/assessments/week8/src/install/CA8_package_incomplete/lib/python3.10/site-packages/CA8_package_incomplete-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../build/CA8_package_incomplete/CA8_package_incomplete.egg-info to /home/delewlew/assessments/week8/src/install/CA8_package_incomplete/lib/python3.10/site-packages/CA8_package_incomplete-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/delewlew/assessments/week8/src/build/CA8_package_incomplete/install.log'

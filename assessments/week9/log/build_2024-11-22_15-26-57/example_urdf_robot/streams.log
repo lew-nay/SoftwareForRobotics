@@ -1,0 +1,42 @@
+[0.996s] Invoking command in '/home/delewlew/assessments/week9/src/CA9_incomplete/example_urdf_robot': PYTHONPATH=/home/delewlew/assessments/week9/build/example_urdf_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/delewlew/assessments/week9/install/example_urdf_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/example_urdf_robot build --build-base /home/delewlew/assessments/week9/build/example_urdf_robot/build install --record /home/delewlew/assessments/week9/build/example_urdf_robot/install.log --single-version-externally-managed install_data
+[1.288s] running egg_info
+[1.289s] creating ../../../build/example_urdf_robot/example_urdf_robot.egg-info
+[1.290s] writing ../../../build/example_urdf_robot/example_urdf_robot.egg-info/PKG-INFO
+[1.290s] writing dependency_links to ../../../build/example_urdf_robot/example_urdf_robot.egg-info/dependency_links.txt
+[1.290s] writing entry points to ../../../build/example_urdf_robot/example_urdf_robot.egg-info/entry_points.txt
+[1.291s] writing requirements to ../../../build/example_urdf_robot/example_urdf_robot.egg-info/requires.txt
+[1.291s] writing top-level names to ../../../build/example_urdf_robot/example_urdf_robot.egg-info/top_level.txt
+[1.291s] writing manifest file '../../../build/example_urdf_robot/example_urdf_robot.egg-info/SOURCES.txt'
+[1.293s] reading manifest file '../../../build/example_urdf_robot/example_urdf_robot.egg-info/SOURCES.txt'
+[1.293s] adding license file 'LICENSE'
+[1.294s] writing manifest file '../../../build/example_urdf_robot/example_urdf_robot.egg-info/SOURCES.txt'
+[1.294s] running build
+[1.294s] running build_py
+[1.295s] creating /home/delewlew/assessments/week9/build/example_urdf_robot/build
+[1.295s] creating /home/delewlew/assessments/week9/build/example_urdf_robot/build/lib
+[1.295s] creating /home/delewlew/assessments/week9/build/example_urdf_robot/build/lib/example_urdf_robot
+[1.295s] copying example_urdf_robot/__init__.py -> /home/delewlew/assessments/week9/build/example_urdf_robot/build/lib/example_urdf_robot
+[1.297s] running install
+[1.297s] running install_lib
+[1.298s] creating /home/delewlew/assessments/week9/install/example_urdf_robot/lib/python3.10/site-packages/example_urdf_robot
+[1.298s] copying /home/delewlew/assessments/week9/build/example_urdf_robot/build/lib/example_urdf_robot/__init__.py -> /home/delewlew/assessments/week9/install/example_urdf_robot/lib/python3.10/site-packages/example_urdf_robot
+[1.300s] byte-compiling /home/delewlew/assessments/week9/install/example_urdf_robot/lib/python3.10/site-packages/example_urdf_robot/__init__.py to __init__.cpython-310.pyc
+[1.300s] running install_data
+[1.301s] creating /home/delewlew/assessments/week9/install/example_urdf_robot/share/ament_index
+[1.301s] creating /home/delewlew/assessments/week9/install/example_urdf_robot/share/ament_index/resource_index
+[1.301s] creating /home/delewlew/assessments/week9/install/example_urdf_robot/share/ament_index/resource_index/packages
+[1.301s] copying resource/example_urdf_robot -> /home/delewlew/assessments/week9/install/example_urdf_robot/share/ament_index/resource_index/packages
+[1.301s] copying package.xml -> /home/delewlew/assessments/week9/install/example_urdf_robot/share/example_urdf_robot
+[1.302s] creating /home/delewlew/assessments/week9/install/example_urdf_robot/share/example_urdf_robot/urdf
+[1.302s] copying urdf/example_gazebo.xacro -> /home/delewlew/assessments/week9/install/example_urdf_robot/share/example_urdf_robot/urdf
+[1.302s] copying urdf/diff_drive.urdf.xacro -> /home/delewlew/assessments/week9/install/example_urdf_robot/share/example_urdf_robot/urdf
+[1.303s] creating /home/delewlew/assessments/week9/install/example_urdf_robot/share/example_urdf_robot/meshes
+[1.303s] copying meshes/Generic_100mm_lidar.stl -> /home/delewlew/assessments/week9/install/example_urdf_robot/share/example_urdf_robot/meshes
+[1.304s] creating /home/delewlew/assessments/week9/install/example_urdf_robot/share/example_urdf_robot/worlds
+[1.304s] creating /home/delewlew/assessments/week9/install/example_urdf_robot/share/example_urdf_robot/launch
+[1.305s] copying launch/sim_robot.launch.py -> /home/delewlew/assessments/week9/install/example_urdf_robot/share/example_urdf_robot/launch
+[1.305s] running install_egg_info
+[1.307s] Copying ../../../build/example_urdf_robot/example_urdf_robot.egg-info to /home/delewlew/assessments/week9/install/example_urdf_robot/lib/python3.10/site-packages/example_urdf_robot-0.0.0-py3.10.egg-info
+[1.307s] running install_scripts
+[1.336s] writing list of installed files to '/home/delewlew/assessments/week9/build/example_urdf_robot/install.log'
+[1.363s] Invoked command in '/home/delewlew/assessments/week9/src/CA9_incomplete/example_urdf_robot' returned '0': PYTHONPATH=/home/delewlew/assessments/week9/build/example_urdf_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/delewlew/assessments/week9/install/example_urdf_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/example_urdf_robot build --build-base /home/delewlew/assessments/week9/build/example_urdf_robot/build install --record /home/delewlew/assessments/week9/build/example_urdf_robot/install.log --single-version-externally-managed install_data

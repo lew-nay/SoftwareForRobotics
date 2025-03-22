@@ -1,0 +1,85 @@
+[0.000000] (-) TimerEvent: {}
+[0.000620] (package_with_interfaces) JobQueued: {'identifier': 'package_with_interfaces', 'dependencies': OrderedDict()}
+[0.000685] (python_package_that_uses_the_messages) JobQueued: {'identifier': 'python_package_that_uses_the_messages', 'dependencies': OrderedDict()}
+[0.000708] (python_package_with_a_library) JobQueued: {'identifier': 'python_package_with_a_library', 'dependencies': OrderedDict()}
+[0.000737] (python_package_with_a_node) JobQueued: {'identifier': 'python_package_with_a_node', 'dependencies': OrderedDict()}
+[0.000998] (the_simplest_python_package) JobQueued: {'identifier': 'the_simplest_python_package', 'dependencies': OrderedDict()}
+[0.001193] (python_package_that_uses_the_library) JobQueued: {'identifier': 'python_package_that_uses_the_library', 'dependencies': OrderedDict([('python_package_with_a_library', '/home/delewlew/ros2_tutorial_workspace_2/src/install/python_package_with_a_library')])}
+[0.001339] (python_package_with_a_library) JobStarted: {'identifier': 'python_package_with_a_library'}
+[0.016481] (package_with_interfaces) JobStarted: {'identifier': 'package_with_interfaces'}
+[0.022475] (python_package_that_uses_the_messages) JobStarted: {'identifier': 'python_package_that_uses_the_messages'}
+[0.030815] (python_package_with_a_node) JobStarted: {'identifier': 'python_package_with_a_node'}
+[0.049604] (the_simplest_python_package) JobStarted: {'identifier': 'the_simplest_python_package'}
+[0.099994] (-) TimerEvent: {}
+[0.200666] (-) TimerEvent: {}
+[0.302393] (-) TimerEvent: {}
+[0.305645] (package_with_interfaces) JobProgress: {'identifier': 'package_with_interfaces', 'progress': 'cmake'}
+[0.306027] (package_with_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/delewlew/ros2_tutorial_workspace_2/src/package_with_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/delewlew/ros2_tutorial_workspace_2/src/install/package_with_interfaces'], 'cwd': '/home/delewlew/ros2_tutorial_workspace_2/src/build/package_with_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'delewlew'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/delewlew'), ('OLDPWD', '/home/delewlew/ros2_tutorial_workspace_2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1415'), ('SYSTEMD_EXEC_PID', '1890'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2283'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'delewlew'), ('JOURNAL_STREAM', '8:15488'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'delewlew'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu2204:@/tmp/.ICE-unix/1678,unix/ubuntu2204:/tmp/.ICE-unix/1678'), ('INVOCATION_ID', 'e5c216ab260248e290110bfa84352e30'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:22ccd050-c232-49c2-86ef-ca24b705336b'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/delewlew/ros2_tutorial_workspace_2/src/build/package_with_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.402547] (-) TimerEvent: {}
+[0.503043] (-) TimerEvent: {}
+[0.603604] (-) TimerEvent: {}
+[0.704030] (-) TimerEvent: {}
+[0.707264] (python_package_that_uses_the_messages) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 51, in build\n    setup_py_data = get_setup_data(self.context.pkg, env)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/__init__.py", line 20, in get_setup_data\n    return dict(pkg.metadata[key](env))\n  File "/usr/lib/python3/dist-packages/colcon_ros/package_augmentation/ros_ament_python.py", line 57, in getter\n    return get_setup_information(\n  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 249, in get_setup_information\n    _setup_information_cache[hashable_env] = _get_setup_information(\n  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 296, in _get_setup_information\n    result = subprocess.run(\n  File "/usr/lib/python3.10/subprocess.py", line 526, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command \'[\'/usr/bin/python3\', \'-c\', \'import sys;from contextlib import suppress;exec("with suppress(ImportError):    from setuptools.extern.packaging.specifiers    import SpecifierSet");exec("with suppress(ImportError):    from packaging.specifiers import SpecifierSet");from distutils.core import run_setup;dist = run_setup(    \\\'setup.py\\\', script_args=(\\\'--dry-run\\\',), stop_after=\\\'config\\\');skip_keys = (\\\'cmdclass\\\', \\\'distclass\\\', \\\'ext_modules\\\', \\\'metadata\\\');data = {    key: value for key, value in dist.__dict__.items()     if (        not key.startswith(\\\'_\\\') and         not callable(value) and         key not in skip_keys and         key not in dist.display_option_names    )};data[\\\'metadata\\\'] = {    k: v for k, v in dist.metadata.__dict__.items()     if k not in (\\\'license_files\\\', \\\'provides_extras\\\')};sys.stdout.buffer.write(repr(data).encode(\\\'utf-8\\\'))\']\' returned non-zero exit status 1.\n'}
+[0.709836] (python_package_that_uses_the_messages) JobEnded: {'identifier': 'python_package_that_uses_the_messages', 'rc': 1}
+[0.804405] (-) TimerEvent: {}
+[0.904930] (-) TimerEvent: {}
+[1.005391] (-) TimerEvent: {}
+[1.010560] (package_with_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.011618] (package_with_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.011753] (package_with_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.011878] (package_with_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.012044] (package_with_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.012356] (package_with_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.012463] (package_with_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.012582] (package_with_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.012714] (python_package_with_a_library) JobEnded: {'identifier': 'python_package_with_a_library', 'rc': 'SIGINT'}
+[1.013641] (the_simplest_python_package) JobEnded: {'identifier': 'the_simplest_python_package', 'rc': 'SIGINT'}
+[1.014571] (python_package_with_a_node) JobEnded: {'identifier': 'python_package_with_a_node', 'rc': 'SIGINT'}
+[1.058119] (package_with_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.065979] (package_with_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.066626] (package_with_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.067130] (package_with_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.074342] (package_with_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.105677] (-) TimerEvent: {}
+[1.206107] (-) TimerEvent: {}
+[1.245701] (package_with_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.306256] (-) TimerEvent: {}
+[1.395094] (package_with_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.406452] (-) TimerEvent: {}
+[1.458692] (package_with_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.473229] (package_with_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.491086] (package_with_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.506745] (-) TimerEvent: {}
+[1.516042] (package_with_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.535996] (package_with_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.602413] (package_with_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.607123] (-) TimerEvent: {}
+[1.707752] (-) TimerEvent: {}
+[1.808184] (-) TimerEvent: {}
+[1.887525] (package_with_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.908376] (-) TimerEvent: {}
+[2.008917] (-) TimerEvent: {}
+[2.109352] (-) TimerEvent: {}
+[2.209839] (-) TimerEvent: {}
+[2.269476] (package_with_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.310139] (-) TimerEvent: {}
+[2.410613] (-) TimerEvent: {}
+[2.425154] (package_with_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.457568] (package_with_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[2.460446] (package_with_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.490600] (package_with_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[2.490903] (package_with_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.491030] (package_with_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.491173] (package_with_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.508292] (package_with_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.510943] (-) TimerEvent: {}
+[2.564584] (package_with_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.598270] (package_with_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.600019] (package_with_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.603106] (package_with_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.611157] (-) TimerEvent: {}
+[2.632166] (package_with_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[2.634155] (package_with_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/delewlew/ros2_tutorial_workspace_2/src/build/package_with_interfaces\n'}
+[2.642443] (package_with_interfaces) JobEnded: {'identifier': 'package_with_interfaces', 'rc': 'SIGINT'}
+[2.653410] (python_package_that_uses_the_library) JobSkipped: {'identifier': 'python_package_that_uses_the_library'}
+[2.653525] (-) EventReactorShutdown: {}

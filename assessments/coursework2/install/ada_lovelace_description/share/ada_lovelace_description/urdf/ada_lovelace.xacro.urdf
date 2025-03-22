@@ -1,0 +1,237 @@
+<?xml version="1.0"?>
+
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="ada_lovelace">
+
+<xacro:property name="chassis_diameter" value="0.350" />
+<xacro:property name="chassis_height" value="0.080" />
+<xacro:property name="lidar_diameter" value="0.070" />
+<xacro:property name="lidar_height" value="0.030" />
+<xacro:property name="wheel_diameter" value="0.080" />
+<xacro:property name="wheel_distance" value="0.260" />
+<xacro:property name="wheel_thickness" value="0.020" />
+<xacro:property name="castor_distance" value="0.290" />
+<xacro:property name="castor_diameter" value="0.010" />
+<xacro:property name="ground_clearance" value="0.005" />
+<xacro:property name="camera_width" value="0.080" />
+<xacro:property name="camera_height" value="0.016" />
+
+<material name="white">
+    <color rgba="1 1 1 1 " />
+</material>
+
+<material name="black">
+    <color rgba="0 0 0 1 " />
+</material>
+
+<material name="red">
+    <color rgba="1 0 0 1 " />
+</material>
+
+<material name="green">
+    <color rgba="0 1 0 1 " />
+</material>
+
+<material name="blue">
+    <color rgba="0 0 1 1 " />
+</material>
+
+
+    <!-- Macros -->
+    <xacro:macro name="cylinder_link" params="name radius length mass material">
+        <link name="${name}">
+            <visual>
+                <geometry>
+                    <cylinder radius="${radius}" length="${length}" />
+                </geometry>
+                <material name="${material}"/>
+            </visual>
+            <collision>
+                <geometry>
+                    <cylinder radius="${radius}" length="${length}"/>
+                </geometry>
+            </collision>
+            <inertial>
+                <mass value="${mass}"/>
+                <inertia ixx="${mass * (3*radius**2 + length**2) / 12}" ixy="0.0" ixz="0.0" 
+                        iyy="${mass * (3*radius**2 + length**2) / 12}" iyz="0.0" 
+                        izz="${0.5 * mass * radius**2}"/>
+            </inertial>
+        </link>
+    </xacro:macro>
+
+    <xacro:macro name="box_link" params="name x y z mass material">
+        <link name="${name}">
+            <visual>
+                <geometry>
+                    <box size="${x} ${y} ${z}"/>
+                </geometry>
+                <material name="${material}"/>
+            </visual>
+            <collision>
+                <geometry>
+                    <box size="${x} ${y} ${z}"/>
+                </geometry>
+            </collision>
+            <inertial>
+                <mass value="${mass}"/>
+                <inertia ixx="${(mass / 12) * (y**2 + z**2)}" ixy="0.0" ixz="0.0"
+                        iyy="${(mass / 12) * (x**2 + y**2)}" iyz="0.0" 
+                        izz="${(mass / 12) * (x**2 + z**2)}"/>
+            </inertial>
+        </link>
+    </xacro:macro>
+
+    <xacro:macro name="sphere_link" params="name radius mass material">
+        <link name="${name}">
+            <visual>
+                <geometry>
+                    <sphere radius="${radius}"/>
+                </geometry>
+                <material name="${material}"/>
+            </visual>
+            <collision>
+                <geometry>
+                    <sphere radius="${radius}"/>
+                </geometry>
+            </collision>
+            <inertial>
+                <mass value="${mass}"/>
+                <inertia ixx="${(2/5)*mass*radius**2}" ixy="0.0" ixz="0.0"
+                        iyy="${(2/5)*mass*radius**2}" iyz="0.0" 
+                        izz="${(2/5)*mass*radius**2}"/>
+            </inertial>
+        </link>
+    </xacro:macro>
+
+
+    <!-- LINKS -->
+    <link name="base_footprint_link" />
+
+    <xacro:cylinder_link
+        name="base_link"
+        radius="${chassis_diameter/2}"
+        length="${chassis_height}"
+        mass="4.2"
+        material="white"
+    />
+
+    <xacro:cylinder_link
+        name="lidar_link"
+        radius="${lidar_diameter/2}"
+        length="${lidar_height}"
+        mass="0.20"
+        material="red"
+    />
+
+    <xacro:cylinder_link
+        name="left_wheel_link"
+        radius="${wheel_diameter/2}"
+        length="${wheel_thickness}"
+        mass="0.10"
+        material="black"
+    />
+
+    <xacro:cylinder_link
+        name="right_wheel_link"
+        radius="${wheel_diameter/2}"
+        length="${wheel_thickness}"
+        mass="0.10"
+        material="black"
+    />
+
+    <xacro:sphere_link
+        name="front_ball_castor_link"
+        radius="${castor_diameter/2}"
+        mass="0.06"
+        material="black"
+    />
+
+    <xacro:sphere_link
+        name="rear_ball_castor_link"
+        radius="${castor_diameter/2}"
+        mass="0.06"
+        material="black"
+    />
+   
+    <xacro:box_link
+        name="depth_camera_link"
+        x="${camera_height}"
+        y="${camera_width}"
+        z="${camera_height}"
+        mass="0.08"
+        material="red"
+    />
+
+    <xacro:box_link
+        name="imu_link"
+        x="0.01"
+        y="0.01"
+        z="0.01"
+        mass="0.01"
+        material="red"
+    />
+
+
+    <!-- JOINTS -->
+    <joint name="base_footprint_link_base_link_joint" type="fixed">
+        <parent link="base_footprint_link"/>
+        <child link="base_link"/>
+        
+        <origin xyz="0 0 ${ground_clearance}" rpy="0 0 0" />
+    </joint>
+
+    <joint name="base_link_left_wheel_link_joint" type="continuous">
+        <parent link="base_link"/>
+        <child link="left_wheel_link"/>
+
+        <origin xyz="0 ${wheel_distance/2} -0.005" rpy="-1.5707 0 0" /> 
+        <axis xyz="0 0 1" />
+    </joint>
+
+    <joint name="base_link_right_wheel_link_joint" type="continuous">
+        <parent link="base_link"/>
+        <child link="right_wheel_link"/>
+
+        <origin xyz="0 -${wheel_distance/2} -0.005" rpy="-1.5707 0 0" />
+        <axis xyz="0 0 1" /> 
+    </joint>
+
+    <joint name="base_link_front_ball_castor_link_joint" type="fixed">
+        <parent link="base_link"/>
+        <child link="front_ball_castor_link"/>
+
+        <origin xyz="${castor_distance/2} 0 ${ground_clearance}" rpy="0 0 0" />
+    </joint>
+
+    <joint name="base_link_rear_ball_castor_link_joint" type="fixed">
+        <parent link="base_link"/>
+        <child link="rear_ball_castor_link"/>
+
+        <origin xyz="-${castor_distance/2} 0 ${ground_clearance}" rpy="0 0 0" />
+    </joint>
+
+
+    <joint name="base_link_depth_camera_link_joint" type="fixed">
+        <parent link="base_link"/>
+        <child link="depth_camera_link"/>
+        
+        <origin rpy="0 0 0" xyz="0.149 0 0" />
+    </joint>
+
+    <joint name="base_link_imu_link_joint" type="fixed">
+        <parent link="base_link"/>
+        <child link="imu_link"/>
+        
+        <origin xyz="0 0 0" rpy="0 0 0" />
+    </joint>
+
+    <joint name="base_link_lidar_link_joint" type="fixed">
+        <parent link="base_link"/>
+        <child link="lidar_link"/>
+        
+        <origin rpy="0 0 0" xyz="0.075 0 ${0.040+0.5*lidar_height}" />
+    </joint>
+
+    <xacro:include filename="$(find ada_lovelace_description)/urdf/gazebo.xacro"/>
+
+</robot>

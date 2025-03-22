@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+python_package_that_uses_the_services/__init__.py
+python_package_that_uses_the_services/what_is_the_point_service_client_node.py
+python_package_that_uses_the_services/what_is_the_point_service_server_node.py
+python_package_that_uses_the_services.egg-info/PKG-INFO
+python_package_that_uses_the_services.egg-info/SOURCES.txt
+python_package_that_uses_the_services.egg-info/dependency_links.txt
+python_package_that_uses_the_services.egg-info/requires.txt
+python_package_that_uses_the_services.egg-info/top_level.txt
+python_package_that_uses_the_services.egg-info/zip-safe
+resource/python_package_that_uses_the_services
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

@@ -1,0 +1,5 @@
+  File "/home/delewlew/ros2_tutorial_workspace/install/custom_publisher_package/lib/python3.10/site-packages/custom_publisher_package/custom_publisher_node.py", line 1
+    import String from example_interfaces.msg
+                  ^^^^
+SyntaxError: invalid syntax
+

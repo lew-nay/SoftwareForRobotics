@@ -1,0 +1,37 @@
+[1.325s] Invoking command in '/home/delewlew/assessments/week4/src/residence_hall': PYTHONPATH=/home/delewlew/assessments/week4/build/residence_hall/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/delewlew/assessments/week4/install/residence_hall/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/residence_hall build --build-base /home/delewlew/assessments/week4/build/residence_hall/build install --record /home/delewlew/assessments/week4/build/residence_hall/install.log --single-version-externally-managed install_data
+[1.628s] running egg_info
+[1.629s] creating ../../build/residence_hall/residence_hall.egg-info
+[1.630s] writing ../../build/residence_hall/residence_hall.egg-info/PKG-INFO
+[1.631s] writing dependency_links to ../../build/residence_hall/residence_hall.egg-info/dependency_links.txt
+[1.631s] writing entry points to ../../build/residence_hall/residence_hall.egg-info/entry_points.txt
+[1.631s] writing requirements to ../../build/residence_hall/residence_hall.egg-info/requires.txt
+[1.631s] writing top-level names to ../../build/residence_hall/residence_hall.egg-info/top_level.txt
+[1.632s] writing manifest file '../../build/residence_hall/residence_hall.egg-info/SOURCES.txt'
+[1.634s] reading manifest file '../../build/residence_hall/residence_hall.egg-info/SOURCES.txt'
+[1.634s] writing manifest file '../../build/residence_hall/residence_hall.egg-info/SOURCES.txt'
+[1.635s] running build
+[1.635s] running build_py
+[1.635s] creating /home/delewlew/assessments/week4/build/residence_hall/build
+[1.636s] creating /home/delewlew/assessments/week4/build/residence_hall/build/lib
+[1.636s] creating /home/delewlew/assessments/week4/build/residence_hall/build/lib/residence_hall
+[1.636s] copying residence_hall/auditorium.py -> /home/delewlew/assessments/week4/build/residence_hall/build/lib/residence_hall
+[1.636s] copying residence_hall/__init__.py -> /home/delewlew/assessments/week4/build/residence_hall/build/lib/residence_hall
+[1.637s] running install
+[1.637s] running install_lib
+[1.638s] creating /home/delewlew/assessments/week4/install/residence_hall/lib/python3.10/site-packages/residence_hall
+[1.638s] copying /home/delewlew/assessments/week4/build/residence_hall/build/lib/residence_hall/auditorium.py -> /home/delewlew/assessments/week4/install/residence_hall/lib/python3.10/site-packages/residence_hall
+[1.638s] copying /home/delewlew/assessments/week4/build/residence_hall/build/lib/residence_hall/__init__.py -> /home/delewlew/assessments/week4/install/residence_hall/lib/python3.10/site-packages/residence_hall
+[1.639s] byte-compiling /home/delewlew/assessments/week4/install/residence_hall/lib/python3.10/site-packages/residence_hall/auditorium.py to auditorium.cpython-310.pyc
+[1.640s] byte-compiling /home/delewlew/assessments/week4/install/residence_hall/lib/python3.10/site-packages/residence_hall/__init__.py to __init__.cpython-310.pyc
+[1.640s] running install_data
+[1.640s] creating /home/delewlew/assessments/week4/install/residence_hall/share/ament_index
+[1.640s] creating /home/delewlew/assessments/week4/install/residence_hall/share/ament_index/resource_index
+[1.641s] creating /home/delewlew/assessments/week4/install/residence_hall/share/ament_index/resource_index/packages
+[1.641s] copying resource/residence_hall -> /home/delewlew/assessments/week4/install/residence_hall/share/ament_index/resource_index/packages
+[1.641s] copying package.xml -> /home/delewlew/assessments/week4/install/residence_hall/share/residence_hall
+[1.641s] running install_egg_info
+[1.643s] Copying ../../build/residence_hall/residence_hall.egg-info to /home/delewlew/assessments/week4/install/residence_hall/lib/python3.10/site-packages/residence_hall-0.0.0-py3.10.egg-info
+[1.644s] running install_scripts
+[1.671s] Installing auditorium script to /home/delewlew/assessments/week4/install/residence_hall/lib/residence_hall
+[1.672s] writing list of installed files to '/home/delewlew/assessments/week4/build/residence_hall/install.log'
+[1.720s] Invoked command in '/home/delewlew/assessments/week4/src/residence_hall' returned '0': PYTHONPATH=/home/delewlew/assessments/week4/build/residence_hall/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/delewlew/assessments/week4/install/residence_hall/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/residence_hall build --build-base /home/delewlew/assessments/week4/build/residence_hall/build install --record /home/delewlew/assessments/week4/build/residence_hall/install.log --single-version-externally-managed install_data

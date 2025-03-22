@@ -1,0 +1,6 @@
+source;share/CA8_package_incomplete/hook/pythonpath.ps1
+source;share/CA8_package_incomplete/hook/pythonpath.dsv
+source;share/CA8_package_incomplete/hook/pythonpath.sh
+source;share/CA8_package_incomplete/hook/ament_prefix_path.ps1
+source;share/CA8_package_incomplete/hook/ament_prefix_path.dsv
+source;share/CA8_package_incomplete/hook/ament_prefix_path.sh

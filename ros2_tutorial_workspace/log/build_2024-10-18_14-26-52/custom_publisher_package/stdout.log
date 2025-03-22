@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/custom_publisher_package/custom_publisher_package.egg-info
+writing ../../build/custom_publisher_package/custom_publisher_package.egg-info/PKG-INFO
+writing dependency_links to ../../build/custom_publisher_package/custom_publisher_package.egg-info/dependency_links.txt
+writing entry points to ../../build/custom_publisher_package/custom_publisher_package.egg-info/entry_points.txt
+writing requirements to ../../build/custom_publisher_package/custom_publisher_package.egg-info/requires.txt
+writing top-level names to ../../build/custom_publisher_package/custom_publisher_package.egg-info/top_level.txt
+writing manifest file '../../build/custom_publisher_package/custom_publisher_package.egg-info/SOURCES.txt'
+reading manifest file '../../build/custom_publisher_package/custom_publisher_package.egg-info/SOURCES.txt'
+writing manifest file '../../build/custom_publisher_package/custom_publisher_package.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/delewlew/ros2_tutorial_workspace/build/custom_publisher_package/build
+creating /home/delewlew/ros2_tutorial_workspace/build/custom_publisher_package/build/lib
+creating /home/delewlew/ros2_tutorial_workspace/build/custom_publisher_package/build/lib/custom_publisher_package
+copying custom_publisher_package/custom_publisher_node.py -> /home/delewlew/ros2_tutorial_workspace/build/custom_publisher_package/build/lib/custom_publisher_package
+copying custom_publisher_package/__init__.py -> /home/delewlew/ros2_tutorial_workspace/build/custom_publisher_package/build/lib/custom_publisher_package
+running install
+running install_lib
+creating /home/delewlew/ros2_tutorial_workspace/install/custom_publisher_package/lib/python3.10/site-packages/custom_publisher_package
+copying /home/delewlew/ros2_tutorial_workspace/build/custom_publisher_package/build/lib/custom_publisher_package/custom_publisher_node.py -> /home/delewlew/ros2_tutorial_workspace/install/custom_publisher_package/lib/python3.10/site-packages/custom_publisher_package
+copying /home/delewlew/ros2_tutorial_workspace/build/custom_publisher_package/build/lib/custom_publisher_package/__init__.py -> /home/delewlew/ros2_tutorial_workspace/install/custom_publisher_package/lib/python3.10/site-packages/custom_publisher_package
+byte-compiling /home/delewlew/ros2_tutorial_workspace/install/custom_publisher_package/lib/python3.10/site-packages/custom_publisher_package/custom_publisher_node.py to custom_publisher_node.cpython-310.pyc
+byte-compiling /home/delewlew/ros2_tutorial_workspace/install/custom_publisher_package/lib/python3.10/site-packages/custom_publisher_package/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/delewlew/ros2_tutorial_workspace/install/custom_publisher_package/share/ament_index
+creating /home/delewlew/ros2_tutorial_workspace/install/custom_publisher_package/share/ament_index/resource_index
+creating /home/delewlew/ros2_tutorial_workspace/install/custom_publisher_package/share/ament_index/resource_index/packages
+copying resource/custom_publisher_package -> /home/delewlew/ros2_tutorial_workspace/install/custom_publisher_package/share/ament_index/resource_index/packages
+copying package.xml -> /home/delewlew/ros2_tutorial_workspace/install/custom_publisher_package/share/custom_publisher_package
+running install_egg_info
+Copying ../../build/custom_publisher_package/custom_publisher_package.egg-info to /home/delewlew/ros2_tutorial_workspace/install/custom_publisher_package/lib/python3.10/site-packages/custom_publisher_package-0.0.0-py3.10.egg-info
+running install_scripts
+Installing custom_publisher_node script to /home/delewlew/ros2_tutorial_workspace/install/custom_publisher_package/lib/custom_publisher_package
+writing list of installed files to '/home/delewlew/ros2_tutorial_workspace/build/custom_publisher_package/install.log'

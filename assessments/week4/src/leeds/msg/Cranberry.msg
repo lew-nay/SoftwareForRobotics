@@ -1,0 +1,2 @@
+bool taste
+string acidity

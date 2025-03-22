@@ -1,0 +1,21 @@
+[8.567s] Invoking command in '/home/delewlew/software_for_robotics_part2/src/example_urdf_description': PYTHONPATH=/home/delewlew/software_for_robotics_part2/build/example_urdf_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/delewlew/software_for_robotics_part2/install/example_urdf_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/example_urdf_description build --build-base /home/delewlew/software_for_robotics_part2/build/example_urdf_description/build install --record /home/delewlew/software_for_robotics_part2/build/example_urdf_description/install.log --single-version-externally-managed install_data
+[10.085s] running egg_info
+[10.089s] writing ../../build/example_urdf_description/example_urdf_description.egg-info/PKG-INFO
+[10.099s] writing dependency_links to ../../build/example_urdf_description/example_urdf_description.egg-info/dependency_links.txt
+[10.099s] writing entry points to ../../build/example_urdf_description/example_urdf_description.egg-info/entry_points.txt
+[10.101s] writing requirements to ../../build/example_urdf_description/example_urdf_description.egg-info/requires.txt
+[10.101s] writing top-level names to ../../build/example_urdf_description/example_urdf_description.egg-info/top_level.txt
+[10.107s] reading manifest file '../../build/example_urdf_description/example_urdf_description.egg-info/SOURCES.txt'
+[10.110s] adding license file 'LICENSE'
+[10.117s] writing manifest file '../../build/example_urdf_description/example_urdf_description.egg-info/SOURCES.txt'
+[10.120s] running build
+[10.121s] running build_py
+[10.121s] running install
+[10.121s] running install_lib
+[10.126s] running install_data
+[10.129s] running install_egg_info
+[10.136s] removing '/home/delewlew/software_for_robotics_part2/install/example_urdf_description/lib/python3.10/site-packages/example_urdf_description-0.0.0-py3.10.egg-info' (and everything under it)
+[10.137s] Copying ../../build/example_urdf_description/example_urdf_description.egg-info to /home/delewlew/software_for_robotics_part2/install/example_urdf_description/lib/python3.10/site-packages/example_urdf_description-0.0.0-py3.10.egg-info
+[10.146s] running install_scripts
+[10.241s] writing list of installed files to '/home/delewlew/software_for_robotics_part2/build/example_urdf_description/install.log'
+[10.314s] Invoked command in '/home/delewlew/software_for_robotics_part2/src/example_urdf_description' returned '0': PYTHONPATH=/home/delewlew/software_for_robotics_part2/build/example_urdf_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/delewlew/software_for_robotics_part2/install/example_urdf_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/example_urdf_description build --build-base /home/delewlew/software_for_robotics_part2/build/example_urdf_description/build install --record /home/delewlew/software_for_robotics_part2/build/example_urdf_description/install.log --single-version-externally-managed install_data

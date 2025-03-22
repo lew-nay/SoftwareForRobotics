@@ -1,0 +1,6 @@
+source;share/residence_hall/hook/pythonpath.ps1
+source;share/residence_hall/hook/pythonpath.dsv
+source;share/residence_hall/hook/pythonpath.sh
+source;share/residence_hall/hook/ament_prefix_path.ps1
+source;share/residence_hall/hook/ament_prefix_path.dsv
+source;share/residence_hall/hook/ament_prefix_path.sh

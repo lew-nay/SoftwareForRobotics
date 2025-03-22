@@ -1,0 +1,22 @@
+running egg_info
+creating ../build/rat_description_pkg/example_urdf_description.egg-info
+writing ../build/rat_description_pkg/example_urdf_description.egg-info/PKG-INFO
+writing dependency_links to ../build/rat_description_pkg/example_urdf_description.egg-info/dependency_links.txt
+writing entry points to ../build/rat_description_pkg/example_urdf_description.egg-info/entry_points.txt
+writing requirements to ../build/rat_description_pkg/example_urdf_description.egg-info/requires.txt
+writing top-level names to ../build/rat_description_pkg/example_urdf_description.egg-info/top_level.txt
+writing manifest file '../build/rat_description_pkg/example_urdf_description.egg-info/SOURCES.txt'
+reading manifest file '../build/rat_description_pkg/example_urdf_description.egg-info/SOURCES.txt'
+writing manifest file '../build/rat_description_pkg/example_urdf_description.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/delewlew/assessments/week7/src/build/rat_description_pkg/build
+creating /home/delewlew/assessments/week7/src/build/rat_description_pkg/build/lib
+creating /home/delewlew/assessments/week7/src/build/rat_description_pkg/build/lib/rat_description_pkg
+copying rat_description_pkg/__init__.py -> /home/delewlew/assessments/week7/src/build/rat_description_pkg/build/lib/rat_description_pkg
+running install
+running install_lib
+creating /home/delewlew/assessments/week7/src/install/rat_description_pkg/lib/python3.10/site-packages/rat_description_pkg
+copying /home/delewlew/assessments/week7/src/build/rat_description_pkg/build/lib/rat_description_pkg/__init__.py -> /home/delewlew/assessments/week7/src/install/rat_description_pkg/lib/python3.10/site-packages/rat_description_pkg
+byte-compiling /home/delewlew/assessments/week7/src/install/rat_description_pkg/lib/python3.10/site-packages/rat_description_pkg/__init__.py to __init__.cpython-310.pyc
+running install_data

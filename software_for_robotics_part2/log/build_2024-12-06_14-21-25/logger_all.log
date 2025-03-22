@@ -1,0 +1,448 @@
+[0.073s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.074s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=9, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x790783f842b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x790784090a60>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x790784090a60>>, mixin_verb=('build',))
+[0.191s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.191s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.191s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.191s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.191s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.191s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.192s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/delewlew/software_for_robotics_part2'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/bt_demos) by extensions ['ignore', 'ignore_ament_install']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/bt_demos) by extension 'ignore'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/bt_demos) by extension 'ignore_ament_install'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/bt_demos) by extensions ['colcon_pkg']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/bt_demos) by extension 'colcon_pkg'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/bt_demos) by extensions ['colcon_meta']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/bt_demos) by extension 'colcon_meta'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/bt_demos) by extensions ['ros']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/bt_demos) by extension 'ros'
+[0.209s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bt_demos' with type 'ros.ament_python' and name 'bt_demos'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot) by extension 'ignore'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot) by extension 'ignore_ament_install'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot) by extensions ['colcon_pkg']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot) by extension 'colcon_pkg'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot) by extensions ['colcon_meta']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot) by extension 'colcon_meta'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot) by extensions ['ros']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_gz_robot) by extension 'ros'
+[0.210s] DEBUG:colcon.colcon_core.package_identification:Package 'src/example_gz_robot' with type 'ros.ament_python' and name 'example_gz_robot'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_urdf_description) by extensions ['ignore', 'ignore_ament_install']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_urdf_description) by extension 'ignore'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_urdf_description) by extension 'ignore_ament_install'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_urdf_description) by extensions ['colcon_pkg']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_urdf_description) by extension 'colcon_pkg'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_urdf_description) by extensions ['colcon_meta']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_urdf_description) by extension 'colcon_meta'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_urdf_description) by extensions ['ros']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_urdf_description) by extension 'ros'
+[0.211s] DEBUG:colcon.colcon_core.package_identification:Package 'src/example_urdf_description' with type 'ros.ament_python' and name 'example_urdf_description'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_urdf_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_urdf_robot) by extension 'ignore'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_urdf_robot) by extension 'ignore_ament_install'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_urdf_robot) by extensions ['colcon_pkg']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_urdf_robot) by extension 'colcon_pkg'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_urdf_robot) by extensions ['colcon_meta']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_urdf_robot) by extension 'colcon_meta'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_urdf_robot) by extensions ['ros']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_urdf_robot) by extension 'ros'
+[0.212s] DEBUG:colcon.colcon_core.package_identification:Package 'src/example_urdf_robot' with type 'ros.ament_python' and name 'example_urdf_robot'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_example_robot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_example_robot_description) by extension 'ignore'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_example_robot_description) by extension 'ignore_ament_install'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_example_robot_description) by extensions ['colcon_pkg']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_example_robot_description) by extension 'colcon_pkg'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_example_robot_description) by extensions ['colcon_meta']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_example_robot_description) by extension 'colcon_meta'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_example_robot_description) by extensions ['ros']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/gz_example_robot_description) by extension 'ros'
+[0.213s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gz_example_robot_description' with type 'ros.ament_python' and name 'gz_example_robot_description'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_demos) by extensions ['ignore', 'ignore_ament_install']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_demos) by extension 'ignore'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_demos) by extension 'ignore_ament_install'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_demos) by extensions ['colcon_pkg']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_demos) by extension 'colcon_pkg'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_demos) by extensions ['colcon_meta']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_demos) by extension 'colcon_meta'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_demos) by extensions ['ros']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_demos) by extension 'ros'
+[0.214s] DEBUG:colcon.colcon_core.package_identification:Package 'src/navigation_demos' with type 'ros.ament_python' and name 'navigation_demos'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/week10_exercise_2) by extensions ['ignore', 'ignore_ament_install']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/week10_exercise_2) by extension 'ignore'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/week10_exercise_2) by extension 'ignore_ament_install'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/week10_exercise_2) by extensions ['colcon_pkg']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/week10_exercise_2) by extension 'colcon_pkg'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/week10_exercise_2) by extensions ['colcon_meta']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/week10_exercise_2) by extension 'colcon_meta'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/week10_exercise_2) by extensions ['ros']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/week10_exercise_2) by extension 'ros'
+[0.215s] DEBUG:colcon.colcon_core.package_identification:Package 'src/week10_exercise_2' with type 'ros.ament_python' and name 'week10_exercise_2'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/week9) by extensions ['ignore', 'ignore_ament_install']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/week9) by extension 'ignore'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/week9) by extension 'ignore_ament_install'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/week9) by extensions ['colcon_pkg']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/week9) by extension 'colcon_pkg'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/week9) by extensions ['colcon_meta']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/week9) by extension 'colcon_meta'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/week9) by extensions ['ros']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/week9) by extension 'ros'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/week9) by extensions ['cmake', 'python']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/week9) by extension 'cmake'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/week9) by extension 'python'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/week9) by extensions ['python_setup_py']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/week9) by extension 'python_setup_py'
+[0.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.242s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.242s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.242s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/delewlew/software_for_robotics_part2/install/week10_exercise_2' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.242s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/delewlew/software_for_robotics_part2/install/navigation_demos' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.242s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/delewlew/software_for_robotics_part2/install/gz_example_robot_description' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.242s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/delewlew/software_for_robotics_part2/install/example_urdf_robot' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.242s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/delewlew/software_for_robotics_part2/install/example_urdf_description' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.242s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/delewlew/software_for_robotics_part2/install/example_gz_robot' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.242s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/delewlew/software_for_robotics_part2/install/bt_demos' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.243s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/delewlew/software_for_robotics_part2/install
+[0.244s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 333 installed packages in /opt/ros/humble
+[0.245s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'bt_demos' build argument 'cmake_args' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'bt_demos' build argument 'cmake_target' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'bt_demos' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'bt_demos' build argument 'cmake_clean_cache' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'bt_demos' build argument 'cmake_clean_first' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'bt_demos' build argument 'cmake_force_configure' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'bt_demos' build argument 'ament_cmake_args' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'bt_demos' build argument 'catkin_cmake_args' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'bt_demos' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.276s] DEBUG:colcon.colcon_core.verb:Building package 'bt_demos' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/delewlew/software_for_robotics_part2/build/bt_demos', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/delewlew/software_for_robotics_part2/install/bt_demos', 'merge_install': False, 'path': '/home/delewlew/software_for_robotics_part2/src/bt_demos', 'symlink_install': False, 'test_result_base': None}
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'example_gz_robot' build argument 'cmake_args' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'example_gz_robot' build argument 'cmake_target' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'example_gz_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'example_gz_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'example_gz_robot' build argument 'cmake_clean_first' from command line to 'False'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'example_gz_robot' build argument 'cmake_force_configure' from command line to 'False'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'example_gz_robot' build argument 'ament_cmake_args' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'example_gz_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'example_gz_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.277s] DEBUG:colcon.colcon_core.verb:Building package 'example_gz_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/delewlew/software_for_robotics_part2/build/example_gz_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/delewlew/software_for_robotics_part2/install/example_gz_robot', 'merge_install': False, 'path': '/home/delewlew/software_for_robotics_part2/src/example_gz_robot', 'symlink_install': False, 'test_result_base': None}
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'example_urdf_description' build argument 'cmake_args' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'example_urdf_description' build argument 'cmake_target' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'example_urdf_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'example_urdf_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'example_urdf_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'example_urdf_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'example_urdf_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'example_urdf_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'example_urdf_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.277s] DEBUG:colcon.colcon_core.verb:Building package 'example_urdf_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/delewlew/software_for_robotics_part2/build/example_urdf_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/delewlew/software_for_robotics_part2/install/example_urdf_description', 'merge_install': False, 'path': '/home/delewlew/software_for_robotics_part2/src/example_urdf_description', 'symlink_install': False, 'test_result_base': None}
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'example_urdf_robot' build argument 'cmake_args' from command line to 'None'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'example_urdf_robot' build argument 'cmake_target' from command line to 'None'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'example_urdf_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'example_urdf_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'example_urdf_robot' build argument 'cmake_clean_first' from command line to 'False'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'example_urdf_robot' build argument 'cmake_force_configure' from command line to 'False'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'example_urdf_robot' build argument 'ament_cmake_args' from command line to 'None'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'example_urdf_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'example_urdf_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.278s] DEBUG:colcon.colcon_core.verb:Building package 'example_urdf_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/delewlew/software_for_robotics_part2/build/example_urdf_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/delewlew/software_for_robotics_part2/install/example_urdf_robot', 'merge_install': False, 'path': '/home/delewlew/software_for_robotics_part2/src/example_urdf_robot', 'symlink_install': False, 'test_result_base': None}
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'gz_example_robot_description' build argument 'cmake_args' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'gz_example_robot_description' build argument 'cmake_target' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'gz_example_robot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'gz_example_robot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'gz_example_robot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'gz_example_robot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'gz_example_robot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'gz_example_robot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'gz_example_robot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.279s] DEBUG:colcon.colcon_core.verb:Building package 'gz_example_robot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/delewlew/software_for_robotics_part2/build/gz_example_robot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/delewlew/software_for_robotics_part2/install/gz_example_robot_description', 'merge_install': False, 'path': '/home/delewlew/software_for_robotics_part2/src/gz_example_robot_description', 'symlink_install': False, 'test_result_base': None}
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'navigation_demos' build argument 'cmake_args' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'navigation_demos' build argument 'cmake_target' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'navigation_demos' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'navigation_demos' build argument 'cmake_clean_cache' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'navigation_demos' build argument 'cmake_clean_first' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'navigation_demos' build argument 'cmake_force_configure' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'navigation_demos' build argument 'ament_cmake_args' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'navigation_demos' build argument 'catkin_cmake_args' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'navigation_demos' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.279s] DEBUG:colcon.colcon_core.verb:Building package 'navigation_demos' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/delewlew/software_for_robotics_part2/build/navigation_demos', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/delewlew/software_for_robotics_part2/install/navigation_demos', 'merge_install': False, 'path': '/home/delewlew/software_for_robotics_part2/src/navigation_demos', 'symlink_install': False, 'test_result_base': None}
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'week10_exercise_2' build argument 'cmake_args' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'week10_exercise_2' build argument 'cmake_target' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'week10_exercise_2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'week10_exercise_2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'week10_exercise_2' build argument 'cmake_clean_first' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'week10_exercise_2' build argument 'cmake_force_configure' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'week10_exercise_2' build argument 'ament_cmake_args' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'week10_exercise_2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'week10_exercise_2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.280s] DEBUG:colcon.colcon_core.verb:Building package 'week10_exercise_2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/delewlew/software_for_robotics_part2/build/week10_exercise_2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/delewlew/software_for_robotics_part2/install/week10_exercise_2', 'merge_install': False, 'path': '/home/delewlew/software_for_robotics_part2/src/week10_exercise_2', 'symlink_install': False, 'test_result_base': None}
+[0.280s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.281s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.281s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/delewlew/software_for_robotics_part2/src/bt_demos' with build type 'ament_python'
+[0.281s] Level 1:colcon.colcon_core.shell:create_environment_hook('bt_demos', 'ament_prefix_path')
+[0.283s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.284s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/delewlew/software_for_robotics_part2/install/bt_demos/share/bt_demos/hook/ament_prefix_path.ps1'
+[0.284s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/delewlew/software_for_robotics_part2/install/bt_demos/share/bt_demos/hook/ament_prefix_path.dsv'
+[0.284s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/delewlew/software_for_robotics_part2/install/bt_demos/share/bt_demos/hook/ament_prefix_path.sh'
+[0.285s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.285s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.288s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/delewlew/software_for_robotics_part2/src/example_gz_robot' with build type 'ament_python'
+[0.288s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_gz_robot', 'ament_prefix_path')
+[0.288s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/delewlew/software_for_robotics_part2/install/example_gz_robot/share/example_gz_robot/hook/ament_prefix_path.ps1'
+[0.289s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/delewlew/software_for_robotics_part2/install/example_gz_robot/share/example_gz_robot/hook/ament_prefix_path.dsv'
+[0.290s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/delewlew/software_for_robotics_part2/install/example_gz_robot/share/example_gz_robot/hook/ament_prefix_path.sh'
+[0.290s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.290s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.294s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/delewlew/software_for_robotics_part2/src/example_urdf_description' with build type 'ament_python'
+[0.295s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_urdf_description', 'ament_prefix_path')
+[0.295s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/delewlew/software_for_robotics_part2/install/example_urdf_description/share/example_urdf_description/hook/ament_prefix_path.ps1'
+[0.296s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/delewlew/software_for_robotics_part2/install/example_urdf_description/share/example_urdf_description/hook/ament_prefix_path.dsv'
+[0.297s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/delewlew/software_for_robotics_part2/install/example_urdf_description/share/example_urdf_description/hook/ament_prefix_path.sh'
+[0.298s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.298s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.302s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/delewlew/software_for_robotics_part2/src/example_urdf_robot' with build type 'ament_python'
+[0.303s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_urdf_robot', 'ament_prefix_path')
+[0.303s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/delewlew/software_for_robotics_part2/install/example_urdf_robot/share/example_urdf_robot/hook/ament_prefix_path.ps1'
+[0.304s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/delewlew/software_for_robotics_part2/install/example_urdf_robot/share/example_urdf_robot/hook/ament_prefix_path.dsv'
+[0.305s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/delewlew/software_for_robotics_part2/install/example_urdf_robot/share/example_urdf_robot/hook/ament_prefix_path.sh'
+[0.306s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.306s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.314s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/delewlew/software_for_robotics_part2/src/gz_example_robot_description' with build type 'ament_python'
+[0.314s] Level 1:colcon.colcon_core.shell:create_environment_hook('gz_example_robot_description', 'ament_prefix_path')
+[0.315s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/delewlew/software_for_robotics_part2/install/gz_example_robot_description/share/gz_example_robot_description/hook/ament_prefix_path.ps1'
+[0.316s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/delewlew/software_for_robotics_part2/install/gz_example_robot_description/share/gz_example_robot_description/hook/ament_prefix_path.dsv'
+[0.316s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/delewlew/software_for_robotics_part2/install/gz_example_robot_description/share/gz_example_robot_description/hook/ament_prefix_path.sh'
+[0.317s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.317s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.321s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/delewlew/software_for_robotics_part2/src/navigation_demos' with build type 'ament_python'
+[0.321s] Level 1:colcon.colcon_core.shell:create_environment_hook('navigation_demos', 'ament_prefix_path')
+[0.321s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/delewlew/software_for_robotics_part2/install/navigation_demos/share/navigation_demos/hook/ament_prefix_path.ps1'
+[0.322s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/delewlew/software_for_robotics_part2/install/navigation_demos/share/navigation_demos/hook/ament_prefix_path.dsv'
+[0.322s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/delewlew/software_for_robotics_part2/install/navigation_demos/share/navigation_demos/hook/ament_prefix_path.sh'
+[0.323s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.323s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.331s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/delewlew/software_for_robotics_part2/src/week10_exercise_2' with build type 'ament_python'
+[0.332s] Level 1:colcon.colcon_core.shell:create_environment_hook('week10_exercise_2', 'ament_prefix_path')
+[0.333s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/delewlew/software_for_robotics_part2/install/week10_exercise_2/share/week10_exercise_2/hook/ament_prefix_path.ps1'
+[0.335s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/delewlew/software_for_robotics_part2/install/week10_exercise_2/share/week10_exercise_2/hook/ament_prefix_path.dsv'
+[0.336s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/delewlew/software_for_robotics_part2/install/week10_exercise_2/share/week10_exercise_2/hook/ament_prefix_path.sh'
+[0.337s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.337s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.583s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/delewlew/software_for_robotics_part2/src/bt_demos'
+[0.583s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.583s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.799s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/delewlew/software_for_robotics_part2/src/example_gz_robot'
+[0.800s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.800s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.025s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/delewlew/software_for_robotics_part2/src/example_urdf_description'
+[1.025s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.025s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.243s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/delewlew/software_for_robotics_part2/src/example_urdf_robot'
+[1.243s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.243s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.444s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/delewlew/software_for_robotics_part2/src/gz_example_robot_description'
+[1.444s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.445s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.646s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/delewlew/software_for_robotics_part2/src/navigation_demos'
+[1.646s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.646s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.856s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/delewlew/software_for_robotics_part2/src/week10_exercise_2'
+[1.856s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.856s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.404s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/delewlew/software_for_robotics_part2/src/week10_exercise_2': PYTHONPATH=/home/delewlew/software_for_robotics_part2/build/week10_exercise_2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/delewlew/software_for_robotics_part2/install/week10_exercise_2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/week10_exercise_2 build --build-base /home/delewlew/software_for_robotics_part2/build/week10_exercise_2/build install --record /home/delewlew/software_for_robotics_part2/build/week10_exercise_2/install.log --single-version-externally-managed install_data
+[2.487s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/delewlew/software_for_robotics_part2/src/navigation_demos': PYTHONPATH=/home/delewlew/software_for_robotics_part2/build/navigation_demos/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/delewlew/software_for_robotics_part2/install/navigation_demos/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/navigation_demos build --build-base /home/delewlew/software_for_robotics_part2/build/navigation_demos/build install --record /home/delewlew/software_for_robotics_part2/build/navigation_demos/install.log --single-version-externally-managed install_data
+[2.781s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/delewlew/software_for_robotics_part2/src/example_gz_robot': PYTHONPATH=/home/delewlew/software_for_robotics_part2/build/example_gz_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/delewlew/software_for_robotics_part2/install/example_gz_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/example_gz_robot build --build-base /home/delewlew/software_for_robotics_part2/build/example_gz_robot/build install --record /home/delewlew/software_for_robotics_part2/build/example_gz_robot/install.log --single-version-externally-managed install_data
+[2.833s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/delewlew/software_for_robotics_part2/src/bt_demos': PYTHONPATH=/home/delewlew/software_for_robotics_part2/build/bt_demos/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/delewlew/software_for_robotics_part2/install/bt_demos/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/bt_demos build --build-base /home/delewlew/software_for_robotics_part2/build/bt_demos/build install --record /home/delewlew/software_for_robotics_part2/build/bt_demos/install.log --single-version-externally-managed install_data
+[2.885s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/delewlew/software_for_robotics_part2/src/example_urdf_robot': PYTHONPATH=/home/delewlew/software_for_robotics_part2/build/example_urdf_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/delewlew/software_for_robotics_part2/install/example_urdf_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/example_urdf_robot build --build-base /home/delewlew/software_for_robotics_part2/build/example_urdf_robot/build install --record /home/delewlew/software_for_robotics_part2/build/example_urdf_robot/install.log --single-version-externally-managed install_data
+[2.892s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/delewlew/software_for_robotics_part2/src/example_urdf_description': PYTHONPATH=/home/delewlew/software_for_robotics_part2/build/example_urdf_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/delewlew/software_for_robotics_part2/install/example_urdf_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/example_urdf_description build --build-base /home/delewlew/software_for_robotics_part2/build/example_urdf_description/build install --record /home/delewlew/software_for_robotics_part2/build/example_urdf_description/install.log --single-version-externally-managed install_data
+[2.892s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/delewlew/software_for_robotics_part2/src/week10_exercise_2' returned '0': PYTHONPATH=/home/delewlew/software_for_robotics_part2/build/week10_exercise_2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/delewlew/software_for_robotics_part2/install/week10_exercise_2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/week10_exercise_2 build --build-base /home/delewlew/software_for_robotics_part2/build/week10_exercise_2/build install --record /home/delewlew/software_for_robotics_part2/build/week10_exercise_2/install.log --single-version-externally-managed install_data
+[2.897s] Level 1:colcon.colcon_core.environment:checking '/home/delewlew/software_for_robotics_part2/install/week10_exercise_2' for CMake module files
+[2.898s] Level 1:colcon.colcon_core.environment:checking '/home/delewlew/software_for_robotics_part2/install/week10_exercise_2' for CMake config files
+[2.899s] Level 1:colcon.colcon_core.environment:checking '/home/delewlew/software_for_robotics_part2/install/week10_exercise_2/lib'
+[2.900s] Level 1:colcon.colcon_core.environment:checking '/home/delewlew/software_for_robotics_part2/install/week10_exercise_2/bin'
+[2.900s] Level 1:colcon.colcon_core.environment:checking '/home/delewlew/software_for_robotics_part2/install/week10_exercise_2/lib/pkgconfig/week10_exercise_2.pc'
+[2.900s] Level 1:colcon.colcon_core.environment:checking '/home/delewlew/software_for_robotics_part2/install/week10_exercise_2/lib/python3.10/site-packages'
+[2.901s] Level 1:colcon.colcon_core.shell:create_environment_hook('week10_exercise_2', 'pythonpath')
+[2.901s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/delewlew/software_for_robotics_part2/install/week10_exercise_2/share/week10_exercise_2/hook/pythonpath.ps1'
+[2.902s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/delewlew/software_for_robotics_part2/install/week10_exercise_2/share/week10_exercise_2/hook/pythonpath.dsv'
+[2.903s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/delewlew/software_for_robotics_part2/install/week10_exercise_2/share/week10_exercise_2/hook/pythonpath.sh'
+[2.904s] Level 1:colcon.colcon_core.environment:checking '/home/delewlew/software_for_robotics_part2/install/week10_exercise_2/bin'
+[2.904s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(week10_exercise_2)
+[2.905s] INFO:colcon.colcon_core.shell:Creating package script '/home/delewlew/software_for_robotics_part2/install/week10_exercise_2/share/week10_exercise_2/package.ps1'
+[2.908s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/delewlew/software_for_robotics_part2/install/week10_exercise_2/share/week10_exercise_2/package.dsv'
+[2.909s] INFO:colcon.colcon_core.shell:Creating package script '/home/delewlew/software_for_robotics_part2/install/week10_exercise_2/share/week10_exercise_2/package.sh'
+[2.910s] INFO:colcon.colcon_core.shell:Creating package script '/home/delewlew/software_for_robotics_part2/install/week10_exercise_2/share/week10_exercise_2/package.bash'
+[2.912s] INFO:colcon.colcon_core.shell:Creating package script '/home/delewlew/software_for_robotics_part2/install/week10_exercise_2/share/week10_exercise_2/package.zsh'
+[2.913s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/delewlew/software_for_robotics_part2/install/week10_exercise_2/share/colcon-core/packages/week10_exercise_2)
+[2.926s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/delewlew/software_for_robotics_part2/src/gz_example_robot_description': PYTHONPATH=/home/delewlew/software_for_robotics_part2/build/gz_example_robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/delewlew/software_for_robotics_part2/install/gz_example_robot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/gz_example_robot_description build --build-base /home/delewlew/software_for_robotics_part2/build/gz_example_robot_description/build install --record /home/delewlew/software_for_robotics_part2/build/gz_example_robot_description/install.log --single-version-externally-managed install_data
+[3.066s] Level 1:colcon.colcon_core.environment:checking '/home/delewlew/software_for_robotics_part2/install/navigation_demos' for CMake module files
+[3.067s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/delewlew/software_for_robotics_part2/src/navigation_demos' returned '0': PYTHONPATH=/home/delewlew/software_for_robotics_part2/build/navigation_demos/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/delewlew/software_for_robotics_part2/install/navigation_demos/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/navigation_demos build --build-base /home/delewlew/software_for_robotics_part2/build/navigation_demos/build install --record /home/delewlew/software_for_robotics_part2/build/navigation_demos/install.log --single-version-externally-managed install_data
+[3.068s] Level 1:colcon.colcon_core.environment:checking '/home/delewlew/software_for_robotics_part2/install/navigation_demos' for CMake config files
+[3.069s] Level 1:colcon.colcon_core.environment:checking '/home/delewlew/software_for_robotics_part2/install/navigation_demos/lib'
+[3.069s] Level 1:colcon.colcon_core.environment:checking '/home/delewlew/software_for_robotics_part2/install/navigation_demos/bin'
+[3.069s] Level 1:colcon.colcon_core.environment:checking '/home/delewlew/software_for_robotics_part2/install/navigation_demos/lib/pkgconfig/navigation_demos.pc'
+[3.070s] Level 1:colcon.colcon_core.environment:checking '/home/delewlew/software_for_robotics_part2/install/navigation_demos/lib/python3.10/site-packages'
+[3.070s] Level 1:colcon.colcon_core.shell:create_environment_hook('navigation_demos', 'pythonpath')
+[3.070s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/delewlew/software_for_robotics_part2/install/navigation_demos/share/navigation_demos/hook/pythonpath.ps1'
+[3.072s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/delewlew/software_for_robotics_part2/install/navigation_demos/share/navigation_demos/hook/pythonpath.dsv'
+[3.073s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/delewlew/software_for_robotics_part2/install/navigation_demos/share/navigation_demos/hook/pythonpath.sh'
+[3.074s] Level 1:colcon.colcon_core.environment:checking '/home/delewlew/software_for_robotics_part2/install/navigation_demos/bin'
+[3.074s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(navigation_demos)
+[3.075s] INFO:colcon.colcon_core.shell:Creating package script '/home/delewlew/software_for_robotics_part2/install/navigation_demos/share/navigation_demos/package.ps1'
+[3.077s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/delewlew/software_for_robotics_part2/install/navigation_demos/share/navigation_demos/package.dsv'
+[3.078s] INFO:colcon.colcon_core.shell:Creating package script '/home/delewlew/software_for_robotics_part2/install/navigation_demos/share/navigation_demos/package.sh'
+[3.079s] INFO:colcon.colcon_core.shell:Creating package script '/home/delewlew/software_for_robotics_part2/install/navigation_demos/share/navigation_demos/package.bash'
+[3.079s] INFO:colcon.colcon_core.shell:Creating package script '/home/delewlew/software_for_robotics_part2/install/navigation_demos/share/navigation_demos/package.zsh'
+[3.080s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/delewlew/software_for_robotics_part2/install/navigation_demos/share/colcon-core/packages/navigation_demos)
+[3.256s] Level 1:colcon.colcon_core.environment:checking '/home/delewlew/software_for_robotics_part2/install/example_gz_robot' for CMake module files
+[3.258s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/delewlew/software_for_robotics_part2/src/example_gz_robot' returned '0': PYTHONPATH=/home/delewlew/software_for_robotics_part2/build/example_gz_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/delewlew/software_for_robotics_part2/install/example_gz_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/example_gz_robot build --build-base /home/delewlew/software_for_robotics_part2/build/example_gz_robot/build install --record /home/delewlew/software_for_robotics_part2/build/example_gz_robot/install.log --single-version-externally-managed install_data
+[3.259s] Level 1:colcon.colcon_core.environment:checking '/home/delewlew/software_for_robotics_part2/install/example_gz_robot' for CMake config files
+[3.261s] Level 1:colcon.colcon_core.environment:checking '/home/delewlew/software_for_robotics_part2/install/example_gz_robot/lib'
+[3.261s] Level 1:colcon.colcon_core.environment:checking '/home/delewlew/software_for_robotics_part2/install/example_gz_robot/bin'
+[3.261s] Level 1:colcon.colcon_core.environment:checking '/home/delewlew/software_for_robotics_part2/install/example_gz_robot/lib/pkgconfig/example_gz_robot.pc'
+[3.262s] Level 1:colcon.colcon_core.environment:checking '/home/delewlew/software_for_robotics_part2/install/example_gz_robot/lib/python3.10/site-packages'
+[3.262s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_gz_robot', 'pythonpath')
+[3.262s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/delewlew/software_for_robotics_part2/install/example_gz_robot/share/example_gz_robot/hook/pythonpath.ps1'
+[3.263s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/delewlew/software_for_robotics_part2/install/example_gz_robot/share/example_gz_robot/hook/pythonpath.dsv'
+[3.264s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/delewlew/software_for_robotics_part2/install/example_gz_robot/share/example_gz_robot/hook/pythonpath.sh'
+[3.265s] Level 1:colcon.colcon_core.environment:checking '/home/delewlew/software_for_robotics_part2/install/example_gz_robot/bin'
+[3.265s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(example_gz_robot)
+[3.265s] INFO:colcon.colcon_core.shell:Creating package script '/home/delewlew/software_for_robotics_part2/install/example_gz_robot/share/example_gz_robot/package.ps1'
+[3.266s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/delewlew/software_for_robotics_part2/install/example_gz_robot/share/example_gz_robot/package.dsv'
+[3.267s] INFO:colcon.colcon_core.shell:Creating package script '/home/delewlew/software_for_robotics_part2/install/example_gz_robot/share/example_gz_robot/package.sh'
+[3.268s] INFO:colcon.colcon_core.shell:Creating package script '/home/delewlew/software_for_robotics_part2/install/example_gz_robot/share/example_gz_robot/package.bash'
+[3.269s] INFO:colcon.colcon_core.shell:Creating package script '/home/delewlew/software_for_robotics_part2/install/example_gz_robot/share/example_gz_robot/package.zsh'
+[3.270s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/delewlew/software_for_robotics_part2/install/example_gz_robot/share/colcon-core/packages/example_gz_robot)
+[3.351s] Level 1:colcon.colcon_core.environment:checking '/home/delewlew/software_for_robotics_part2/install/gz_example_robot_description' for CMake module files
+[3.352s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/delewlew/software_for_robotics_part2/src/gz_example_robot_description' returned '0': PYTHONPATH=/home/delewlew/software_for_robotics_part2/build/gz_example_robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/delewlew/software_for_robotics_part2/install/gz_example_robot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/gz_example_robot_description build --build-base /home/delewlew/software_for_robotics_part2/build/gz_example_robot_description/build install --record /home/delewlew/software_for_robotics_part2/build/gz_example_robot_description/install.log --single-version-externally-managed install_data
+[3.353s] Level 1:colcon.colcon_core.environment:checking '/home/delewlew/software_for_robotics_part2/install/gz_example_robot_description' for CMake config files
+[3.354s] Level 1:colcon.colcon_core.environment:checking '/home/delewlew/software_for_robotics_part2/install/gz_example_robot_description/lib'
+[3.354s] Level 1:colcon.colcon_core.environment:checking '/home/delewlew/software_for_robotics_part2/install/gz_example_robot_description/bin'
+[3.354s] Level 1:colcon.colcon_core.environment:checking '/home/delewlew/software_for_robotics_part2/install/gz_example_robot_description/lib/pkgconfig/gz_example_robot_description.pc'
+[3.355s] Level 1:colcon.colcon_core.environment:checking '/home/delewlew/software_for_robotics_part2/install/gz_example_robot_description/lib/python3.10/site-packages'
+[3.355s] Level 1:colcon.colcon_core.shell:create_environment_hook('gz_example_robot_description', 'pythonpath')
+[3.356s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/delewlew/software_for_robotics_part2/install/gz_example_robot_description/share/gz_example_robot_description/hook/pythonpath.ps1'
+[3.357s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/delewlew/software_for_robotics_part2/install/gz_example_robot_description/share/gz_example_robot_description/hook/pythonpath.dsv'
+[3.358s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/delewlew/software_for_robotics_part2/install/gz_example_robot_description/share/gz_example_robot_description/hook/pythonpath.sh'
+[3.358s] Level 1:colcon.colcon_core.environment:checking '/home/delewlew/software_for_robotics_part2/install/gz_example_robot_description/bin'
+[3.359s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gz_example_robot_description)
+[3.359s] INFO:colcon.colcon_core.shell:Creating package script '/home/delewlew/software_for_robotics_part2/install/gz_example_robot_description/share/gz_example_robot_description/package.ps1'
+[3.360s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/delewlew/software_for_robotics_part2/install/gz_example_robot_description/share/gz_example_robot_description/package.dsv'
+[3.361s] INFO:colcon.colcon_core.shell:Creating package script '/home/delewlew/software_for_robotics_part2/install/gz_example_robot_description/share/gz_example_robot_description/package.sh'
+[3.361s] INFO:colcon.colcon_core.shell:Creating package script '/home/delewlew/software_for_robotics_part2/install/gz_example_robot_description/share/gz_example_robot_description/package.bash'
+[3.362s] INFO:colcon.colcon_core.shell:Creating package script '/home/delewlew/software_for_robotics_part2/install/gz_example_robot_description/share/gz_example_robot_description/package.zsh'
+[3.362s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/delewlew/software_for_robotics_part2/install/gz_example_robot_description/share/colcon-core/packages/gz_example_robot_description)
+[3.464s] Level 1:colcon.colcon_core.environment:checking '/home/delewlew/software_for_robotics_part2/install/bt_demos' for CMake module files
+[3.465s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/delewlew/software_for_robotics_part2/src/bt_demos' returned '0': PYTHONPATH=/home/delewlew/software_for_robotics_part2/build/bt_demos/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/delewlew/software_for_robotics_part2/install/bt_demos/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/bt_demos build --build-base /home/delewlew/software_for_robotics_part2/build/bt_demos/build install --record /home/delewlew/software_for_robotics_part2/build/bt_demos/install.log --single-version-externally-managed install_data
+[3.465s] Level 1:colcon.colcon_core.environment:checking '/home/delewlew/software_for_robotics_part2/install/bt_demos' for CMake config files
+[3.466s] Level 1:colcon.colcon_core.environment:checking '/home/delewlew/software_for_robotics_part2/install/bt_demos/lib'
+[3.466s] Level 1:colcon.colcon_core.environment:checking '/home/delewlew/software_for_robotics_part2/install/bt_demos/bin'
+[3.466s] Level 1:colcon.colcon_core.environment:checking '/home/delewlew/software_for_robotics_part2/install/bt_demos/lib/pkgconfig/bt_demos.pc'
+[3.467s] Level 1:colcon.colcon_core.environment:checking '/home/delewlew/software_for_robotics_part2/install/bt_demos/lib/python3.10/site-packages'
+[3.467s] Level 1:colcon.colcon_core.shell:create_environment_hook('bt_demos', 'pythonpath')
+[3.467s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/delewlew/software_for_robotics_part2/install/bt_demos/share/bt_demos/hook/pythonpath.ps1'
+[3.468s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/delewlew/software_for_robotics_part2/install/bt_demos/share/bt_demos/hook/pythonpath.dsv'
+[3.470s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/delewlew/software_for_robotics_part2/install/bt_demos/share/bt_demos/hook/pythonpath.sh'
+[3.471s] Level 1:colcon.colcon_core.environment:checking '/home/delewlew/software_for_robotics_part2/install/bt_demos/bin'
+[3.471s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bt_demos)
+[3.471s] INFO:colcon.colcon_core.shell:Creating package script '/home/delewlew/software_for_robotics_part2/install/bt_demos/share/bt_demos/package.ps1'
+[3.475s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/delewlew/software_for_robotics_part2/install/bt_demos/share/bt_demos/package.dsv'
+[3.476s] INFO:colcon.colcon_core.shell:Creating package script '/home/delewlew/software_for_robotics_part2/install/bt_demos/share/bt_demos/package.sh'
+[3.481s] INFO:colcon.colcon_core.shell:Creating package script '/home/delewlew/software_for_robotics_part2/install/bt_demos/share/bt_demos/package.bash'
+[3.481s] INFO:colcon.colcon_core.shell:Creating package script '/home/delewlew/software_for_robotics_part2/install/bt_demos/share/bt_demos/package.zsh'
+[3.482s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/delewlew/software_for_robotics_part2/install/bt_demos/share/colcon-core/packages/bt_demos)
+[3.531s] Level 1:colcon.colcon_core.environment:checking '/home/delewlew/software_for_robotics_part2/install/example_urdf_robot' for CMake module files
+[3.532s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/delewlew/software_for_robotics_part2/src/example_urdf_robot' returned '0': PYTHONPATH=/home/delewlew/software_for_robotics_part2/build/example_urdf_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/delewlew/software_for_robotics_part2/install/example_urdf_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/example_urdf_robot build --build-base /home/delewlew/software_for_robotics_part2/build/example_urdf_robot/build install --record /home/delewlew/software_for_robotics_part2/build/example_urdf_robot/install.log --single-version-externally-managed install_data
+[3.533s] Level 1:colcon.colcon_core.environment:checking '/home/delewlew/software_for_robotics_part2/install/example_urdf_robot' for CMake config files
+[3.534s] Level 1:colcon.colcon_core.environment:checking '/home/delewlew/software_for_robotics_part2/install/example_urdf_robot/lib'
+[3.534s] Level 1:colcon.colcon_core.environment:checking '/home/delewlew/software_for_robotics_part2/install/example_urdf_robot/bin'
+[3.534s] Level 1:colcon.colcon_core.environment:checking '/home/delewlew/software_for_robotics_part2/install/example_urdf_robot/lib/pkgconfig/example_urdf_robot.pc'
+[3.535s] Level 1:colcon.colcon_core.environment:checking '/home/delewlew/software_for_robotics_part2/install/example_urdf_robot/lib/python3.10/site-packages'
+[3.535s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_urdf_robot', 'pythonpath')
+[3.535s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/delewlew/software_for_robotics_part2/install/example_urdf_robot/share/example_urdf_robot/hook/pythonpath.ps1'
+[3.536s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/delewlew/software_for_robotics_part2/install/example_urdf_robot/share/example_urdf_robot/hook/pythonpath.dsv'
+[3.537s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/delewlew/software_for_robotics_part2/install/example_urdf_robot/share/example_urdf_robot/hook/pythonpath.sh'
+[3.538s] Level 1:colcon.colcon_core.environment:checking '/home/delewlew/software_for_robotics_part2/install/example_urdf_robot/bin'
+[3.538s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(example_urdf_robot)
+[3.539s] INFO:colcon.colcon_core.shell:Creating package script '/home/delewlew/software_for_robotics_part2/install/example_urdf_robot/share/example_urdf_robot/package.ps1'
+[3.540s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/delewlew/software_for_robotics_part2/install/example_urdf_robot/share/example_urdf_robot/package.dsv'
+[3.541s] INFO:colcon.colcon_core.shell:Creating package script '/home/delewlew/software_for_robotics_part2/install/example_urdf_robot/share/example_urdf_robot/package.sh'
+[3.541s] INFO:colcon.colcon_core.shell:Creating package script '/home/delewlew/software_for_robotics_part2/install/example_urdf_robot/share/example_urdf_robot/package.bash'
+[3.542s] INFO:colcon.colcon_core.shell:Creating package script '/home/delewlew/software_for_robotics_part2/install/example_urdf_robot/share/example_urdf_robot/package.zsh'
+[3.542s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/delewlew/software_for_robotics_part2/install/example_urdf_robot/share/colcon-core/packages/example_urdf_robot)
+[3.563s] Level 1:colcon.colcon_core.environment:checking '/home/delewlew/software_for_robotics_part2/install/example_urdf_description' for CMake module files
+[3.564s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/delewlew/software_for_robotics_part2/src/example_urdf_description' returned '0': PYTHONPATH=/home/delewlew/software_for_robotics_part2/build/example_urdf_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/delewlew/software_for_robotics_part2/install/example_urdf_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/example_urdf_description build --build-base /home/delewlew/software_for_robotics_part2/build/example_urdf_description/build install --record /home/delewlew/software_for_robotics_part2/build/example_urdf_description/install.log --single-version-externally-managed install_data
+[3.565s] Level 1:colcon.colcon_core.environment:checking '/home/delewlew/software_for_robotics_part2/install/example_urdf_description' for CMake config files
+[3.566s] Level 1:colcon.colcon_core.environment:checking '/home/delewlew/software_for_robotics_part2/install/example_urdf_description/lib'
+[3.566s] Level 1:colcon.colcon_core.environment:checking '/home/delewlew/software_for_robotics_part2/install/example_urdf_description/bin'
+[3.566s] Level 1:colcon.colcon_core.environment:checking '/home/delewlew/software_for_robotics_part2/install/example_urdf_description/lib/pkgconfig/example_urdf_description.pc'
+[3.566s] Level 1:colcon.colcon_core.environment:checking '/home/delewlew/software_for_robotics_part2/install/example_urdf_description/lib/python3.10/site-packages'
+[3.566s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_urdf_description', 'pythonpath')
+[3.567s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/delewlew/software_for_robotics_part2/install/example_urdf_description/share/example_urdf_description/hook/pythonpath.ps1'
+[3.567s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/delewlew/software_for_robotics_part2/install/example_urdf_description/share/example_urdf_description/hook/pythonpath.dsv'
+[3.567s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/delewlew/software_for_robotics_part2/install/example_urdf_description/share/example_urdf_description/hook/pythonpath.sh'
+[3.568s] Level 1:colcon.colcon_core.environment:checking '/home/delewlew/software_for_robotics_part2/install/example_urdf_description/bin'
+[3.568s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(example_urdf_description)
+[3.568s] INFO:colcon.colcon_core.shell:Creating package script '/home/delewlew/software_for_robotics_part2/install/example_urdf_description/share/example_urdf_description/package.ps1'
+[3.569s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/delewlew/software_for_robotics_part2/install/example_urdf_description/share/example_urdf_description/package.dsv'
+[3.569s] INFO:colcon.colcon_core.shell:Creating package script '/home/delewlew/software_for_robotics_part2/install/example_urdf_description/share/example_urdf_description/package.sh'
+[3.569s] INFO:colcon.colcon_core.shell:Creating package script '/home/delewlew/software_for_robotics_part2/install/example_urdf_description/share/example_urdf_description/package.bash'
+[3.570s] INFO:colcon.colcon_core.shell:Creating package script '/home/delewlew/software_for_robotics_part2/install/example_urdf_description/share/example_urdf_description/package.zsh'
+[3.570s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/delewlew/software_for_robotics_part2/install/example_urdf_description/share/colcon-core/packages/example_urdf_description)
+[3.570s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.570s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.570s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.570s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.583s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.583s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.583s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.606s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.607s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/delewlew/software_for_robotics_part2/install/local_setup.ps1'
+[3.609s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/delewlew/software_for_robotics_part2/install/_local_setup_util_ps1.py'
+[3.611s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/delewlew/software_for_robotics_part2/install/setup.ps1'
+[3.613s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/delewlew/software_for_robotics_part2/install/local_setup.sh'
+[3.613s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/delewlew/software_for_robotics_part2/install/_local_setup_util_sh.py'
+[3.614s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/delewlew/software_for_robotics_part2/install/setup.sh'
+[3.615s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/delewlew/software_for_robotics_part2/install/local_setup.bash'
+[3.616s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/delewlew/software_for_robotics_part2/install/setup.bash'
+[3.617s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/delewlew/software_for_robotics_part2/install/local_setup.zsh'
+[3.618s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/delewlew/software_for_robotics_part2/install/setup.zsh'

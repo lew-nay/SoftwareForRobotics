@@ -1,0 +1,24 @@
+[0.604s] Invoking command in '/home/delewlew/assessments/coursework1/src/cooing_code_pkg': PYTHONPATH=/home/delewlew/assessments/coursework1/src/build/cooing_code_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/delewlew/assessments/coursework1/src/install/cooing_code_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/cooing_code_pkg build --build-base /home/delewlew/assessments/coursework1/src/build/cooing_code_pkg/build install --record /home/delewlew/assessments/coursework1/src/build/cooing_code_pkg/install.log --single-version-externally-managed install_data
+[1.041s] running egg_info
+[1.043s] writing ../build/cooing_code_pkg/cooing_code_pkg.egg-info/PKG-INFO
+[1.043s] writing dependency_links to ../build/cooing_code_pkg/cooing_code_pkg.egg-info/dependency_links.txt
+[1.044s] writing entry points to ../build/cooing_code_pkg/cooing_code_pkg.egg-info/entry_points.txt
+[1.044s] writing requirements to ../build/cooing_code_pkg/cooing_code_pkg.egg-info/requires.txt
+[1.045s] writing top-level names to ../build/cooing_code_pkg/cooing_code_pkg.egg-info/top_level.txt
+[1.050s] reading manifest file '../build/cooing_code_pkg/cooing_code_pkg.egg-info/SOURCES.txt'
+[1.052s] writing manifest file '../build/cooing_code_pkg/cooing_code_pkg.egg-info/SOURCES.txt'
+[1.052s] running build
+[1.053s] running build_py
+[1.053s] copying cooing_code_pkg/cooing_code_node.py -> /home/delewlew/assessments/coursework1/src/build/cooing_code_pkg/build/lib/cooing_code_pkg
+[1.054s] running install
+[1.055s] running install_lib
+[1.057s] copying /home/delewlew/assessments/coursework1/src/build/cooing_code_pkg/build/lib/cooing_code_pkg/cooing_code_node.py -> /home/delewlew/assessments/coursework1/src/install/cooing_code_pkg/lib/python3.10/site-packages/cooing_code_pkg
+[1.060s] byte-compiling /home/delewlew/assessments/coursework1/src/install/cooing_code_pkg/lib/python3.10/site-packages/cooing_code_pkg/cooing_code_node.py to cooing_code_node.cpython-310.pyc
+[1.065s] running install_data
+[1.065s] running install_egg_info
+[1.071s] removing '/home/delewlew/assessments/coursework1/src/install/cooing_code_pkg/lib/python3.10/site-packages/cooing_code_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[1.072s] Copying ../build/cooing_code_pkg/cooing_code_pkg.egg-info to /home/delewlew/assessments/coursework1/src/install/cooing_code_pkg/lib/python3.10/site-packages/cooing_code_pkg-0.0.0-py3.10.egg-info
+[1.075s] running install_scripts
+[1.129s] Installing cooing_code_node script to /home/delewlew/assessments/coursework1/src/install/cooing_code_pkg/lib/cooing_code_pkg
+[1.130s] writing list of installed files to '/home/delewlew/assessments/coursework1/src/build/cooing_code_pkg/install.log'
+[1.187s] Invoked command in '/home/delewlew/assessments/coursework1/src/cooing_code_pkg' returned '0': PYTHONPATH=/home/delewlew/assessments/coursework1/src/build/cooing_code_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/delewlew/assessments/coursework1/src/install/cooing_code_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/cooing_code_pkg build --build-base /home/delewlew/assessments/coursework1/src/build/cooing_code_pkg/build install --record /home/delewlew/assessments/coursework1/src/build/cooing_code_pkg/install.log --single-version-externally-managed install_data

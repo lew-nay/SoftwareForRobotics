@@ -1,0 +1,21 @@
+[0.688s] Invoking command in '/home/delewlew/assessments/coursework1/src/cooing_code_controller': PYTHONPATH=/home/delewlew/assessments/coursework1/src/build/cooing_code_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/delewlew/assessments/coursework1/src/install/cooing_code_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/cooing_code_controller build --build-base /home/delewlew/assessments/coursework1/src/build/cooing_code_controller/build install --record /home/delewlew/assessments/coursework1/src/build/cooing_code_controller/install.log --single-version-externally-managed install_data
+[1.015s] running egg_info
+[1.017s] writing ../build/cooing_code_controller/cooing_code_controller.egg-info/PKG-INFO
+[1.018s] writing dependency_links to ../build/cooing_code_controller/cooing_code_controller.egg-info/dependency_links.txt
+[1.018s] writing entry points to ../build/cooing_code_controller/cooing_code_controller.egg-info/entry_points.txt
+[1.018s] writing requirements to ../build/cooing_code_controller/cooing_code_controller.egg-info/requires.txt
+[1.018s] writing top-level names to ../build/cooing_code_controller/cooing_code_controller.egg-info/top_level.txt
+[1.020s] reading manifest file '../build/cooing_code_controller/cooing_code_controller.egg-info/SOURCES.txt'
+[1.021s] writing manifest file '../build/cooing_code_controller/cooing_code_controller.egg-info/SOURCES.txt'
+[1.021s] running build
+[1.021s] running build_py
+[1.021s] running install
+[1.022s] running install_lib
+[1.024s] running install_data
+[1.024s] running install_egg_info
+[1.026s] removing '/home/delewlew/assessments/coursework1/src/install/cooing_code_controller/lib/python3.10/site-packages/cooing_code_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[1.026s] Copying ../build/cooing_code_controller/cooing_code_controller.egg-info to /home/delewlew/assessments/coursework1/src/install/cooing_code_controller/lib/python3.10/site-packages/cooing_code_controller-0.0.0-py3.10.egg-info
+[1.031s] running install_scripts
+[1.054s] Installing cooing_code_controller_node script to /home/delewlew/assessments/coursework1/src/install/cooing_code_controller/lib/cooing_code_controller
+[1.055s] writing list of installed files to '/home/delewlew/assessments/coursework1/src/build/cooing_code_controller/install.log'
+[1.289s] Invoked command in '/home/delewlew/assessments/coursework1/src/cooing_code_controller' returned '0': PYTHONPATH=/home/delewlew/assessments/coursework1/src/build/cooing_code_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/delewlew/assessments/coursework1/src/install/cooing_code_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/cooing_code_controller build --build-base /home/delewlew/assessments/coursework1/src/build/cooing_code_controller/build install --record /home/delewlew/assessments/coursework1/src/build/cooing_code_controller/install.log --single-version-externally-managed install_data

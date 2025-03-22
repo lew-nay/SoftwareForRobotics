@@ -1,0 +1,4 @@
+/home/delewlew/assessments/coursework1/build/cooing_code_interfaces/rosidl_adapter/cooing_code_interfaces:msg/WheelVelocities.idl
+/home/delewlew/assessments/coursework1/build/cooing_code_interfaces/rosidl_adapter/cooing_code_interfaces:msg/TaskSpacePose.idl
+/home/delewlew/assessments/coursework1/build/cooing_code_interfaces/rosidl_adapter/cooing_code_interfaces:srv/TurnRobotOn.idl
+/home/delewlew/assessments/coursework1/build/cooing_code_interfaces/rosidl_adapter/cooing_code_interfaces:srv/TurnRobotOff.idl

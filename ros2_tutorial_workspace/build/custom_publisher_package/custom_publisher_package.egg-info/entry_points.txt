@@ -1,0 +1,3 @@
+[console_scripts]
+custom_publisher_node = custom_publisher_package.custom_publisher_node:main
+

@@ -1,0 +1,145 @@
+[0.240s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/delewlew/ros2_tutorial_workspace_2']
+[0.241s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/delewlew/ros2_tutorial_workspace_2'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7c2656016cb0>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7c2656015d20>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7c2656015d20>>, mixin_verb=('list',))
+[0.589s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.590s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.590s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.590s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.590s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.590s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/delewlew/ros2_tutorial_workspace_2'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2) by extensions ['ignore', 'ignore_ament_install']
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2) by extension 'ignore'
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2) by extension 'ignore_ament_install'
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2) by extensions ['colcon_pkg']
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2) by extension 'colcon_pkg'
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2) by extensions ['colcon_meta']
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2) by extension 'colcon_meta'
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2) by extensions ['ros']
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2) by extension 'ros'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2) by extensions ['cmake', 'python']
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2) by extension 'cmake'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2) by extension 'python'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2) by extensions ['python_setup_py']
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2) by extension 'python_setup_py'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/build) by extensions ['ignore', 'ignore_ament_install']
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/build) by extension 'ignore'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/build) ignored
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/example_urdf_description) by extensions ['ignore', 'ignore_ament_install']
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/example_urdf_description) by extension 'ignore'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/example_urdf_description) by extension 'ignore_ament_install'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/example_urdf_description) by extensions ['colcon_pkg']
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/example_urdf_description) by extension 'colcon_pkg'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/example_urdf_description) by extensions ['colcon_meta']
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/example_urdf_description) by extension 'colcon_meta'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/example_urdf_description) by extensions ['ros']
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/example_urdf_description) by extension 'ros'
+[0.626s] DEBUG:colcon.colcon_core.package_identification:Package '/home/delewlew/ros2_tutorial_workspace_2/example_urdf_description' with type 'ros.ament_python' and name 'example_urdf_description'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/install) by extensions ['ignore', 'ignore_ament_install']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/install) by extension 'ignore'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/install) ignored
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/log) by extensions ['ignore', 'ignore_ament_install']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/log) by extension 'ignore'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/log) ignored
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src) by extensions ['ignore', 'ignore_ament_install']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src) by extension 'ignore'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src) by extension 'ignore_ament_install'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src) by extensions ['colcon_pkg']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src) by extension 'colcon_pkg'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src) by extensions ['colcon_meta']
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src) by extension 'colcon_meta'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src) by extensions ['ros']
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src) by extension 'ros'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src) by extensions ['cmake', 'python']
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src) by extension 'cmake'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src) by extension 'python'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src) by extensions ['python_setup_py']
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src) by extension 'python_setup_py'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src/build) by extension 'ignore'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src/build) ignored
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src/install) by extension 'ignore'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src/install) ignored
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src/log) by extension 'ignore'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src/log) ignored
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src/package_with_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src/package_with_interfaces) by extension 'ignore'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src/package_with_interfaces) by extension 'ignore_ament_install'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src/package_with_interfaces) by extensions ['colcon_pkg']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src/package_with_interfaces) by extension 'colcon_pkg'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src/package_with_interfaces) by extensions ['colcon_meta']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src/package_with_interfaces) by extension 'colcon_meta'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src/package_with_interfaces) by extensions ['ros']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src/package_with_interfaces) by extension 'ros'
+[0.632s] DEBUG:colcon.colcon_core.package_identification:Package '/home/delewlew/ros2_tutorial_workspace_2/src/package_with_interfaces' with type 'ros.ament_cmake' and name 'package_with_interfaces'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src/python_package_that_uses_parameters_and_launch_files) by extensions ['ignore', 'ignore_ament_install']
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src/python_package_that_uses_parameters_and_launch_files) by extension 'ignore'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src/python_package_that_uses_parameters_and_launch_files) by extension 'ignore_ament_install'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src/python_package_that_uses_parameters_and_launch_files) by extensions ['colcon_pkg']
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src/python_package_that_uses_parameters_and_launch_files) by extension 'colcon_pkg'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src/python_package_that_uses_parameters_and_launch_files) by extensions ['colcon_meta']
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src/python_package_that_uses_parameters_and_launch_files) by extension 'colcon_meta'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src/python_package_that_uses_parameters_and_launch_files) by extensions ['ros']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src/python_package_that_uses_parameters_and_launch_files) by extension 'ros'
+[0.635s] DEBUG:colcon.colcon_core.package_identification:Package '/home/delewlew/ros2_tutorial_workspace_2/src/python_package_that_uses_parameters_and_launch_files' with type 'ros.ament_python' and name 'python_package_that_uses_parameters_and_launch_files'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src/python_package_that_uses_the_library) by extensions ['ignore', 'ignore_ament_install']
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src/python_package_that_uses_the_library) by extension 'ignore'
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src/python_package_that_uses_the_library) by extension 'ignore_ament_install'
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src/python_package_that_uses_the_library) by extensions ['colcon_pkg']
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src/python_package_that_uses_the_library) by extension 'colcon_pkg'
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src/python_package_that_uses_the_library) by extensions ['colcon_meta']
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src/python_package_that_uses_the_library) by extension 'colcon_meta'
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src/python_package_that_uses_the_library) by extensions ['ros']
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src/python_package_that_uses_the_library) by extension 'ros'
+[0.638s] DEBUG:colcon.colcon_core.package_identification:Package '/home/delewlew/ros2_tutorial_workspace_2/src/python_package_that_uses_the_library' with type 'ros.ament_python' and name 'python_package_that_uses_the_library'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src/python_package_that_uses_the_messages) by extensions ['ignore', 'ignore_ament_install']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src/python_package_that_uses_the_messages) by extension 'ignore'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src/python_package_that_uses_the_messages) by extension 'ignore_ament_install'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src/python_package_that_uses_the_messages) by extensions ['colcon_pkg']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src/python_package_that_uses_the_messages) by extension 'colcon_pkg'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src/python_package_that_uses_the_messages) by extensions ['colcon_meta']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src/python_package_that_uses_the_messages) by extension 'colcon_meta'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src/python_package_that_uses_the_messages) by extensions ['ros']
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src/python_package_that_uses_the_messages) by extension 'ros'
+[0.640s] DEBUG:colcon.colcon_core.package_identification:Package '/home/delewlew/ros2_tutorial_workspace_2/src/python_package_that_uses_the_messages' with type 'ros.ament_python' and name 'python_package_that_uses_the_messages'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src/python_package_that_uses_the_services) by extensions ['ignore', 'ignore_ament_install']
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src/python_package_that_uses_the_services) by extension 'ignore'
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src/python_package_that_uses_the_services) by extension 'ignore_ament_install'
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src/python_package_that_uses_the_services) by extensions ['colcon_pkg']
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src/python_package_that_uses_the_services) by extension 'colcon_pkg'
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src/python_package_that_uses_the_services) by extensions ['colcon_meta']
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src/python_package_that_uses_the_services) by extension 'colcon_meta'
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src/python_package_that_uses_the_services) by extensions ['ros']
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src/python_package_that_uses_the_services) by extension 'ros'
+[0.642s] DEBUG:colcon.colcon_core.package_identification:Package '/home/delewlew/ros2_tutorial_workspace_2/src/python_package_that_uses_the_services' with type 'ros.ament_python' and name 'python_package_that_uses_the_services'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src/python_package_with_a_library) by extensions ['ignore', 'ignore_ament_install']
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src/python_package_with_a_library) by extension 'ignore'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src/python_package_with_a_library) by extension 'ignore_ament_install'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src/python_package_with_a_library) by extensions ['colcon_pkg']
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src/python_package_with_a_library) by extension 'colcon_pkg'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src/python_package_with_a_library) by extensions ['colcon_meta']
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src/python_package_with_a_library) by extension 'colcon_meta'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src/python_package_with_a_library) by extensions ['ros']
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src/python_package_with_a_library) by extension 'ros'
+[0.644s] DEBUG:colcon.colcon_core.package_identification:Package '/home/delewlew/ros2_tutorial_workspace_2/src/python_package_with_a_library' with type 'ros.ament_python' and name 'python_package_with_a_library'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src/python_package_with_a_node) by extensions ['ignore', 'ignore_ament_install']
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src/python_package_with_a_node) by extension 'ignore'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src/python_package_with_a_node) by extension 'ignore_ament_install'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src/python_package_with_a_node) by extensions ['colcon_pkg']
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src/python_package_with_a_node) by extension 'colcon_pkg'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src/python_package_with_a_node) by extensions ['colcon_meta']
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src/python_package_with_a_node) by extension 'colcon_meta'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src/python_package_with_a_node) by extensions ['ros']
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src/python_package_with_a_node) by extension 'ros'
+[0.647s] DEBUG:colcon.colcon_core.package_identification:Package '/home/delewlew/ros2_tutorial_workspace_2/src/python_package_with_a_node' with type 'ros.ament_python' and name 'python_package_with_a_node'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src/the_simplest_python_package) by extensions ['ignore', 'ignore_ament_install']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src/the_simplest_python_package) by extension 'ignore'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src/the_simplest_python_package) by extension 'ignore_ament_install'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src/the_simplest_python_package) by extensions ['colcon_pkg']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src/the_simplest_python_package) by extension 'colcon_pkg'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src/the_simplest_python_package) by extensions ['colcon_meta']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src/the_simplest_python_package) by extension 'colcon_meta'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src/the_simplest_python_package) by extensions ['ros']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(/home/delewlew/ros2_tutorial_workspace_2/src/the_simplest_python_package) by extension 'ros'
+[0.649s] DEBUG:colcon.colcon_core.package_identification:Package '/home/delewlew/ros2_tutorial_workspace_2/src/the_simplest_python_package' with type 'ros.ament_python' and name 'the_simplest_python_package'
+[0.649s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

@@ -1,0 +1,20 @@
+[0.993s] Invoking command in '/home/delewlew/assessments/coursework2/src/coursework_support': PYTHONPATH=/home/delewlew/assessments/coursework2/build/coursework_support/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/delewlew/assessments/coursework2/install/coursework_support/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/coursework_support build --build-base /home/delewlew/assessments/coursework2/build/coursework_support/build install --record /home/delewlew/assessments/coursework2/build/coursework_support/install.log --single-version-externally-managed install_data
+[1.312s] running egg_info
+[1.313s] writing ../../build/coursework_support/coursework_support.egg-info/PKG-INFO
+[1.314s] writing dependency_links to ../../build/coursework_support/coursework_support.egg-info/dependency_links.txt
+[1.314s] writing entry points to ../../build/coursework_support/coursework_support.egg-info/entry_points.txt
+[1.315s] writing requirements to ../../build/coursework_support/coursework_support.egg-info/requires.txt
+[1.316s] writing top-level names to ../../build/coursework_support/coursework_support.egg-info/top_level.txt
+[1.325s] reading manifest file '../../build/coursework_support/coursework_support.egg-info/SOURCES.txt'
+[1.326s] writing manifest file '../../build/coursework_support/coursework_support.egg-info/SOURCES.txt'
+[1.326s] running build
+[1.326s] running build_py
+[1.326s] running install
+[1.328s] running install_lib
+[1.334s] running install_data
+[1.334s] running install_egg_info
+[1.336s] removing '/home/delewlew/assessments/coursework2/install/coursework_support/lib/python3.10/site-packages/coursework_support-0.0.1-py3.10.egg-info' (and everything under it)
+[1.336s] Copying ../../build/coursework_support/coursework_support.egg-info to /home/delewlew/assessments/coursework2/install/coursework_support/lib/python3.10/site-packages/coursework_support-0.0.1-py3.10.egg-info
+[1.338s] running install_scripts
+[1.367s] writing list of installed files to '/home/delewlew/assessments/coursework2/build/coursework_support/install.log'
+[1.403s] Invoked command in '/home/delewlew/assessments/coursework2/src/coursework_support' returned '0': PYTHONPATH=/home/delewlew/assessments/coursework2/build/coursework_support/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/delewlew/assessments/coursework2/install/coursework_support/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/coursework_support build --build-base /home/delewlew/assessments/coursework2/build/coursework_support/build install --record /home/delewlew/assessments/coursework2/build/coursework_support/install.log --single-version-externally-managed install_data

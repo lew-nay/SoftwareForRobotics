@@ -1,0 +1,9 @@
+{
+  "package_name": "cooing_code_interfaces",
+  "non_idl_tuples": [
+    "/home/delewlew/assessments/coursework1/src/cooing_code_interfaces:msg/WheelVelocities.msg",
+    "/home/delewlew/assessments/coursework1/src/cooing_code_interfaces:msg/TaskSpacePose.msg",
+    "/home/delewlew/assessments/coursework1/src/cooing_code_interfaces:srv/TurnRobotOn.srv",
+    "/home/delewlew/assessments/coursework1/src/cooing_code_interfaces:srv/TurnRobotOff.srv"
+  ]
+}

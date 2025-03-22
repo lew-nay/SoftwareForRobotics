@@ -1,0 +1,41 @@
+[1.746s] Invoking command in '/home/delewlew/ros2_tutorial_workspace_2/src/python_package_that_uses_the_messages': PYTHONPATH=/home/delewlew/ros2_tutorial_workspace_2/src/build/python_package_that_uses_the_messages/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/delewlew/ros2_tutorial_workspace_2/src/install/python_package_that_uses_the_messages/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/python_package_that_uses_the_messages build --build-base /home/delewlew/ros2_tutorial_workspace_2/src/build/python_package_that_uses_the_messages/build install --record /home/delewlew/ros2_tutorial_workspace_2/src/build/python_package_that_uses_the_messages/install.log --single-version-externally-managed install_data
+[2.102s] running egg_info
+[2.103s] creating ../build/python_package_that_uses_the_messages/python_package_that_uses_the_messages.egg-info
+[2.103s] writing ../build/python_package_that_uses_the_messages/python_package_that_uses_the_messages.egg-info/PKG-INFO
+[2.104s] writing dependency_links to ../build/python_package_that_uses_the_messages/python_package_that_uses_the_messages.egg-info/dependency_links.txt
+[2.104s] writing entry points to ../build/python_package_that_uses_the_messages/python_package_that_uses_the_messages.egg-info/entry_points.txt
+[2.104s] writing requirements to ../build/python_package_that_uses_the_messages/python_package_that_uses_the_messages.egg-info/requires.txt
+[2.105s] writing top-level names to ../build/python_package_that_uses_the_messages/python_package_that_uses_the_messages.egg-info/top_level.txt
+[2.105s] writing manifest file '../build/python_package_that_uses_the_messages/python_package_that_uses_the_messages.egg-info/SOURCES.txt'
+[2.107s] reading manifest file '../build/python_package_that_uses_the_messages/python_package_that_uses_the_messages.egg-info/SOURCES.txt'
+[2.107s] writing manifest file '../build/python_package_that_uses_the_messages/python_package_that_uses_the_messages.egg-info/SOURCES.txt'
+[2.108s] running build
+[2.108s] running build_py
+[2.108s] creating /home/delewlew/ros2_tutorial_workspace_2/src/build/python_package_that_uses_the_messages/build
+[2.108s] creating /home/delewlew/ros2_tutorial_workspace_2/src/build/python_package_that_uses_the_messages/build/lib
+[2.108s] creating /home/delewlew/ros2_tutorial_workspace_2/src/build/python_package_that_uses_the_messages/build/lib/python_package_that_uses_the_messages
+[2.108s] copying python_package_that_uses_the_messages/amazing_quote_publisher_node.py -> /home/delewlew/ros2_tutorial_workspace_2/src/build/python_package_that_uses_the_messages/build/lib/python_package_that_uses_the_messages
+[2.108s] copying python_package_that_uses_the_messages/amazing_quote_subscriber_node.py -> /home/delewlew/ros2_tutorial_workspace_2/src/build/python_package_that_uses_the_messages/build/lib/python_package_that_uses_the_messages
+[2.108s] copying python_package_that_uses_the_messages/__init__.py -> /home/delewlew/ros2_tutorial_workspace_2/src/build/python_package_that_uses_the_messages/build/lib/python_package_that_uses_the_messages
+[2.109s] running install
+[2.109s] running install_lib
+[2.110s] creating /home/delewlew/ros2_tutorial_workspace_2/src/install/python_package_that_uses_the_messages/lib/python3.10/site-packages/python_package_that_uses_the_messages
+[2.110s] copying /home/delewlew/ros2_tutorial_workspace_2/src/build/python_package_that_uses_the_messages/build/lib/python_package_that_uses_the_messages/amazing_quote_publisher_node.py -> /home/delewlew/ros2_tutorial_workspace_2/src/install/python_package_that_uses_the_messages/lib/python3.10/site-packages/python_package_that_uses_the_messages
+[2.110s] copying /home/delewlew/ros2_tutorial_workspace_2/src/build/python_package_that_uses_the_messages/build/lib/python_package_that_uses_the_messages/amazing_quote_subscriber_node.py -> /home/delewlew/ros2_tutorial_workspace_2/src/install/python_package_that_uses_the_messages/lib/python3.10/site-packages/python_package_that_uses_the_messages
+[2.110s] copying /home/delewlew/ros2_tutorial_workspace_2/src/build/python_package_that_uses_the_messages/build/lib/python_package_that_uses_the_messages/__init__.py -> /home/delewlew/ros2_tutorial_workspace_2/src/install/python_package_that_uses_the_messages/lib/python3.10/site-packages/python_package_that_uses_the_messages
+[2.111s] byte-compiling /home/delewlew/ros2_tutorial_workspace_2/src/install/python_package_that_uses_the_messages/lib/python3.10/site-packages/python_package_that_uses_the_messages/amazing_quote_publisher_node.py to amazing_quote_publisher_node.cpython-310.pyc
+[2.112s] byte-compiling /home/delewlew/ros2_tutorial_workspace_2/src/install/python_package_that_uses_the_messages/lib/python3.10/site-packages/python_package_that_uses_the_messages/amazing_quote_subscriber_node.py to amazing_quote_subscriber_node.cpython-310.pyc
+[2.112s] byte-compiling /home/delewlew/ros2_tutorial_workspace_2/src/install/python_package_that_uses_the_messages/lib/python3.10/site-packages/python_package_that_uses_the_messages/__init__.py to __init__.cpython-310.pyc
+[2.112s] running install_data
+[2.112s] creating /home/delewlew/ros2_tutorial_workspace_2/src/install/python_package_that_uses_the_messages/share/ament_index
+[2.113s] creating /home/delewlew/ros2_tutorial_workspace_2/src/install/python_package_that_uses_the_messages/share/ament_index/resource_index
+[2.113s] creating /home/delewlew/ros2_tutorial_workspace_2/src/install/python_package_that_uses_the_messages/share/ament_index/resource_index/packages
+[2.113s] copying resource/python_package_that_uses_the_messages -> /home/delewlew/ros2_tutorial_workspace_2/src/install/python_package_that_uses_the_messages/share/ament_index/resource_index/packages
+[2.113s] copying package.xml -> /home/delewlew/ros2_tutorial_workspace_2/src/install/python_package_that_uses_the_messages/share/python_package_that_uses_the_messages
+[2.113s] running install_egg_info
+[2.116s] Copying ../build/python_package_that_uses_the_messages/python_package_that_uses_the_messages.egg-info to /home/delewlew/ros2_tutorial_workspace_2/src/install/python_package_that_uses_the_messages/lib/python3.10/site-packages/python_package_that_uses_the_messages-0.0.0-py3.10.egg-info
+[2.117s] running install_scripts
+[2.144s] Installing amazing_quote_publisher_node script to /home/delewlew/ros2_tutorial_workspace_2/src/install/python_package_that_uses_the_messages/lib/python_package_that_uses_the_messages
+[2.145s] Installing amazing_quote_subscriber_node script to /home/delewlew/ros2_tutorial_workspace_2/src/install/python_package_that_uses_the_messages/lib/python_package_that_uses_the_messages
+[2.145s] writing list of installed files to '/home/delewlew/ros2_tutorial_workspace_2/src/build/python_package_that_uses_the_messages/install.log'
+[2.184s] Invoked command in '/home/delewlew/ros2_tutorial_workspace_2/src/python_package_that_uses_the_messages' returned '0': PYTHONPATH=/home/delewlew/ros2_tutorial_workspace_2/src/build/python_package_that_uses_the_messages/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/delewlew/ros2_tutorial_workspace_2/src/install/python_package_that_uses_the_messages/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/python_package_that_uses_the_messages build --build-base /home/delewlew/ros2_tutorial_workspace_2/src/build/python_package_that_uses_the_messages/build install --record /home/delewlew/ros2_tutorial_workspace_2/src/build/python_package_that_uses_the_messages/install.log --single-version-externally-managed install_data

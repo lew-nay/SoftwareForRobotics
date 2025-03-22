@@ -1,0 +1,34 @@
+[0.325s] Invoking command in '/home/delewlew/ros2_tutorial_workspace_2/src/build/package_with_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/delewlew/ros2_tutorial_workspace_2/src/build/package_with_interfaces -- -j12 -l12
+[1.066s] [35m[1mConsolidate compiler generated dependencies of target package_with_interfaces__rosidl_generator_c[0m
+[1.066s] [  2%] Built target package_with_interfaces__cpp
+[1.067s] [ 12%] Built target package_with_interfaces__rosidl_generator_c
+[1.067s] [ 12%] Built target ament_cmake_python_copy_package_with_interfaces
+[1.067s] [35m[1mConsolidate compiler generated dependencies of target package_with_interfaces__rosidl_typesupport_introspection_cpp[0m
+[1.068s] [35m[1mConsolidate compiler generated dependencies of target package_with_interfaces__rosidl_typesupport_cpp[0m
+[1.068s] [35m[1mConsolidate compiler generated dependencies of target package_with_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[1.068s] [35m[1mConsolidate compiler generated dependencies of target package_with_interfaces__rosidl_typesupport_c[0m
+[1.068s] [35m[1mConsolidate compiler generated dependencies of target package_with_interfaces__rosidl_typesupport_introspection_c[0m
+[1.068s] [35m[1mConsolidate compiler generated dependencies of target package_with_interfaces__rosidl_typesupport_fastrtps_c[0m
+[1.068s] [ 23%] Built target package_with_interfaces__rosidl_typesupport_c
+[1.068s] [ 33%] Built target package_with_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.068s] [ 43%] Built target package_with_interfaces__rosidl_typesupport_introspection_cpp
+[1.068s] [ 53%] Built target package_with_interfaces__rosidl_typesupport_cpp
+[1.068s] [ 64%] Built target package_with_interfaces__rosidl_typesupport_fastrtps_c
+[1.068s] [ 74%] Built target package_with_interfaces__rosidl_typesupport_introspection_c
+[1.068s] [ 74%] Built target package_with_interfaces
+[1.068s] [ 76%] Built target package_with_interfaces__py
+[1.068s] [35m[1mConsolidate compiler generated dependencies of target package_with_interfaces__rosidl_generator_py[0m
+[1.068s] [ 84%] Built target package_with_interfaces__rosidl_generator_py
+[1.069s] [35m[1mConsolidate compiler generated dependencies of target package_with_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[1.069s] [35m[1mConsolidate compiler generated dependencies of target package_with_interfaces__rosidl_typesupport_c__pyext[0m
+[1.069s] [35m[1mConsolidate compiler generated dependencies of target package_with_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[1.069s] [ 89%] Built target package_with_interfaces__rosidl_typesupport_introspection_c__pyext
+[1.069s] [ 94%] Built target package_with_interfaces__rosidl_typesupport_c__pyext
+[1.069s] [100%] Built target package_with_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[1.069s] running egg_info
+[1.069s] writing package_with_interfaces.egg-info/PKG-INFO
+[1.069s] writing dependency_links to package_with_interfaces.egg-info/dependency_links.txt
+[1.069s] writing top-level names to package_with_interfaces.egg-info/top_level.txt
+[1.069s] reading manifest file 'package_with_interfaces.egg-info/SOURCES.txt'
+[1.069s] writing manifest file 'package_with_interfaces.egg-info/SOURCES.txt'
+[1.069s] [100%] Built target ament_cmake_python_build_package_with_interfaces_egg

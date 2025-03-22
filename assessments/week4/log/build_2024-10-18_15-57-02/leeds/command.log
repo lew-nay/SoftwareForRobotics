@@ -1,0 +1,2 @@
+Invoking command in '/home/delewlew/assessments/week4/build/leeds': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/delewlew/assessments/week4/src/leeds -DCMAKE_INSTALL_PREFIX=/home/delewlew/assessments/week4/install/leeds
+Invoked command in '/home/delewlew/assessments/week4/build/leeds' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/delewlew/assessments/week4/src/leeds -DCMAKE_INSTALL_PREFIX=/home/delewlew/assessments/week4/install/leeds

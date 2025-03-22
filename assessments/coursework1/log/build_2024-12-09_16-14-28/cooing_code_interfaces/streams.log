@@ -1,0 +1,330 @@
+[0.027s] Invoking command in '/home/delewlew/assessments/coursework1/build/cooing_code_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/delewlew/assessments/coursework1/src/cooing_code_interfaces -DCMAKE_INSTALL_PREFIX=/home/delewlew/assessments/coursework1/install/cooing_code_interfaces
+[0.265s] -- The C compiler identification is GNU 11.4.0
+[0.449s] -- The CXX compiler identification is GNU 11.4.0
+[0.482s] -- Detecting C compiler ABI info
+[0.629s] -- Detecting C compiler ABI info - done
+[0.647s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.648s] -- Detecting C compile features
+[0.651s] -- Detecting C compile features - done
+[0.658s] -- Detecting CXX compiler ABI info
+[0.772s] -- Detecting CXX compiler ABI info - done
+[0.788s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.789s] -- Detecting CXX compile features
+[0.790s] -- Detecting CXX compile features - done
+[0.811s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.041s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.229s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.247s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.270s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.380s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.767s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.989s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.245s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.272s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.278s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.305s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.305s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.305s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.305s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.325s] -- Found PythonExtra: .so  
+[2.362s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.418s] -- Added test 'lint_cmake' to check CMake code style
+[2.421s] -- Added test 'xmllint' to check XML markup files
+[2.426s] -- Configuring done
+[2.467s] -- Generating done
+[2.469s] -- Build files have been written to: /home/delewlew/assessments/coursework1/build/cooing_code_interfaces
+[2.479s] Invoked command in '/home/delewlew/assessments/coursework1/build/cooing_code_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/delewlew/assessments/coursework1/src/cooing_code_interfaces -DCMAKE_INSTALL_PREFIX=/home/delewlew/assessments/coursework1/install/cooing_code_interfaces
+[2.483s] Invoking command in '/home/delewlew/assessments/coursework1/build/cooing_code_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/delewlew/assessments/coursework1/build/cooing_code_interfaces -- -j9 -l9
+[2.548s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.562s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.584s] [  3%] Built target ament_cmake_python_copy_cooing_code_interfaces
+[2.891s] running egg_info
+[2.892s] creating cooing_code_interfaces.egg-info
+[2.892s] writing cooing_code_interfaces.egg-info/PKG-INFO
+[2.893s] writing dependency_links to cooing_code_interfaces.egg-info/dependency_links.txt
+[2.893s] writing top-level names to cooing_code_interfaces.egg-info/top_level.txt
+[2.893s] writing manifest file 'cooing_code_interfaces.egg-info/SOURCES.txt'
+[2.896s] reading manifest file 'cooing_code_interfaces.egg-info/SOURCES.txt'
+[2.897s] writing manifest file 'cooing_code_interfaces.egg-info/SOURCES.txt'
+[2.932s] [  3%] Built target ament_cmake_python_build_cooing_code_interfaces_egg
+[3.211s] [  3%] Built target cooing_code_interfaces__cpp
+[3.230s] [  5%] [32mBuilding C object CMakeFiles/cooing_code_interfaces__rosidl_generator_c.dir/rosidl_generator_c/cooing_code_interfaces/msg/detail/wheel_velocities__functions.c.o[0m
+[3.231s] [  7%] [32mBuilding C object CMakeFiles/cooing_code_interfaces__rosidl_generator_c.dir/rosidl_generator_c/cooing_code_interfaces/srv/detail/turn_robot_off__functions.c.o[0m
+[3.237s] [  9%] [32mBuilding C object CMakeFiles/cooing_code_interfaces__rosidl_generator_c.dir/rosidl_generator_c/cooing_code_interfaces/msg/detail/task_space_pose__functions.c.o[0m
+[3.239s] [ 10%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.240s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.240s] [ 14%] [32mBuilding C object CMakeFiles/cooing_code_interfaces__rosidl_generator_c.dir/rosidl_generator_c/cooing_code_interfaces/srv/detail/turn_robot_on__functions.c.o[0m
+[3.245s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.406s] [ 18%] [32m[1mLinking C shared library libcooing_code_interfaces__rosidl_generator_c.so[0m
+[3.490s] [ 18%] Built target cooing_code_interfaces__rosidl_generator_c
+[3.514s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.514s] [ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.514s] [ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.884s] [ 25%] [32mBuilding CXX object CMakeFiles/cooing_code_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cooing_code_interfaces/srv/turn_robot_on__type_support.cpp.o[0m
+[3.890s] [ 27%] [32mBuilding CXX object CMakeFiles/cooing_code_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cooing_code_interfaces/msg/task_space_pose__type_support.cpp.o[0m
+[3.890s] [ 29%] [32mBuilding CXX object CMakeFiles/cooing_code_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cooing_code_interfaces/msg/wheel_velocities__type_support.cpp.o[0m
+[3.905s] [ 30%] [32mBuilding CXX object CMakeFiles/cooing_code_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cooing_code_interfaces/srv/turn_robot_off__type_support.cpp.o[0m
+[3.976s] [ 32%] [32mBuilding CXX object CMakeFiles/cooing_code_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cooing_code_interfaces/msg/detail/dds_fastrtps/wheel_velocities__type_support.cpp.o[0m
+[4.030s] [ 34%] [32mBuilding CXX object CMakeFiles/cooing_code_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cooing_code_interfaces/msg/detail/wheel_velocities__type_support.cpp.o[0m
+[4.560s] [ 36%] [32mBuilding CXX object CMakeFiles/cooing_code_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/cooing_code_interfaces/msg/wheel_velocities__type_support.cpp.o[0m
+[4.598s] [ 38%] [32mBuilding C object CMakeFiles/cooing_code_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cooing_code_interfaces/msg/detail/wheel_velocities__type_support.c.o[0m
+[4.656s] [ 40%] [32mBuilding C object CMakeFiles/cooing_code_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cooing_code_interfaces/msg/detail/task_space_pose__type_support.c.o[0m
+[4.698s] [ 41%] [32mBuilding CXX object CMakeFiles/cooing_code_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/cooing_code_interfaces/msg/task_space_pose__type_support.cpp.o[0m
+[4.745s] [ 43%] [32mBuilding C object CMakeFiles/cooing_code_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cooing_code_interfaces/srv/detail/turn_robot_on__type_support.c.o[0m
+[4.746s] [ 45%] [32mBuilding CXX object CMakeFiles/cooing_code_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cooing_code_interfaces/msg/detail/wheel_velocities__type_support_c.cpp.o[0m
+[4.772s] [ 47%] [32mBuilding CXX object CMakeFiles/cooing_code_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cooing_code_interfaces/msg/detail/task_space_pose__type_support.cpp.o[0m
+[4.806s] [ 49%] [32mBuilding C object CMakeFiles/cooing_code_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cooing_code_interfaces/srv/detail/turn_robot_off__type_support.c.o[0m
+[4.807s] [ 50%] [32mBuilding CXX object CMakeFiles/cooing_code_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/cooing_code_interfaces/srv/turn_robot_on__type_support.cpp.o[0m
+[4.892s] [ 52%] [32mBuilding CXX object CMakeFiles/cooing_code_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cooing_code_interfaces/msg/detail/dds_fastrtps/task_space_pose__type_support.cpp.o[0m
+[4.923s] [ 54%] [32mBuilding CXX object CMakeFiles/cooing_code_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cooing_code_interfaces/srv/detail/turn_robot_on__type_support.cpp.o[0m
+[4.925s] [ 56%] [32mBuilding CXX object CMakeFiles/cooing_code_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/cooing_code_interfaces/srv/turn_robot_off__type_support.cpp.o[0m
+[4.939s] [ 58%] [32m[1mLinking C shared library libcooing_code_interfaces__rosidl_typesupport_introspection_c.so[0m
+[4.943s] [ 60%] [32mBuilding CXX object CMakeFiles/cooing_code_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cooing_code_interfaces/srv/detail/dds_fastrtps/turn_robot_on__type_support.cpp.o[0m
+[5.043s] [ 61%] [32m[1mLinking CXX shared library libcooing_code_interfaces__rosidl_typesupport_c.so[0m
+[5.067s] [ 61%] Built target cooing_code_interfaces__rosidl_typesupport_introspection_c
+[5.099s] [ 63%] [32mBuilding CXX object CMakeFiles/cooing_code_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cooing_code_interfaces/srv/detail/turn_robot_off__type_support.cpp.o[0m
+[5.168s] [ 65%] [32m[1mLinking CXX shared library libcooing_code_interfaces__rosidl_typesupport_cpp.so[0m
+[5.188s] [ 65%] Built target cooing_code_interfaces__rosidl_typesupport_c
+[5.223s] [ 67%] [32mBuilding CXX object CMakeFiles/cooing_code_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cooing_code_interfaces/msg/detail/task_space_pose__type_support_c.cpp.o[0m
+[5.334s] [ 67%] Built target cooing_code_interfaces__rosidl_typesupport_cpp
+[5.334s] [ 69%] [32mBuilding CXX object CMakeFiles/cooing_code_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cooing_code_interfaces/srv/detail/dds_fastrtps/turn_robot_off__type_support.cpp.o[0m
+[5.367s] [ 70%] [32mBuilding CXX object CMakeFiles/cooing_code_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cooing_code_interfaces/srv/detail/turn_robot_on__type_support_c.cpp.o[0m
+[5.750s] [ 72%] [32mBuilding CXX object CMakeFiles/cooing_code_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cooing_code_interfaces/srv/detail/turn_robot_off__type_support_c.cpp.o[0m
+[6.210s] [ 74%] [32m[1mLinking CXX shared library libcooing_code_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[6.398s] [ 74%] Built target cooing_code_interfaces__rosidl_typesupport_fastrtps_cpp
+[6.428s] [ 76%] [32m[1mLinking CXX shared library libcooing_code_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[6.490s] [ 76%] Built target cooing_code_interfaces__rosidl_typesupport_introspection_cpp
+[6.571s] [ 78%] [32m[1mLinking CXX shared library libcooing_code_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[6.675s] [ 78%] Built target cooing_code_interfaces__rosidl_typesupport_fastrtps_c
+[6.700s] [ 78%] Built target cooing_code_interfaces
+[6.734s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[7.262s] [ 80%] Built target cooing_code_interfaces__py
+[7.305s] [ 83%] [32mBuilding C object CMakeFiles/cooing_code_interfaces__rosidl_generator_py.dir/rosidl_generator_py/cooing_code_interfaces/msg/_task_space_pose_s.c.o[0m
+[7.306s] [ 83%] [32mBuilding C object CMakeFiles/cooing_code_interfaces__rosidl_generator_py.dir/rosidl_generator_py/cooing_code_interfaces/msg/_wheel_velocities_s.c.o[0m
+[7.306s] [ 85%] [32mBuilding C object CMakeFiles/cooing_code_interfaces__rosidl_generator_py.dir/rosidl_generator_py/cooing_code_interfaces/srv/_turn_robot_on_s.c.o[0m
+[7.307s] [ 87%] [32mBuilding C object CMakeFiles/cooing_code_interfaces__rosidl_generator_py.dir/rosidl_generator_py/cooing_code_interfaces/srv/_turn_robot_off_s.c.o[0m
+[7.473s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/cooing_code_interfaces/libcooing_code_interfaces__rosidl_generator_py.so[0m
+[7.561s] [ 89%] Built target cooing_code_interfaces__rosidl_generator_py
+[7.591s] [ 90%] [32mBuilding C object CMakeFiles/cooing_code_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/cooing_code_interfaces/_cooing_code_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[7.601s] [ 92%] [32mBuilding C object CMakeFiles/cooing_code_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/cooing_code_interfaces/_cooing_code_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[7.604s] [ 94%] [32mBuilding C object CMakeFiles/cooing_code_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/cooing_code_interfaces/_cooing_code_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[7.720s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/cooing_code_interfaces/cooing_code_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.739s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/cooing_code_interfaces/cooing_code_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.770s] [ 98%] Built target cooing_code_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[7.793s] [ 98%] Built target cooing_code_interfaces__rosidl_typesupport_introspection_c__pyext
+[7.794s] [100%] [32m[1mLinking C shared library rosidl_generator_py/cooing_code_interfaces/cooing_code_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.842s] [100%] Built target cooing_code_interfaces__rosidl_typesupport_c__pyext
+[7.857s] Invoked command in '/home/delewlew/assessments/coursework1/build/cooing_code_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/delewlew/assessments/coursework1/build/cooing_code_interfaces -- -j9 -l9
+[8.102s] Invoking command in '/home/delewlew/assessments/coursework1/build/cooing_code_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/delewlew/assessments/coursework1/build/cooing_code_interfaces
+[8.114s] -- Install configuration: ""
+[8.114s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/share/ament_index/resource_index/rosidl_interfaces/cooing_code_interfaces
+[8.114s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces
+[8.115s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces/msg
+[8.115s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces/msg/wheel_velocities.h
+[8.115s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces/msg/rosidl_generator_c__visibility_control.h
+[8.115s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces/msg/detail
+[8.115s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces/msg/detail/wheel_velocities__functions.h
+[8.116s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces/msg/detail/task_space_pose__type_support.h
+[8.116s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces/msg/detail/wheel_velocities__struct.h
+[8.116s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces/msg/detail/task_space_pose__functions.c
+[8.116s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces/msg/detail/wheel_velocities__functions.c
+[8.116s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces/msg/detail/task_space_pose__struct.h
+[8.116s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces/msg/detail/task_space_pose__functions.h
+[8.116s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces/msg/detail/wheel_velocities__type_support.h
+[8.117s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces/msg/task_space_pose.h
+[8.117s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces/srv
+[8.117s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces/srv/turn_robot_off.h
+[8.117s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces/srv/detail
+[8.117s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces/srv/detail/turn_robot_on__functions.c
+[8.117s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces/srv/detail/turn_robot_on__type_support.h
+[8.118s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces/srv/detail/turn_robot_off__type_support.h
+[8.118s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces/srv/detail/turn_robot_off__struct.h
+[8.118s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces/srv/detail/turn_robot_off__functions.c
+[8.118s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces/srv/detail/turn_robot_off__functions.h
+[8.119s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces/srv/detail/turn_robot_on__struct.h
+[8.119s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces/srv/detail/turn_robot_on__functions.h
+[8.119s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces/srv/turn_robot_on.h
+[8.119s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/share/cooing_code_interfaces/environment/library_path.sh
+[8.119s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/share/cooing_code_interfaces/environment/library_path.dsv
+[8.119s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/lib/libcooing_code_interfaces__rosidl_generator_c.so
+[8.119s] -- Set runtime path of "/home/delewlew/assessments/coursework1/install/cooing_code_interfaces/lib/libcooing_code_interfaces__rosidl_generator_c.so" to ""
+[8.120s] -- Up-to-date: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces
+[8.120s] -- Up-to-date: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces/msg
+[8.120s] -- Up-to-date: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces/msg/detail
+[8.120s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces/msg/detail/task_space_pose__rosidl_typesupport_fastrtps_c.h
+[8.120s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces/msg/detail/wheel_velocities__rosidl_typesupport_fastrtps_c.h
+[8.120s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[8.121s] -- Up-to-date: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces/srv
+[8.121s] -- Up-to-date: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces/srv/detail
+[8.121s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces/srv/detail/turn_robot_off__rosidl_typesupport_fastrtps_c.h
+[8.121s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces/srv/detail/turn_robot_on__rosidl_typesupport_fastrtps_c.h
+[8.121s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/lib/libcooing_code_interfaces__rosidl_typesupport_fastrtps_c.so
+[8.121s] -- Set runtime path of "/home/delewlew/assessments/coursework1/install/cooing_code_interfaces/lib/libcooing_code_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[8.122s] -- Up-to-date: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces
+[8.122s] -- Up-to-date: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces/msg
+[8.122s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[8.122s] -- Up-to-date: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces/msg/detail
+[8.122s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces/msg/detail/wheel_velocities__type_support.c
+[8.122s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces/msg/detail/wheel_velocities__rosidl_typesupport_introspection_c.h
+[8.122s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces/msg/detail/task_space_pose__type_support.c
+[8.123s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces/msg/detail/task_space_pose__rosidl_typesupport_introspection_c.h
+[8.123s] -- Up-to-date: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces/srv
+[8.123s] -- Up-to-date: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces/srv/detail
+[8.123s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces/srv/detail/turn_robot_off__rosidl_typesupport_introspection_c.h
+[8.123s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces/srv/detail/turn_robot_on__type_support.c
+[8.124s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces/srv/detail/turn_robot_on__rosidl_typesupport_introspection_c.h
+[8.124s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces/srv/detail/turn_robot_off__type_support.c
+[8.124s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/lib/libcooing_code_interfaces__rosidl_typesupport_introspection_c.so
+[8.124s] -- Set runtime path of "/home/delewlew/assessments/coursework1/install/cooing_code_interfaces/lib/libcooing_code_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[8.124s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/lib/libcooing_code_interfaces__rosidl_typesupport_c.so
+[8.124s] -- Set runtime path of "/home/delewlew/assessments/coursework1/install/cooing_code_interfaces/lib/libcooing_code_interfaces__rosidl_typesupport_c.so" to ""
+[8.125s] -- Up-to-date: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces
+[8.125s] -- Up-to-date: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces/msg
+[8.125s] -- Up-to-date: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces/msg/detail
+[8.125s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces/msg/detail/task_space_pose__struct.hpp
+[8.125s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces/msg/detail/wheel_velocities__builder.hpp
+[8.125s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces/msg/detail/wheel_velocities__struct.hpp
+[8.126s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces/msg/detail/task_space_pose__builder.hpp
+[8.126s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces/msg/detail/task_space_pose__traits.hpp
+[8.126s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces/msg/detail/wheel_velocities__traits.hpp
+[8.126s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces/msg/wheel_velocities.hpp
+[8.126s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces/msg/task_space_pose.hpp
+[8.126s] -- Up-to-date: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces/srv
+[8.127s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces/srv/turn_robot_on.hpp
+[8.127s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces/srv/turn_robot_off.hpp
+[8.127s] -- Up-to-date: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces/srv/detail
+[8.127s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces/srv/detail/turn_robot_on__builder.hpp
+[8.127s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces/srv/detail/turn_robot_off__builder.hpp
+[8.127s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces/srv/detail/turn_robot_off__struct.hpp
+[8.127s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces/srv/detail/turn_robot_on__struct.hpp
+[8.128s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces/srv/detail/turn_robot_off__traits.hpp
+[8.128s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces/srv/detail/turn_robot_on__traits.hpp
+[8.128s] -- Up-to-date: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces
+[8.128s] -- Up-to-date: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces/msg
+[8.128s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[8.128s] -- Up-to-date: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces/msg/detail
+[8.128s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces/msg/detail/wheel_velocities__rosidl_typesupport_fastrtps_cpp.hpp
+[8.128s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces/msg/detail/dds_fastrtps
+[8.128s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces/msg/detail/task_space_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[8.129s] -- Up-to-date: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces/srv
+[8.129s] -- Up-to-date: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces/srv/detail
+[8.129s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces/srv/detail/dds_fastrtps
+[8.129s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces/srv/detail/turn_robot_on__rosidl_typesupport_fastrtps_cpp.hpp
+[8.129s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces/srv/detail/turn_robot_off__rosidl_typesupport_fastrtps_cpp.hpp
+[8.129s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/lib/libcooing_code_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[8.129s] -- Set runtime path of "/home/delewlew/assessments/coursework1/install/cooing_code_interfaces/lib/libcooing_code_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[8.130s] -- Up-to-date: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces
+[8.130s] -- Up-to-date: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces/msg
+[8.130s] -- Up-to-date: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces/msg/detail
+[8.130s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces/msg/detail/task_space_pose__type_support.cpp
+[8.130s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces/msg/detail/task_space_pose__rosidl_typesupport_introspection_cpp.hpp
+[8.130s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces/msg/detail/wheel_velocities__type_support.cpp
+[8.131s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces/msg/detail/wheel_velocities__rosidl_typesupport_introspection_cpp.hpp
+[8.131s] -- Up-to-date: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces/srv
+[8.131s] -- Up-to-date: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces/srv/detail
+[8.131s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces/srv/detail/turn_robot_on__rosidl_typesupport_introspection_cpp.hpp
+[8.131s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces/srv/detail/turn_robot_on__type_support.cpp
+[8.132s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces/srv/detail/turn_robot_off__type_support.cpp
+[8.132s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/include/cooing_code_interfaces/cooing_code_interfaces/srv/detail/turn_robot_off__rosidl_typesupport_introspection_cpp.hpp
+[8.132s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/lib/libcooing_code_interfaces__rosidl_typesupport_introspection_cpp.so
+[8.132s] -- Set runtime path of "/home/delewlew/assessments/coursework1/install/cooing_code_interfaces/lib/libcooing_code_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[8.132s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/lib/libcooing_code_interfaces__rosidl_typesupport_cpp.so
+[8.132s] -- Set runtime path of "/home/delewlew/assessments/coursework1/install/cooing_code_interfaces/lib/libcooing_code_interfaces__rosidl_typesupport_cpp.so" to ""
+[8.132s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/share/cooing_code_interfaces/environment/pythonpath.sh
+[8.133s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/share/cooing_code_interfaces/environment/pythonpath.dsv
+[8.133s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/local/lib/python3.10/dist-packages/cooing_code_interfaces-0.0.0-py3.10.egg-info
+[8.133s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/local/lib/python3.10/dist-packages/cooing_code_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[8.133s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/local/lib/python3.10/dist-packages/cooing_code_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[8.133s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/local/lib/python3.10/dist-packages/cooing_code_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[8.133s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/local/lib/python3.10/dist-packages/cooing_code_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[8.133s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/local/lib/python3.10/dist-packages/cooing_code_interfaces
+[8.133s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/local/lib/python3.10/dist-packages/cooing_code_interfaces/libcooing_code_interfaces__rosidl_generator_py.so
+[8.134s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/local/lib/python3.10/dist-packages/cooing_code_interfaces/cooing_code_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[8.134s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/local/lib/python3.10/dist-packages/cooing_code_interfaces/cooing_code_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[8.134s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/local/lib/python3.10/dist-packages/cooing_code_interfaces/cooing_code_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[8.134s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/local/lib/python3.10/dist-packages/cooing_code_interfaces/_cooing_code_interfaces_s.ep.rosidl_typesupport_c.c
+[8.134s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/local/lib/python3.10/dist-packages/cooing_code_interfaces/_cooing_code_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[8.134s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/local/lib/python3.10/dist-packages/cooing_code_interfaces/_cooing_code_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[8.134s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/local/lib/python3.10/dist-packages/cooing_code_interfaces/msg
+[8.134s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/local/lib/python3.10/dist-packages/cooing_code_interfaces/msg/_task_space_pose.py
+[8.135s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/local/lib/python3.10/dist-packages/cooing_code_interfaces/msg/_wheel_velocities_s.c
+[8.135s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/local/lib/python3.10/dist-packages/cooing_code_interfaces/msg/_task_space_pose_s.c
+[8.135s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/local/lib/python3.10/dist-packages/cooing_code_interfaces/msg/_wheel_velocities.py
+[8.135s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/local/lib/python3.10/dist-packages/cooing_code_interfaces/msg/__init__.py
+[8.135s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/local/lib/python3.10/dist-packages/cooing_code_interfaces/srv
+[8.135s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/local/lib/python3.10/dist-packages/cooing_code_interfaces/srv/_turn_robot_on.py
+[8.135s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/local/lib/python3.10/dist-packages/cooing_code_interfaces/srv/_turn_robot_off.py
+[8.135s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/local/lib/python3.10/dist-packages/cooing_code_interfaces/srv/_turn_robot_on_s.c
+[8.136s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/local/lib/python3.10/dist-packages/cooing_code_interfaces/srv/_turn_robot_off_s.c
+[8.136s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/local/lib/python3.10/dist-packages/cooing_code_interfaces/srv/__init__.py
+[8.136s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/local/lib/python3.10/dist-packages/cooing_code_interfaces/__init__.py
+[8.168s] Listing '/home/delewlew/assessments/coursework1/install/cooing_code_interfaces/local/lib/python3.10/dist-packages/cooing_code_interfaces'...
+[8.168s] Compiling '/home/delewlew/assessments/coursework1/install/cooing_code_interfaces/local/lib/python3.10/dist-packages/cooing_code_interfaces/__init__.py'...
+[8.168s] Listing '/home/delewlew/assessments/coursework1/install/cooing_code_interfaces/local/lib/python3.10/dist-packages/cooing_code_interfaces/msg'...
+[8.168s] Compiling '/home/delewlew/assessments/coursework1/install/cooing_code_interfaces/local/lib/python3.10/dist-packages/cooing_code_interfaces/msg/__init__.py'...
+[8.168s] Compiling '/home/delewlew/assessments/coursework1/install/cooing_code_interfaces/local/lib/python3.10/dist-packages/cooing_code_interfaces/msg/_task_space_pose.py'...
+[8.168s] Compiling '/home/delewlew/assessments/coursework1/install/cooing_code_interfaces/local/lib/python3.10/dist-packages/cooing_code_interfaces/msg/_wheel_velocities.py'...
+[8.169s] Listing '/home/delewlew/assessments/coursework1/install/cooing_code_interfaces/local/lib/python3.10/dist-packages/cooing_code_interfaces/srv'...
+[8.169s] Compiling '/home/delewlew/assessments/coursework1/install/cooing_code_interfaces/local/lib/python3.10/dist-packages/cooing_code_interfaces/srv/__init__.py'...
+[8.169s] Compiling '/home/delewlew/assessments/coursework1/install/cooing_code_interfaces/local/lib/python3.10/dist-packages/cooing_code_interfaces/srv/_turn_robot_off.py'...
+[8.169s] Compiling '/home/delewlew/assessments/coursework1/install/cooing_code_interfaces/local/lib/python3.10/dist-packages/cooing_code_interfaces/srv/_turn_robot_on.py'...
+[8.173s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/local/lib/python3.10/dist-packages/cooing_code_interfaces/cooing_code_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[8.174s] -- Set runtime path of "/home/delewlew/assessments/coursework1/install/cooing_code_interfaces/local/lib/python3.10/dist-packages/cooing_code_interfaces/cooing_code_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[8.174s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/local/lib/python3.10/dist-packages/cooing_code_interfaces/cooing_code_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[8.174s] -- Set runtime path of "/home/delewlew/assessments/coursework1/install/cooing_code_interfaces/local/lib/python3.10/dist-packages/cooing_code_interfaces/cooing_code_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[8.175s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/local/lib/python3.10/dist-packages/cooing_code_interfaces/cooing_code_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[8.175s] -- Set runtime path of "/home/delewlew/assessments/coursework1/install/cooing_code_interfaces/local/lib/python3.10/dist-packages/cooing_code_interfaces/cooing_code_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[8.175s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/lib/libcooing_code_interfaces__rosidl_generator_py.so
+[8.176s] -- Set runtime path of "/home/delewlew/assessments/coursework1/install/cooing_code_interfaces/lib/libcooing_code_interfaces__rosidl_generator_py.so" to ""
+[8.176s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/share/cooing_code_interfaces/msg/WheelVelocities.idl
+[8.176s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/share/cooing_code_interfaces/msg/TaskSpacePose.idl
+[8.176s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/share/cooing_code_interfaces/srv/TurnRobotOn.idl
+[8.177s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/share/cooing_code_interfaces/srv/TurnRobotOff.idl
+[8.177s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/share/cooing_code_interfaces/msg/WheelVelocities.msg
+[8.177s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/share/cooing_code_interfaces/msg/TaskSpacePose.msg
+[8.178s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/share/cooing_code_interfaces/srv/TurnRobotOn.srv
+[8.178s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/share/cooing_code_interfaces/srv/TurnRobotOn_Request.msg
+[8.181s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/share/cooing_code_interfaces/srv/TurnRobotOn_Response.msg
+[8.182s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/share/cooing_code_interfaces/srv/TurnRobotOff.srv
+[8.182s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/share/cooing_code_interfaces/srv/TurnRobotOff_Request.msg
+[8.182s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/share/cooing_code_interfaces/srv/TurnRobotOff_Response.msg
+[8.183s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/share/ament_index/resource_index/package_run_dependencies/cooing_code_interfaces
+[8.183s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/share/ament_index/resource_index/parent_prefix_path/cooing_code_interfaces
+[8.183s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/share/cooing_code_interfaces/environment/ament_prefix_path.sh
+[8.184s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/share/cooing_code_interfaces/environment/ament_prefix_path.dsv
+[8.184s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/share/cooing_code_interfaces/environment/path.sh
+[8.185s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/share/cooing_code_interfaces/environment/path.dsv
+[8.185s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/share/cooing_code_interfaces/local_setup.bash
+[8.186s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/share/cooing_code_interfaces/local_setup.sh
+[8.186s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/share/cooing_code_interfaces/local_setup.zsh
+[8.186s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/share/cooing_code_interfaces/local_setup.dsv
+[8.186s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/share/cooing_code_interfaces/package.dsv
+[8.186s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/share/ament_index/resource_index/packages/cooing_code_interfaces
+[8.187s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/share/cooing_code_interfaces/cmake/export_cooing_code_interfaces__rosidl_generator_cExport.cmake
+[8.187s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/share/cooing_code_interfaces/cmake/export_cooing_code_interfaces__rosidl_generator_cExport-noconfig.cmake
+[8.187s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/share/cooing_code_interfaces/cmake/export_cooing_code_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[8.187s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/share/cooing_code_interfaces/cmake/export_cooing_code_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[8.187s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/share/cooing_code_interfaces/cmake/cooing_code_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[8.187s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/share/cooing_code_interfaces/cmake/cooing_code_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[8.188s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/share/cooing_code_interfaces/cmake/cooing_code_interfaces__rosidl_typesupport_cExport.cmake
+[8.188s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/share/cooing_code_interfaces/cmake/cooing_code_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[8.188s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/share/cooing_code_interfaces/cmake/export_cooing_code_interfaces__rosidl_generator_cppExport.cmake
+[8.188s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/share/cooing_code_interfaces/cmake/export_cooing_code_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[8.188s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/share/cooing_code_interfaces/cmake/export_cooing_code_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[8.188s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/share/cooing_code_interfaces/cmake/cooing_code_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[8.188s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/share/cooing_code_interfaces/cmake/cooing_code_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[8.188s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/share/cooing_code_interfaces/cmake/cooing_code_interfaces__rosidl_typesupport_cppExport.cmake
+[8.188s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/share/cooing_code_interfaces/cmake/cooing_code_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[8.188s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/share/cooing_code_interfaces/cmake/export_cooing_code_interfaces__rosidl_generator_pyExport.cmake
+[8.189s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/share/cooing_code_interfaces/cmake/export_cooing_code_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[8.189s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/share/cooing_code_interfaces/cmake/rosidl_cmake-extras.cmake
+[8.189s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/share/cooing_code_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.189s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/share/cooing_code_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[8.189s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/share/cooing_code_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[8.190s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/share/cooing_code_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[8.190s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/share/cooing_code_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.190s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/share/cooing_code_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[8.190s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/share/cooing_code_interfaces/cmake/cooing_code_interfacesConfig.cmake
+[8.190s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/share/cooing_code_interfaces/cmake/cooing_code_interfacesConfig-version.cmake
+[8.191s] -- Installing: /home/delewlew/assessments/coursework1/install/cooing_code_interfaces/share/cooing_code_interfaces/package.xml
+[8.192s] Invoked command in '/home/delewlew/assessments/coursework1/build/cooing_code_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/delewlew/assessments/coursework1/build/cooing_code_interfaces

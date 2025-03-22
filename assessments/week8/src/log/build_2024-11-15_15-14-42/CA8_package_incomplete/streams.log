@@ -1,0 +1,23 @@
+[0.491s] Invoking command in '/home/delewlew/assessments/week8/src/CA8_package_incomplete': PYTHONPATH=/home/delewlew/assessments/week8/src/build/CA8_package_incomplete/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/delewlew/assessments/week8/src/install/CA8_package_incomplete/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/CA8_package_incomplete build --build-base /home/delewlew/assessments/week8/src/build/CA8_package_incomplete/build install --record /home/delewlew/assessments/week8/src/build/CA8_package_incomplete/install.log --single-version-externally-managed install_data
+[0.670s] running egg_info
+[0.671s] writing ../build/CA8_package_incomplete/CA8_package_incomplete.egg-info/PKG-INFO
+[0.671s] writing dependency_links to ../build/CA8_package_incomplete/CA8_package_incomplete.egg-info/dependency_links.txt
+[0.671s] writing entry points to ../build/CA8_package_incomplete/CA8_package_incomplete.egg-info/entry_points.txt
+[0.672s] writing requirements to ../build/CA8_package_incomplete/CA8_package_incomplete.egg-info/requires.txt
+[0.672s] writing top-level names to ../build/CA8_package_incomplete/CA8_package_incomplete.egg-info/top_level.txt
+[0.673s] reading manifest file '../build/CA8_package_incomplete/CA8_package_incomplete.egg-info/SOURCES.txt'
+[0.673s] adding license file 'LICENSE'
+[0.674s] writing manifest file '../build/CA8_package_incomplete/CA8_package_incomplete.egg-info/SOURCES.txt'
+[0.675s] running build
+[0.675s] running build_py
+[0.675s] running install
+[0.675s] running install_lib
+[0.677s] running install_data
+[0.677s] copying urdf/example_gazebo.xacro -> /home/delewlew/assessments/week8/src/install/CA8_package_incomplete/share/CA8_package_incomplete/urdf
+[0.677s] copying launch/sim_robot.launch.py -> /home/delewlew/assessments/week8/src/install/CA8_package_incomplete/share/CA8_package_incomplete/launch
+[0.677s] running install_egg_info
+[0.679s] removing '/home/delewlew/assessments/week8/src/install/CA8_package_incomplete/lib/python3.10/site-packages/CA8_package_incomplete-0.0.0-py3.10.egg-info' (and everything under it)
+[0.679s] Copying ../build/CA8_package_incomplete/CA8_package_incomplete.egg-info to /home/delewlew/assessments/week8/src/install/CA8_package_incomplete/lib/python3.10/site-packages/CA8_package_incomplete-0.0.0-py3.10.egg-info
+[0.679s] running install_scripts
+[0.696s] writing list of installed files to '/home/delewlew/assessments/week8/src/build/CA8_package_incomplete/install.log'
+[0.714s] Invoked command in '/home/delewlew/assessments/week8/src/CA8_package_incomplete' returned '0': PYTHONPATH=/home/delewlew/assessments/week8/src/build/CA8_package_incomplete/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/delewlew/assessments/week8/src/install/CA8_package_incomplete/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/CA8_package_incomplete build --build-base /home/delewlew/assessments/week8/src/build/CA8_package_incomplete/build install --record /home/delewlew/assessments/week8/src/build/CA8_package_incomplete/install.log --single-version-externally-managed install_data

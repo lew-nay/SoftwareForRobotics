@@ -1,0 +1,41 @@
+[1.073s] Invoking command in '/home/delewlew/assessments/coursework2/src/coursework_support': PYTHONPATH=/home/delewlew/assessments/coursework2/build/coursework_support/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/delewlew/assessments/coursework2/install/coursework_support/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/coursework_support build --build-base /home/delewlew/assessments/coursework2/build/coursework_support/build install --record /home/delewlew/assessments/coursework2/build/coursework_support/install.log --single-version-externally-managed install_data
+[1.382s] running egg_info
+[1.383s] creating ../../build/coursework_support/coursework_support.egg-info
+[1.383s] writing ../../build/coursework_support/coursework_support.egg-info/PKG-INFO
+[1.383s] writing dependency_links to ../../build/coursework_support/coursework_support.egg-info/dependency_links.txt
+[1.384s] writing entry points to ../../build/coursework_support/coursework_support.egg-info/entry_points.txt
+[1.384s] writing requirements to ../../build/coursework_support/coursework_support.egg-info/requires.txt
+[1.384s] writing top-level names to ../../build/coursework_support/coursework_support.egg-info/top_level.txt
+[1.384s] writing manifest file '../../build/coursework_support/coursework_support.egg-info/SOURCES.txt'
+[1.386s] reading manifest file '../../build/coursework_support/coursework_support.egg-info/SOURCES.txt'
+[1.387s] writing manifest file '../../build/coursework_support/coursework_support.egg-info/SOURCES.txt'
+[1.388s] running build
+[1.388s] running build_py
+[1.388s] creating /home/delewlew/assessments/coursework2/build/coursework_support/build
+[1.388s] creating /home/delewlew/assessments/coursework2/build/coursework_support/build/lib
+[1.388s] creating /home/delewlew/assessments/coursework2/build/coursework_support/build/lib/coursework_support
+[1.388s] copying coursework_support/__init__.py -> /home/delewlew/assessments/coursework2/build/coursework_support/build/lib/coursework_support
+[1.389s] running install
+[1.390s] running install_lib
+[1.391s] creating /home/delewlew/assessments/coursework2/install/coursework_support/lib/python3.10/site-packages/coursework_support
+[1.391s] copying /home/delewlew/assessments/coursework2/build/coursework_support/build/lib/coursework_support/__init__.py -> /home/delewlew/assessments/coursework2/install/coursework_support/lib/python3.10/site-packages/coursework_support
+[1.392s] byte-compiling /home/delewlew/assessments/coursework2/install/coursework_support/lib/python3.10/site-packages/coursework_support/__init__.py to __init__.cpython-310.pyc
+[1.392s] running install_data
+[1.392s] creating /home/delewlew/assessments/coursework2/install/coursework_support/share/ament_index
+[1.393s] creating /home/delewlew/assessments/coursework2/install/coursework_support/share/ament_index/resource_index
+[1.393s] creating /home/delewlew/assessments/coursework2/install/coursework_support/share/ament_index/resource_index/packages
+[1.393s] copying resource/coursework_support -> /home/delewlew/assessments/coursework2/install/coursework_support/share/ament_index/resource_index/packages
+[1.393s] copying package.xml -> /home/delewlew/assessments/coursework2/install/coursework_support/share/coursework_support
+[1.393s] creating /home/delewlew/assessments/coursework2/install/coursework_support/share/coursework_support/launch
+[1.394s] copying launch/sim_bringup.launch.py -> /home/delewlew/assessments/coursework2/install/coursework_support/share/coursework_support/launch
+[1.394s] creating /home/delewlew/assessments/coursework2/install/coursework_support/share/coursework_support/rviz
+[1.394s] copying rviz/view_robot.rviz -> /home/delewlew/assessments/coursework2/install/coursework_support/share/coursework_support/rviz
+[1.394s] creating /home/delewlew/assessments/coursework2/install/coursework_support/share/coursework_support/worlds
+[1.395s] copying worlds/tb3.sdf -> /home/delewlew/assessments/coursework2/install/coursework_support/share/coursework_support/worlds
+[1.395s] copying worlds/meshes/wall.dae -> /home/delewlew/assessments/coursework2/install/coursework_support/share/coursework_support/worlds
+[1.395s] copying worlds/meshes/hexagon.dae -> /home/delewlew/assessments/coursework2/install/coursework_support/share/coursework_support/worlds
+[1.395s] running install_egg_info
+[1.397s] Copying ../../build/coursework_support/coursework_support.egg-info to /home/delewlew/assessments/coursework2/install/coursework_support/lib/python3.10/site-packages/coursework_support-0.0.1-py3.10.egg-info
+[1.398s] running install_scripts
+[1.426s] writing list of installed files to '/home/delewlew/assessments/coursework2/build/coursework_support/install.log'
+[1.453s] Invoked command in '/home/delewlew/assessments/coursework2/src/coursework_support' returned '0': PYTHONPATH=/home/delewlew/assessments/coursework2/build/coursework_support/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/delewlew/assessments/coursework2/install/coursework_support/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/coursework_support build --build-base /home/delewlew/assessments/coursework2/build/coursework_support/build install --record /home/delewlew/assessments/coursework2/build/coursework_support/install.log --single-version-externally-managed install_data

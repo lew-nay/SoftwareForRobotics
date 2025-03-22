@@ -1,0 +1,3 @@
+[console_scripts]
+auditorium = residence_hall.auditorium:main
+

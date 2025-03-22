@@ -1,0 +1,39 @@
+[2.165s] Invoking command in '/home/delewlew/software_for_robotics_part2/src/navigation_demos': PYTHONPATH=/home/delewlew/software_for_robotics_part2/build/navigation_demos/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/delewlew/software_for_robotics_part2/install/navigation_demos/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/navigation_demos build --build-base /home/delewlew/software_for_robotics_part2/build/navigation_demos/build install --record /home/delewlew/software_for_robotics_part2/build/navigation_demos/install.log --single-version-externally-managed install_data
+[2.605s] running egg_info
+[2.605s] creating ../../build/navigation_demos/navigation_demos.egg-info
+[2.605s] writing ../../build/navigation_demos/navigation_demos.egg-info/PKG-INFO
+[2.605s] writing dependency_links to ../../build/navigation_demos/navigation_demos.egg-info/dependency_links.txt
+[2.606s] writing entry points to ../../build/navigation_demos/navigation_demos.egg-info/entry_points.txt
+[2.606s] writing requirements to ../../build/navigation_demos/navigation_demos.egg-info/requires.txt
+[2.606s] writing top-level names to ../../build/navigation_demos/navigation_demos.egg-info/top_level.txt
+[2.606s] writing manifest file '../../build/navigation_demos/navigation_demos.egg-info/SOURCES.txt'
+[2.607s] reading manifest file '../../build/navigation_demos/navigation_demos.egg-info/SOURCES.txt'
+[2.609s] writing manifest file '../../build/navigation_demos/navigation_demos.egg-info/SOURCES.txt'
+[2.610s] running build
+[2.610s] running build_py
+[2.610s] creating /home/delewlew/software_for_robotics_part2/build/navigation_demos/build
+[2.611s] creating /home/delewlew/software_for_robotics_part2/build/navigation_demos/build/lib
+[2.611s] creating /home/delewlew/software_for_robotics_part2/build/navigation_demos/build/lib/navigation_demos
+[2.611s] copying navigation_demos/__init__.py -> /home/delewlew/software_for_robotics_part2/build/navigation_demos/build/lib/navigation_demos
+[2.615s] running install
+[2.615s] running install_lib
+[2.616s] creating /home/delewlew/software_for_robotics_part2/install/navigation_demos/lib/python3.10/site-packages/navigation_demos
+[2.616s] copying /home/delewlew/software_for_robotics_part2/build/navigation_demos/build/lib/navigation_demos/__init__.py -> /home/delewlew/software_for_robotics_part2/install/navigation_demos/lib/python3.10/site-packages/navigation_demos
+[2.618s] byte-compiling /home/delewlew/software_for_robotics_part2/install/navigation_demos/lib/python3.10/site-packages/navigation_demos/__init__.py to __init__.cpython-310.pyc
+[2.621s] running install_data
+[2.621s] creating /home/delewlew/software_for_robotics_part2/install/navigation_demos/share/ament_index
+[2.621s] creating /home/delewlew/software_for_robotics_part2/install/navigation_demos/share/ament_index/resource_index
+[2.621s] creating /home/delewlew/software_for_robotics_part2/install/navigation_demos/share/ament_index/resource_index/packages
+[2.621s] copying resource/navigation_demos -> /home/delewlew/software_for_robotics_part2/install/navigation_demos/share/ament_index/resource_index/packages
+[2.622s] copying package.xml -> /home/delewlew/software_for_robotics_part2/install/navigation_demos/share/navigation_demos
+[2.622s] creating /home/delewlew/software_for_robotics_part2/install/navigation_demos/share/navigation_demos/launch
+[2.622s] copying launch/nav_demo.launch.py -> /home/delewlew/software_for_robotics_part2/install/navigation_demos/share/navigation_demos/launch
+[2.622s] creating /home/delewlew/software_for_robotics_part2/install/navigation_demos/share/navigation_demos/config
+[2.622s] copying config/bt_nav.yaml -> /home/delewlew/software_for_robotics_part2/install/navigation_demos/share/navigation_demos/config
+[2.623s] copying config/controller.yaml -> /home/delewlew/software_for_robotics_part2/install/navigation_demos/share/navigation_demos/config
+[2.623s] copying config/planner.yaml -> /home/delewlew/software_for_robotics_part2/install/navigation_demos/share/navigation_demos/config
+[2.623s] running install_egg_info
+[2.626s] Copying ../../build/navigation_demos/navigation_demos.egg-info to /home/delewlew/software_for_robotics_part2/install/navigation_demos/lib/python3.10/site-packages/navigation_demos-0.0.0-py3.10.egg-info
+[2.628s] running install_scripts
+[2.682s] writing list of installed files to '/home/delewlew/software_for_robotics_part2/build/navigation_demos/install.log'
+[2.745s] Invoked command in '/home/delewlew/software_for_robotics_part2/src/navigation_demos' returned '0': PYTHONPATH=/home/delewlew/software_for_robotics_part2/build/navigation_demos/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/delewlew/software_for_robotics_part2/install/navigation_demos/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/navigation_demos build --build-base /home/delewlew/software_for_robotics_part2/build/navigation_demos/build install --record /home/delewlew/software_for_robotics_part2/build/navigation_demos/install.log --single-version-externally-managed install_data

@@ -1,0 +1,234 @@
+[0.230s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.231s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x75f4a5c29c30>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x75f4a5d5a350>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x75f4a5d5a350>>, mixin_verb=('build',))
+[0.526s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.526s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.527s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.527s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.527s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.527s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.527s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/delewlew/assessments/coursework1/src'
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(cooing_code_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(cooing_code_controller) by extension 'ignore'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(cooing_code_controller) by extension 'ignore_ament_install'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(cooing_code_controller) by extensions ['colcon_pkg']
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(cooing_code_controller) by extension 'colcon_pkg'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(cooing_code_controller) by extensions ['colcon_meta']
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(cooing_code_controller) by extension 'colcon_meta'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(cooing_code_controller) by extensions ['ros']
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(cooing_code_controller) by extension 'ros'
+[0.558s] DEBUG:colcon.colcon_core.package_identification:Package 'cooing_code_controller' with type 'ros.ament_python' and name 'cooing_code_controller'
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(cooing_code_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(cooing_code_interfaces) by extension 'ignore'
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(cooing_code_interfaces) by extension 'ignore_ament_install'
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(cooing_code_interfaces) by extensions ['colcon_pkg']
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(cooing_code_interfaces) by extension 'colcon_pkg'
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(cooing_code_interfaces) by extensions ['colcon_meta']
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(cooing_code_interfaces) by extension 'colcon_meta'
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(cooing_code_interfaces) by extensions ['ros']
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(cooing_code_interfaces) by extension 'ros'
+[0.560s] DEBUG:colcon.colcon_core.package_identification:Package 'cooing_code_interfaces' with type 'ros.ament_cmake' and name 'cooing_code_interfaces'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(cooing_code_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(cooing_code_pkg) by extension 'ignore'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(cooing_code_pkg) by extension 'ignore_ament_install'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(cooing_code_pkg) by extensions ['colcon_pkg']
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(cooing_code_pkg) by extension 'colcon_pkg'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(cooing_code_pkg) by extensions ['colcon_meta']
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(cooing_code_pkg) by extension 'colcon_meta'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(cooing_code_pkg) by extensions ['ros']
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(cooing_code_pkg) by extension 'ros'
+[0.562s] DEBUG:colcon.colcon_core.package_identification:Package 'cooing_code_pkg' with type 'ros.ament_python' and name 'cooing_code_pkg'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.563s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.564s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.564s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.564s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.564s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.629s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.630s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.634s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 288 installed packages in /opt/ros/humble
+[0.637s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.706s] Level 5:colcon.colcon_core.verb:set package 'cooing_code_controller' build argument 'cmake_args' from command line to 'None'
+[0.706s] Level 5:colcon.colcon_core.verb:set package 'cooing_code_controller' build argument 'cmake_target' from command line to 'None'
+[0.706s] Level 5:colcon.colcon_core.verb:set package 'cooing_code_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.706s] Level 5:colcon.colcon_core.verb:set package 'cooing_code_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.706s] Level 5:colcon.colcon_core.verb:set package 'cooing_code_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.707s] Level 5:colcon.colcon_core.verb:set package 'cooing_code_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.707s] Level 5:colcon.colcon_core.verb:set package 'cooing_code_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.707s] Level 5:colcon.colcon_core.verb:set package 'cooing_code_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.707s] Level 5:colcon.colcon_core.verb:set package 'cooing_code_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.707s] DEBUG:colcon.colcon_core.verb:Building package 'cooing_code_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/delewlew/assessments/coursework1/src/build/cooing_code_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/delewlew/assessments/coursework1/src/install/cooing_code_controller', 'merge_install': False, 'path': '/home/delewlew/assessments/coursework1/src/cooing_code_controller', 'symlink_install': False, 'test_result_base': None}
+[0.707s] Level 5:colcon.colcon_core.verb:set package 'cooing_code_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.707s] Level 5:colcon.colcon_core.verb:set package 'cooing_code_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'cooing_code_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'cooing_code_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'cooing_code_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'cooing_code_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'cooing_code_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'cooing_code_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'cooing_code_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.708s] DEBUG:colcon.colcon_core.verb:Building package 'cooing_code_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/delewlew/assessments/coursework1/src/build/cooing_code_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/delewlew/assessments/coursework1/src/install/cooing_code_interfaces', 'merge_install': False, 'path': '/home/delewlew/assessments/coursework1/src/cooing_code_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'cooing_code_pkg' build argument 'cmake_args' from command line to 'None'
+[0.709s] Level 5:colcon.colcon_core.verb:set package 'cooing_code_pkg' build argument 'cmake_target' from command line to 'None'
+[0.709s] Level 5:colcon.colcon_core.verb:set package 'cooing_code_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.709s] Level 5:colcon.colcon_core.verb:set package 'cooing_code_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.709s] Level 5:colcon.colcon_core.verb:set package 'cooing_code_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.709s] Level 5:colcon.colcon_core.verb:set package 'cooing_code_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.709s] Level 5:colcon.colcon_core.verb:set package 'cooing_code_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.709s] Level 5:colcon.colcon_core.verb:set package 'cooing_code_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.709s] Level 5:colcon.colcon_core.verb:set package 'cooing_code_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.709s] DEBUG:colcon.colcon_core.verb:Building package 'cooing_code_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/delewlew/assessments/coursework1/src/build/cooing_code_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/delewlew/assessments/coursework1/src/install/cooing_code_pkg', 'merge_install': False, 'path': '/home/delewlew/assessments/coursework1/src/cooing_code_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.709s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.713s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.713s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/delewlew/assessments/coursework1/src/cooing_code_interfaces' with build type 'ament_cmake'
+[0.714s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/delewlew/assessments/coursework1/src/cooing_code_interfaces'
+[0.717s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.718s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.718s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.724s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/delewlew/assessments/coursework1/src/cooing_code_controller' with build type 'ament_python'
+[0.725s] Level 1:colcon.colcon_core.shell:create_environment_hook('cooing_code_controller', 'ament_prefix_path')
+[0.725s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/delewlew/assessments/coursework1/src/install/cooing_code_controller/share/cooing_code_controller/hook/ament_prefix_path.ps1'
+[0.727s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/delewlew/assessments/coursework1/src/install/cooing_code_controller/share/cooing_code_controller/hook/ament_prefix_path.dsv'
+[0.728s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/delewlew/assessments/coursework1/src/install/cooing_code_controller/share/cooing_code_controller/hook/ament_prefix_path.sh'
+[0.729s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.729s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.753s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/delewlew/assessments/coursework1/src/build/cooing_code_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/delewlew/assessments/coursework1/src/build/cooing_code_interfaces -- -j12 -l12
+[2.112s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/delewlew/assessments/coursework1/src/cooing_code_controller'
+[2.113s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.113s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.122s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/delewlew/assessments/coursework1/src/build/cooing_code_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/delewlew/assessments/coursework1/src/build/cooing_code_interfaces -- -j12 -l12
+[2.822s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/delewlew/assessments/coursework1/src/cooing_code_controller': PYTHONPATH=/home/delewlew/assessments/coursework1/src/build/cooing_code_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/delewlew/assessments/coursework1/src/install/cooing_code_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/cooing_code_controller build --build-base /home/delewlew/assessments/coursework1/src/build/cooing_code_controller/build install --record /home/delewlew/assessments/coursework1/src/build/cooing_code_controller/install.log --single-version-externally-managed install_data
+[2.864s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/delewlew/assessments/coursework1/src/build/cooing_code_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/delewlew/assessments/coursework1/src/build/cooing_code_interfaces
+[3.029s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cooing_code_interfaces)
+[3.031s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/delewlew/assessments/coursework1/src/build/cooing_code_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/delewlew/assessments/coursework1/src/build/cooing_code_interfaces
+[3.048s] Level 1:colcon.colcon_core.environment:checking '/home/delewlew/assessments/coursework1/src/install/cooing_code_interfaces' for CMake module files
+[3.049s] Level 1:colcon.colcon_core.environment:checking '/home/delewlew/assessments/coursework1/src/install/cooing_code_interfaces' for CMake config files
+[3.050s] Level 1:colcon.colcon_core.shell:create_environment_hook('cooing_code_interfaces', 'cmake_prefix_path')
+[3.051s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/delewlew/assessments/coursework1/src/install/cooing_code_interfaces/share/cooing_code_interfaces/hook/cmake_prefix_path.ps1'
+[3.052s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/delewlew/assessments/coursework1/src/install/cooing_code_interfaces/share/cooing_code_interfaces/hook/cmake_prefix_path.dsv'
+[3.052s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/delewlew/assessments/coursework1/src/install/cooing_code_interfaces/share/cooing_code_interfaces/hook/cmake_prefix_path.sh'
+[3.054s] Level 1:colcon.colcon_core.environment:checking '/home/delewlew/assessments/coursework1/src/install/cooing_code_interfaces/lib'
+[3.054s] Level 1:colcon.colcon_core.shell:create_environment_hook('cooing_code_interfaces', 'ld_library_path_lib')
+[3.055s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/delewlew/assessments/coursework1/src/install/cooing_code_interfaces/share/cooing_code_interfaces/hook/ld_library_path_lib.ps1'
+[3.056s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/delewlew/assessments/coursework1/src/install/cooing_code_interfaces/share/cooing_code_interfaces/hook/ld_library_path_lib.dsv'
+[3.056s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/delewlew/assessments/coursework1/src/install/cooing_code_interfaces/share/cooing_code_interfaces/hook/ld_library_path_lib.sh'
+[3.057s] Level 1:colcon.colcon_core.environment:checking '/home/delewlew/assessments/coursework1/src/install/cooing_code_interfaces/bin'
+[3.057s] Level 1:colcon.colcon_core.environment:checking '/home/delewlew/assessments/coursework1/src/install/cooing_code_interfaces/lib/pkgconfig/cooing_code_interfaces.pc'
+[3.058s] Level 1:colcon.colcon_core.environment:checking '/home/delewlew/assessments/coursework1/src/install/cooing_code_interfaces/lib/python3.10/site-packages'
+[3.058s] Level 1:colcon.colcon_core.environment:checking '/home/delewlew/assessments/coursework1/src/install/cooing_code_interfaces/bin'
+[3.059s] INFO:colcon.colcon_core.shell:Creating package script '/home/delewlew/assessments/coursework1/src/install/cooing_code_interfaces/share/cooing_code_interfaces/package.ps1'
+[3.061s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/delewlew/assessments/coursework1/src/install/cooing_code_interfaces/share/cooing_code_interfaces/package.dsv'
+[3.064s] INFO:colcon.colcon_core.shell:Creating package script '/home/delewlew/assessments/coursework1/src/install/cooing_code_interfaces/share/cooing_code_interfaces/package.sh'
+[3.071s] INFO:colcon.colcon_core.shell:Creating package script '/home/delewlew/assessments/coursework1/src/install/cooing_code_interfaces/share/cooing_code_interfaces/package.bash'
+[3.079s] INFO:colcon.colcon_core.shell:Creating package script '/home/delewlew/assessments/coursework1/src/install/cooing_code_interfaces/share/cooing_code_interfaces/package.zsh'
+[3.085s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/delewlew/assessments/coursework1/src/install/cooing_code_interfaces/share/colcon-core/packages/cooing_code_interfaces)
+[3.494s] Level 1:colcon.colcon_core.environment:checking '/home/delewlew/assessments/coursework1/src/install/cooing_code_controller' for CMake module files
+[3.497s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/delewlew/assessments/coursework1/src/cooing_code_controller' returned '0': PYTHONPATH=/home/delewlew/assessments/coursework1/src/build/cooing_code_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/delewlew/assessments/coursework1/src/install/cooing_code_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/cooing_code_controller build --build-base /home/delewlew/assessments/coursework1/src/build/cooing_code_controller/build install --record /home/delewlew/assessments/coursework1/src/build/cooing_code_controller/install.log --single-version-externally-managed install_data
+[3.500s] Level 1:colcon.colcon_core.environment:checking '/home/delewlew/assessments/coursework1/src/install/cooing_code_controller' for CMake config files
+[3.503s] Level 1:colcon.colcon_core.environment:checking '/home/delewlew/assessments/coursework1/src/install/cooing_code_controller/lib'
+[3.503s] Level 1:colcon.colcon_core.environment:checking '/home/delewlew/assessments/coursework1/src/install/cooing_code_controller/bin'
+[3.503s] Level 1:colcon.colcon_core.environment:checking '/home/delewlew/assessments/coursework1/src/install/cooing_code_controller/lib/pkgconfig/cooing_code_controller.pc'
+[3.504s] Level 1:colcon.colcon_core.environment:checking '/home/delewlew/assessments/coursework1/src/install/cooing_code_controller/lib/python3.10/site-packages'
+[3.504s] Level 1:colcon.colcon_core.shell:create_environment_hook('cooing_code_controller', 'pythonpath')
+[3.504s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/delewlew/assessments/coursework1/src/install/cooing_code_controller/share/cooing_code_controller/hook/pythonpath.ps1'
+[3.505s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/delewlew/assessments/coursework1/src/install/cooing_code_controller/share/cooing_code_controller/hook/pythonpath.dsv'
+[3.506s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/delewlew/assessments/coursework1/src/install/cooing_code_controller/share/cooing_code_controller/hook/pythonpath.sh'
+[3.507s] Level 1:colcon.colcon_core.environment:checking '/home/delewlew/assessments/coursework1/src/install/cooing_code_controller/bin'
+[3.508s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cooing_code_controller)
+[3.508s] INFO:colcon.colcon_core.shell:Creating package script '/home/delewlew/assessments/coursework1/src/install/cooing_code_controller/share/cooing_code_controller/package.ps1'
+[3.509s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/delewlew/assessments/coursework1/src/install/cooing_code_controller/share/cooing_code_controller/package.dsv'
+[3.510s] INFO:colcon.colcon_core.shell:Creating package script '/home/delewlew/assessments/coursework1/src/install/cooing_code_controller/share/cooing_code_controller/package.sh'
+[3.511s] INFO:colcon.colcon_core.shell:Creating package script '/home/delewlew/assessments/coursework1/src/install/cooing_code_controller/share/cooing_code_controller/package.bash'
+[3.512s] INFO:colcon.colcon_core.shell:Creating package script '/home/delewlew/assessments/coursework1/src/install/cooing_code_controller/share/cooing_code_controller/package.zsh'
+[3.512s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/delewlew/assessments/coursework1/src/install/cooing_code_controller/share/colcon-core/packages/cooing_code_controller)
+[3.796s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cooing_code_interfaces)
+[3.797s] Level 1:colcon.colcon_core.environment:checking '/home/delewlew/assessments/coursework1/src/install/cooing_code_interfaces' for CMake module files
+[3.798s] Level 1:colcon.colcon_core.environment:checking '/home/delewlew/assessments/coursework1/src/install/cooing_code_interfaces' for CMake config files
+[3.800s] Level 1:colcon.colcon_core.shell:create_environment_hook('cooing_code_interfaces', 'cmake_prefix_path')
+[3.800s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/delewlew/assessments/coursework1/src/install/cooing_code_interfaces/share/cooing_code_interfaces/hook/cmake_prefix_path.ps1'
+[3.801s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/delewlew/assessments/coursework1/src/install/cooing_code_interfaces/share/cooing_code_interfaces/hook/cmake_prefix_path.dsv'
+[3.802s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/delewlew/assessments/coursework1/src/install/cooing_code_interfaces/share/cooing_code_interfaces/hook/cmake_prefix_path.sh'
+[3.803s] Level 1:colcon.colcon_core.environment:checking '/home/delewlew/assessments/coursework1/src/install/cooing_code_interfaces/lib'
+[3.803s] Level 1:colcon.colcon_core.shell:create_environment_hook('cooing_code_interfaces', 'ld_library_path_lib')
+[3.804s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/delewlew/assessments/coursework1/src/install/cooing_code_interfaces/share/cooing_code_interfaces/hook/ld_library_path_lib.ps1'
+[3.804s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/delewlew/assessments/coursework1/src/install/cooing_code_interfaces/share/cooing_code_interfaces/hook/ld_library_path_lib.dsv'
+[3.805s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/delewlew/assessments/coursework1/src/install/cooing_code_interfaces/share/cooing_code_interfaces/hook/ld_library_path_lib.sh'
+[3.806s] Level 1:colcon.colcon_core.environment:checking '/home/delewlew/assessments/coursework1/src/install/cooing_code_interfaces/bin'
+[3.806s] Level 1:colcon.colcon_core.environment:checking '/home/delewlew/assessments/coursework1/src/install/cooing_code_interfaces/lib/pkgconfig/cooing_code_interfaces.pc'
+[3.806s] Level 1:colcon.colcon_core.environment:checking '/home/delewlew/assessments/coursework1/src/install/cooing_code_interfaces/lib/python3.10/site-packages'
+[3.807s] Level 1:colcon.colcon_core.environment:checking '/home/delewlew/assessments/coursework1/src/install/cooing_code_interfaces/bin'
+[3.807s] INFO:colcon.colcon_core.shell:Creating package script '/home/delewlew/assessments/coursework1/src/install/cooing_code_interfaces/share/cooing_code_interfaces/package.ps1'
+[3.808s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/delewlew/assessments/coursework1/src/install/cooing_code_interfaces/share/cooing_code_interfaces/package.dsv'
+[3.809s] INFO:colcon.colcon_core.shell:Creating package script '/home/delewlew/assessments/coursework1/src/install/cooing_code_interfaces/share/cooing_code_interfaces/package.sh'
+[3.810s] INFO:colcon.colcon_core.shell:Creating package script '/home/delewlew/assessments/coursework1/src/install/cooing_code_interfaces/share/cooing_code_interfaces/package.bash'
+[3.811s] INFO:colcon.colcon_core.shell:Creating package script '/home/delewlew/assessments/coursework1/src/install/cooing_code_interfaces/share/cooing_code_interfaces/package.zsh'
+[3.812s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/delewlew/assessments/coursework1/src/install/cooing_code_interfaces/share/colcon-core/packages/cooing_code_interfaces)
+[3.813s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/delewlew/assessments/coursework1/src/cooing_code_pkg' with build type 'ament_python'
+[3.813s] Level 1:colcon.colcon_core.shell:create_environment_hook('cooing_code_pkg', 'ament_prefix_path')
+[3.813s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/delewlew/assessments/coursework1/src/install/cooing_code_pkg/share/cooing_code_pkg/hook/ament_prefix_path.ps1'
+[3.816s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/delewlew/assessments/coursework1/src/install/cooing_code_pkg/share/cooing_code_pkg/hook/ament_prefix_path.dsv'
+[3.818s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/delewlew/assessments/coursework1/src/install/cooing_code_pkg/share/cooing_code_pkg/hook/ament_prefix_path.sh'
+[3.820s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.820s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.484s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/delewlew/assessments/coursework1/src/cooing_code_pkg'
+[4.486s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.486s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.231s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/delewlew/assessments/coursework1/src/cooing_code_pkg': AMENT_PREFIX_PATH=/home/delewlew/assessments/coursework1/src/install/cooing_code_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/delewlew/assessments/coursework1/src/install/cooing_code_interfaces LD_LIBRARY_PATH=/home/delewlew/assessments/coursework1/src/install/cooing_code_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/delewlew/assessments/coursework1/src/build/cooing_code_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/delewlew/assessments/coursework1/src/install/cooing_code_pkg/lib/python3.10/site-packages:/home/delewlew/assessments/coursework1/src/install/cooing_code_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/cooing_code_pkg build --build-base /home/delewlew/assessments/coursework1/src/build/cooing_code_pkg/build install --record /home/delewlew/assessments/coursework1/src/build/cooing_code_pkg/install.log --single-version-externally-managed install_data
+[5.840s] Level 1:colcon.colcon_core.environment:checking '/home/delewlew/assessments/coursework1/src/install/cooing_code_pkg' for CMake module files
+[5.841s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/delewlew/assessments/coursework1/src/cooing_code_pkg' returned '0': AMENT_PREFIX_PATH=/home/delewlew/assessments/coursework1/src/install/cooing_code_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/delewlew/assessments/coursework1/src/install/cooing_code_interfaces LD_LIBRARY_PATH=/home/delewlew/assessments/coursework1/src/install/cooing_code_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/delewlew/assessments/coursework1/src/build/cooing_code_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/delewlew/assessments/coursework1/src/install/cooing_code_pkg/lib/python3.10/site-packages:/home/delewlew/assessments/coursework1/src/install/cooing_code_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/cooing_code_pkg build --build-base /home/delewlew/assessments/coursework1/src/build/cooing_code_pkg/build install --record /home/delewlew/assessments/coursework1/src/build/cooing_code_pkg/install.log --single-version-externally-managed install_data
+[5.841s] Level 1:colcon.colcon_core.environment:checking '/home/delewlew/assessments/coursework1/src/install/cooing_code_pkg' for CMake config files
+[5.842s] Level 1:colcon.colcon_core.environment:checking '/home/delewlew/assessments/coursework1/src/install/cooing_code_pkg/lib'
+[5.843s] Level 1:colcon.colcon_core.environment:checking '/home/delewlew/assessments/coursework1/src/install/cooing_code_pkg/bin'
+[5.843s] Level 1:colcon.colcon_core.environment:checking '/home/delewlew/assessments/coursework1/src/install/cooing_code_pkg/lib/pkgconfig/cooing_code_pkg.pc'
+[5.843s] Level 1:colcon.colcon_core.environment:checking '/home/delewlew/assessments/coursework1/src/install/cooing_code_pkg/lib/python3.10/site-packages'
+[5.843s] Level 1:colcon.colcon_core.shell:create_environment_hook('cooing_code_pkg', 'pythonpath')
+[5.844s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/delewlew/assessments/coursework1/src/install/cooing_code_pkg/share/cooing_code_pkg/hook/pythonpath.ps1'
+[5.845s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/delewlew/assessments/coursework1/src/install/cooing_code_pkg/share/cooing_code_pkg/hook/pythonpath.dsv'
+[5.846s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/delewlew/assessments/coursework1/src/install/cooing_code_pkg/share/cooing_code_pkg/hook/pythonpath.sh'
+[5.847s] Level 1:colcon.colcon_core.environment:checking '/home/delewlew/assessments/coursework1/src/install/cooing_code_pkg/bin'
+[5.847s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cooing_code_pkg)
+[5.848s] INFO:colcon.colcon_core.shell:Creating package script '/home/delewlew/assessments/coursework1/src/install/cooing_code_pkg/share/cooing_code_pkg/package.ps1'
+[5.849s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/delewlew/assessments/coursework1/src/install/cooing_code_pkg/share/cooing_code_pkg/package.dsv'
+[5.849s] INFO:colcon.colcon_core.shell:Creating package script '/home/delewlew/assessments/coursework1/src/install/cooing_code_pkg/share/cooing_code_pkg/package.sh'
+[5.850s] INFO:colcon.colcon_core.shell:Creating package script '/home/delewlew/assessments/coursework1/src/install/cooing_code_pkg/share/cooing_code_pkg/package.bash'
+[5.851s] INFO:colcon.colcon_core.shell:Creating package script '/home/delewlew/assessments/coursework1/src/install/cooing_code_pkg/share/cooing_code_pkg/package.zsh'
+[5.852s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/delewlew/assessments/coursework1/src/install/cooing_code_pkg/share/colcon-core/packages/cooing_code_pkg)
+[5.852s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.853s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.853s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.854s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.867s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.867s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.867s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.919s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.920s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/delewlew/assessments/coursework1/src/install/local_setup.ps1'
+[5.922s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/delewlew/assessments/coursework1/src/install/_local_setup_util_ps1.py'
+[5.924s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/delewlew/assessments/coursework1/src/install/setup.ps1'
+[5.927s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/delewlew/assessments/coursework1/src/install/local_setup.sh'
+[5.928s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/delewlew/assessments/coursework1/src/install/_local_setup_util_sh.py'
+[5.933s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/delewlew/assessments/coursework1/src/install/setup.sh'
+[5.943s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/delewlew/assessments/coursework1/src/install/local_setup.bash'
+[5.948s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/delewlew/assessments/coursework1/src/install/setup.bash'
+[5.956s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/delewlew/assessments/coursework1/src/install/local_setup.zsh'
+[5.961s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/delewlew/assessments/coursework1/src/install/setup.zsh'

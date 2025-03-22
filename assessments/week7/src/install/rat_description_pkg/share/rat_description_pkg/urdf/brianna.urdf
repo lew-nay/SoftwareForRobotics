@@ -1,0 +1,46 @@
+<robot name="brianna">
+
+    <link name="base_link">
+    </link>
+    
+    <link name="cell_membrane">
+    </link>
+
+    <link name="chloroplast">
+    </link>
+
+    <link name="end_effector">
+    </link>
+
+
+    <joint name="joint1_revolute" type="revolute">
+        <parent link="base_link"/>
+        <child link="cell_membrane"/>
+        
+        <origin xyz="0 0 0.29" rpy="-1.571 0 0"/>
+
+        <limit lower="-1.571" upper="1.571" effort="30" velocity="1.0"/>
+
+        <axis xyz="0.0 0.0 1"/>
+    </joint>
+
+    <joint name="joint2_revolute" type="revolute">
+        <parent link="cell_membrane"/>
+        <child link="chloroplast"/>
+
+        <origin xyz="0.4 0 0" rpy="0 0 0"/>
+
+        <limit lower="-1.571" upper="1.571" effort="30" velocity="1.0"/>
+
+        <axis xyz="0 0 1"/>
+    </joint>
+
+    <joint name="joint3_fixed" type="fixed">
+        <parent link="chloroplast"/>
+        <child link="end_effector"/>
+
+        <origin xyz="0.9 0 0" rpy="0 0 0"/>
+
+    </joint>
+
+</robot>

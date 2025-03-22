@@ -1,0 +1,275 @@
+[0.012s] Invoking command in '/home/delewlew/ros2_tutorial_workspace/build/package_with_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/delewlew/ros2_tutorial_workspace/src/package_with_interfaces -DCMAKE_INSTALL_PREFIX=/home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces
+[0.227s] -- The C compiler identification is GNU 11.4.0
+[0.346s] -- The CXX compiler identification is GNU 11.4.0
+[0.358s] -- Detecting C compiler ABI info
+[0.462s] -- Detecting C compiler ABI info - done
+[0.472s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.474s] -- Detecting C compile features
+[0.475s] -- Detecting C compile features - done
+[0.480s] -- Detecting CXX compiler ABI info
+[0.589s] -- Detecting CXX compiler ABI info - done
+[0.599s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.599s] -- Detecting CXX compile features
+[0.601s] -- Detecting CXX compile features - done
+[0.604s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.754s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.879s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.934s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.944s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.958s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.978s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.996s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.039s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.311s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.671s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.813s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.835s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.838s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.872s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.872s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.872s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.873s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.890s] -- Found PythonExtra: .so  
+[1.937s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.962s] -- Added test 'lint_cmake' to check CMake code style
+[1.964s] -- Added test 'xmllint' to check XML markup files
+[1.968s] -- Configuring done
+[1.999s] -- Generating done
+[2.002s] -- Build files have been written to: /home/delewlew/ros2_tutorial_workspace/build/package_with_interfaces
+[2.008s] Invoked command in '/home/delewlew/ros2_tutorial_workspace/build/package_with_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/delewlew/ros2_tutorial_workspace/src/package_with_interfaces -DCMAKE_INSTALL_PREFIX=/home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces
+[2.011s] Invoking command in '/home/delewlew/ros2_tutorial_workspace/build/package_with_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/delewlew/ros2_tutorial_workspace/build/package_with_interfaces -- -j12 -l12
+[2.074s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.096s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.104s] [  5%] Built target ament_cmake_python_copy_package_with_interfaces
+[2.396s] running egg_info
+[2.398s] creating package_with_interfaces.egg-info
+[2.398s] writing package_with_interfaces.egg-info/PKG-INFO
+[2.399s] writing dependency_links to package_with_interfaces.egg-info/dependency_links.txt
+[2.399s] writing top-level names to package_with_interfaces.egg-info/top_level.txt
+[2.400s] writing manifest file 'package_with_interfaces.egg-info/SOURCES.txt'
+[2.405s] reading manifest file 'package_with_interfaces.egg-info/SOURCES.txt'
+[2.406s] writing manifest file 'package_with_interfaces.egg-info/SOURCES.txt'
+[2.452s] [  5%] Built target ament_cmake_python_build_package_with_interfaces_egg
+[2.494s] [  7%] [32mBuilding C object CMakeFiles/package_with_interfaces__rosidl_generator_c.dir/rosidl_generator_c/package_with_interfaces/srv/detail/what_is_the_point__functions.c.o[0m
+[2.496s] [ 10%] [32mBuilding C object CMakeFiles/package_with_interfaces__rosidl_generator_c.dir/rosidl_generator_c/package_with_interfaces/msg/detail/amazing_quote__functions.c.o[0m
+[2.622s] [ 10%] Built target package_with_interfaces__cpp
+[2.635s] [ 12%] [32m[1mLinking C shared library libpackage_with_interfaces__rosidl_generator_c.so[0m
+[2.638s] [ 15%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.638s] [ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.644s] [ 20%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.705s] [ 20%] Built target package_with_interfaces__rosidl_generator_c
+[2.725s] [ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.733s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.733s] [ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.172s] [ 30%] [32mBuilding CXX object CMakeFiles/package_with_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/package_with_interfaces/srv/what_is_the_point__type_support.cpp.o[0m
+[3.176s] [ 33%] [32mBuilding CXX object CMakeFiles/package_with_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/package_with_interfaces/msg/amazing_quote__type_support.cpp.o[0m
+[3.212s] [ 35%] [32mBuilding CXX object CMakeFiles/package_with_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/package_with_interfaces/msg/detail/amazing_quote__type_support_c.cpp.o[0m
+[3.215s] [ 38%] [32mBuilding CXX object CMakeFiles/package_with_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/package_with_interfaces/srv/detail/what_is_the_point__type_support_c.cpp.o[0m
+[3.355s] [ 41%] [32mBuilding CXX object CMakeFiles/package_with_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/package_with_interfaces/srv/what_is_the_point__type_support.cpp.o[0m
+[3.357s] [ 43%] [32mBuilding CXX object CMakeFiles/package_with_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/package_with_interfaces/msg/amazing_quote__type_support.cpp.o[0m
+[3.422s] [ 46%] [32mBuilding CXX object CMakeFiles/package_with_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/package_with_interfaces/msg/detail/amazing_quote__type_support.cpp.o[0m
+[3.424s] [ 48%] [32mBuilding CXX object CMakeFiles/package_with_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/package_with_interfaces/srv/detail/what_is_the_point__type_support.cpp.o[0m
+[3.437s] [ 53%] [32mBuilding C object CMakeFiles/package_with_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/package_with_interfaces/msg/detail/amazing_quote__type_support.c.o[0m
+[3.438s] [ 53%] [32mBuilding C object CMakeFiles/package_with_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/package_with_interfaces/srv/detail/what_is_the_point__type_support.c.o[0m
+[3.445s] [ 56%] [32mBuilding CXX object CMakeFiles/package_with_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/package_with_interfaces/srv/detail/dds_fastrtps/what_is_the_point__type_support.cpp.o[0m
+[3.449s] [ 58%] [32mBuilding CXX object CMakeFiles/package_with_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/package_with_interfaces/msg/detail/dds_fastrtps/amazing_quote__type_support.cpp.o[0m
+[3.450s] [ 61%] [32m[1mLinking CXX shared library libpackage_with_interfaces__rosidl_typesupport_c.so[0m
+[3.542s] [ 64%] [32m[1mLinking C shared library libpackage_with_interfaces__rosidl_typesupport_introspection_c.so[0m
+[3.600s] [ 64%] Built target package_with_interfaces__rosidl_typesupport_c
+[3.619s] [ 64%] Built target package_with_interfaces__rosidl_typesupport_introspection_c
+[3.986s] [ 66%] [32m[1mLinking CXX shared library libpackage_with_interfaces__rosidl_typesupport_cpp.so[0m
+[4.094s] [ 66%] Built target package_with_interfaces__rosidl_typesupport_cpp
+[4.298s] [ 69%] [32m[1mLinking CXX shared library libpackage_with_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[4.398s] [ 69%] Built target package_with_interfaces__rosidl_typesupport_fastrtps_c
+[4.415s] [ 71%] [32m[1mLinking CXX shared library libpackage_with_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.505s] [ 71%] Built target package_with_interfaces__rosidl_typesupport_fastrtps_cpp
+[4.522s] [ 74%] [32m[1mLinking CXX shared library libpackage_with_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[4.594s] [ 74%] Built target package_with_interfaces__rosidl_typesupport_introspection_cpp
+[4.619s] [ 74%] Built target package_with_interfaces
+[4.651s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.110s] [ 76%] Built target package_with_interfaces__py
+[5.143s] [ 79%] [32mBuilding C object CMakeFiles/package_with_interfaces__rosidl_generator_py.dir/rosidl_generator_py/package_with_interfaces/msg/_amazing_quote_s.c.o[0m
+[5.145s] [ 82%] [32mBuilding C object CMakeFiles/package_with_interfaces__rosidl_generator_py.dir/rosidl_generator_py/package_with_interfaces/srv/_what_is_the_point_s.c.o[0m
+[5.317s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/package_with_interfaces/libpackage_with_interfaces__rosidl_generator_py.so[0m
+[5.375s] [ 84%] Built target package_with_interfaces__rosidl_generator_py
+[5.403s] [ 87%] [32mBuilding C object CMakeFiles/package_with_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/package_with_interfaces/_package_with_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[5.408s] [ 89%] [32mBuilding C object CMakeFiles/package_with_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/package_with_interfaces/_package_with_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.409s] [ 92%] [32mBuilding C object CMakeFiles/package_with_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/package_with_interfaces/_package_with_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.526s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/package_with_interfaces/package_with_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.529s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/package_with_interfaces/package_with_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.578s] [ 97%] Built target package_with_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[5.584s] [100%] [32m[1mLinking C shared library rosidl_generator_py/package_with_interfaces/package_with_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.598s] [100%] Built target package_with_interfaces__rosidl_typesupport_introspection_c__pyext
+[5.636s] [100%] Built target package_with_interfaces__rosidl_typesupport_c__pyext
+[5.655s] Invoked command in '/home/delewlew/ros2_tutorial_workspace/build/package_with_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/delewlew/ros2_tutorial_workspace/build/package_with_interfaces -- -j12 -l12
+[5.811s] Invoking command in '/home/delewlew/ros2_tutorial_workspace/build/package_with_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/delewlew/ros2_tutorial_workspace/build/package_with_interfaces
+[5.821s] -- Install configuration: ""
+[5.821s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/share/ament_index/resource_index/rosidl_interfaces/package_with_interfaces
+[5.822s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces
+[5.822s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg
+[5.822s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/amazing_quote.h
+[5.822s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/rosidl_generator_c__visibility_control.h
+[5.822s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/detail
+[5.823s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/detail/amazing_quote__functions.c
+[5.823s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/detail/amazing_quote__type_support.h
+[5.823s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/detail/amazing_quote__struct.h
+[5.823s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/detail/amazing_quote__functions.h
+[5.823s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv
+[5.823s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv/what_is_the_point.h
+[5.823s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv/detail
+[5.823s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv/detail/what_is_the_point__functions.c
+[5.824s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv/detail/what_is_the_point__struct.h
+[5.824s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv/detail/what_is_the_point__functions.h
+[5.824s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv/detail/what_is_the_point__type_support.h
+[5.825s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/environment/library_path.sh
+[5.825s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/environment/library_path.dsv
+[5.825s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/lib/libpackage_with_interfaces__rosidl_generator_c.so
+[5.825s] -- Set runtime path of "/home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/lib/libpackage_with_interfaces__rosidl_generator_c.so" to ""
+[5.826s] -- Up-to-date: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces
+[5.826s] -- Up-to-date: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg
+[5.826s] -- Up-to-date: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/detail
+[5.826s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/detail/amazing_quote__rosidl_typesupport_fastrtps_c.h
+[5.826s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.827s] -- Up-to-date: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv
+[5.827s] -- Up-to-date: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv/detail
+[5.827s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv/detail/what_is_the_point__rosidl_typesupport_fastrtps_c.h
+[5.827s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/lib/libpackage_with_interfaces__rosidl_typesupport_fastrtps_c.so
+[5.827s] -- Set runtime path of "/home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/lib/libpackage_with_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[5.827s] -- Up-to-date: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces
+[5.827s] -- Up-to-date: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg
+[5.828s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/amazing_quote.hpp
+[5.828s] -- Up-to-date: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/detail
+[5.828s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/detail/amazing_quote__builder.hpp
+[5.828s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/detail/amazing_quote__struct.hpp
+[5.828s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/detail/amazing_quote__traits.hpp
+[5.828s] -- Up-to-date: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv
+[5.828s] -- Up-to-date: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv/detail
+[5.828s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv/detail/what_is_the_point__builder.hpp
+[5.829s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv/detail/what_is_the_point__struct.hpp
+[5.829s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv/detail/what_is_the_point__traits.hpp
+[5.829s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv/what_is_the_point.hpp
+[5.829s] -- Up-to-date: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces
+[5.829s] -- Up-to-date: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg
+[5.829s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.829s] -- Up-to-date: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/detail
+[5.830s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/detail/amazing_quote__rosidl_typesupport_fastrtps_cpp.hpp
+[5.830s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/detail/dds_fastrtps
+[5.830s] -- Up-to-date: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv
+[5.830s] -- Up-to-date: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv/detail
+[5.830s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv/detail/what_is_the_point__rosidl_typesupport_fastrtps_cpp.hpp
+[5.830s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv/detail/dds_fastrtps
+[5.831s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/lib/libpackage_with_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[5.831s] -- Set runtime path of "/home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/lib/libpackage_with_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.831s] -- Up-to-date: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces
+[5.831s] -- Up-to-date: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg
+[5.831s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.831s] -- Up-to-date: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/detail
+[5.831s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/detail/amazing_quote__rosidl_typesupport_introspection_c.h
+[5.831s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/detail/amazing_quote__type_support.c
+[5.831s] -- Up-to-date: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv
+[5.831s] -- Up-to-date: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv/detail
+[5.832s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv/detail/what_is_the_point__rosidl_typesupport_introspection_c.h
+[5.832s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv/detail/what_is_the_point__type_support.c
+[5.832s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/lib/libpackage_with_interfaces__rosidl_typesupport_introspection_c.so
+[5.832s] -- Set runtime path of "/home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/lib/libpackage_with_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[5.832s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/lib/libpackage_with_interfaces__rosidl_typesupport_c.so
+[5.832s] -- Set runtime path of "/home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/lib/libpackage_with_interfaces__rosidl_typesupport_c.so" to ""
+[5.832s] -- Up-to-date: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces
+[5.832s] -- Up-to-date: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg
+[5.832s] -- Up-to-date: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/detail
+[5.832s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/detail/amazing_quote__rosidl_typesupport_introspection_cpp.hpp
+[5.833s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/detail/amazing_quote__type_support.cpp
+[5.833s] -- Up-to-date: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv
+[5.833s] -- Up-to-date: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv/detail
+[5.833s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv/detail/what_is_the_point__type_support.cpp
+[5.833s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv/detail/what_is_the_point__rosidl_typesupport_introspection_cpp.hpp
+[5.833s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/lib/libpackage_with_interfaces__rosidl_typesupport_introspection_cpp.so
+[5.833s] -- Set runtime path of "/home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/lib/libpackage_with_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[5.833s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/lib/libpackage_with_interfaces__rosidl_typesupport_cpp.so
+[5.833s] -- Set runtime path of "/home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/lib/libpackage_with_interfaces__rosidl_typesupport_cpp.so" to ""
+[5.833s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/environment/pythonpath.sh
+[5.833s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/environment/pythonpath.dsv
+[5.833s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces-0.0.0-py3.10.egg-info
+[5.834s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[5.834s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[5.834s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[5.834s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[5.834s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces
+[5.834s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/_package_with_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.834s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/libpackage_with_interfaces__rosidl_generator_py.so
+[5.834s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/_package_with_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[5.834s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/package_with_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.834s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/msg
+[5.834s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/msg/_amazing_quote_s.c
+[5.834s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/msg/_amazing_quote.py
+[5.835s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/msg/__init__.py
+[5.835s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/_package_with_interfaces_s.ep.rosidl_typesupport_c.c
+[5.835s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/package_with_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.835s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/srv
+[5.835s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/srv/_what_is_the_point.py
+[5.835s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/srv/_what_is_the_point_s.c
+[5.835s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/srv/__init__.py
+[5.835s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/package_with_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.835s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/__init__.py
+[5.890s] Listing '/home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces'...
+[5.890s] Compiling '/home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/__init__.py'...
+[5.890s] Listing '/home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/msg'...
+[5.890s] Compiling '/home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/msg/__init__.py'...
+[5.890s] Compiling '/home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/msg/_amazing_quote.py'...
+[5.891s] Listing '/home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/srv'...
+[5.891s] Compiling '/home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/srv/__init__.py'...
+[5.891s] Compiling '/home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/srv/_what_is_the_point.py'...
+[5.895s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/package_with_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.895s] -- Set runtime path of "/home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/package_with_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.895s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/package_with_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.895s] -- Set runtime path of "/home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/package_with_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.895s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/package_with_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.895s] -- Set runtime path of "/home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/package_with_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.896s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/lib/libpackage_with_interfaces__rosidl_generator_py.so
+[5.896s] -- Set runtime path of "/home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/lib/libpackage_with_interfaces__rosidl_generator_py.so" to ""
+[5.896s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/msg/AmazingQuote.idl
+[5.896s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/srv/WhatIsThePoint.idl
+[5.896s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/msg/AmazingQuote.msg
+[5.896s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/srv/WhatIsThePoint.srv
+[5.896s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/srv/WhatIsThePoint_Request.msg
+[5.896s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/srv/WhatIsThePoint_Response.msg
+[5.897s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/share/ament_index/resource_index/package_run_dependencies/package_with_interfaces
+[5.897s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/share/ament_index/resource_index/parent_prefix_path/package_with_interfaces
+[5.897s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/environment/ament_prefix_path.sh
+[5.897s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/environment/ament_prefix_path.dsv
+[5.897s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/environment/path.sh
+[5.897s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/environment/path.dsv
+[5.897s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/local_setup.bash
+[5.898s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/local_setup.sh
+[5.898s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/local_setup.zsh
+[5.898s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/local_setup.dsv
+[5.898s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/package.dsv
+[5.898s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/share/ament_index/resource_index/packages/package_with_interfaces
+[5.898s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/cmake/export_package_with_interfaces__rosidl_generator_cExport.cmake
+[5.898s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/cmake/export_package_with_interfaces__rosidl_generator_cExport-noconfig.cmake
+[5.899s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/cmake/export_package_with_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[5.899s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/cmake/export_package_with_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.899s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/cmake/export_package_with_interfaces__rosidl_generator_cppExport.cmake
+[5.899s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/cmake/export_package_with_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.899s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/cmake/export_package_with_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.900s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/cmake/package_with_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[5.900s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/cmake/package_with_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.900s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/cmake/package_with_interfaces__rosidl_typesupport_cExport.cmake
+[5.900s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/cmake/package_with_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[5.900s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/cmake/package_with_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[5.900s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/cmake/package_with_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.901s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/cmake/package_with_interfaces__rosidl_typesupport_cppExport.cmake
+[5.901s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/cmake/package_with_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[5.901s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/cmake/export_package_with_interfaces__rosidl_generator_pyExport.cmake
+[5.901s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/cmake/export_package_with_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[5.902s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/cmake/rosidl_cmake-extras.cmake
+[5.902s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.902s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.902s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[5.902s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[5.902s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.902s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.903s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/cmake/package_with_interfacesConfig.cmake
+[5.903s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/cmake/package_with_interfacesConfig-version.cmake
+[5.903s] -- Installing: /home/delewlew/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/package.xml
+[5.907s] Invoked command in '/home/delewlew/ros2_tutorial_workspace/build/package_with_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/delewlew/ros2_tutorial_workspace/build/package_with_interfaces

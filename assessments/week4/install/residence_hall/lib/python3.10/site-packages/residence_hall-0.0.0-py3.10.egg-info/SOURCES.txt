@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/residence_hall/residence_hall.egg-info/PKG-INFO
+../../build/residence_hall/residence_hall.egg-info/SOURCES.txt
+../../build/residence_hall/residence_hall.egg-info/dependency_links.txt
+../../build/residence_hall/residence_hall.egg-info/entry_points.txt
+../../build/residence_hall/residence_hall.egg-info/requires.txt
+../../build/residence_hall/residence_hall.egg-info/top_level.txt
+../../build/residence_hall/residence_hall.egg-info/zip-safe
+residence_hall/__init__.py
+residence_hall/auditorium.py
+resource/residence_hall
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

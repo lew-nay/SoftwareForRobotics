@@ -1,0 +1,20 @@
+[4.278s] Invoking command in '/home/delewlew/software_for_robotics_part2/src/navigation_demos': PYTHONPATH=/home/delewlew/software_for_robotics_part2/build/navigation_demos/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/delewlew/software_for_robotics_part2/install/navigation_demos/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/navigation_demos build --build-base /home/delewlew/software_for_robotics_part2/build/navigation_demos/build install --record /home/delewlew/software_for_robotics_part2/build/navigation_demos/install.log --single-version-externally-managed install_data
+[5.308s] running egg_info
+[5.310s] writing ../../build/navigation_demos/navigation_demos.egg-info/PKG-INFO
+[5.311s] writing dependency_links to ../../build/navigation_demos/navigation_demos.egg-info/dependency_links.txt
+[5.312s] writing entry points to ../../build/navigation_demos/navigation_demos.egg-info/entry_points.txt
+[5.312s] writing requirements to ../../build/navigation_demos/navigation_demos.egg-info/requires.txt
+[5.313s] writing top-level names to ../../build/navigation_demos/navigation_demos.egg-info/top_level.txt
+[5.324s] reading manifest file '../../build/navigation_demos/navigation_demos.egg-info/SOURCES.txt'
+[5.336s] writing manifest file '../../build/navigation_demos/navigation_demos.egg-info/SOURCES.txt'
+[5.336s] running build
+[5.337s] running build_py
+[5.341s] running install
+[5.341s] running install_lib
+[5.349s] running install_data
+[5.355s] running install_egg_info
+[5.362s] removing '/home/delewlew/software_for_robotics_part2/install/navigation_demos/lib/python3.10/site-packages/navigation_demos-0.0.0-py3.10.egg-info' (and everything under it)
+[5.362s] Copying ../../build/navigation_demos/navigation_demos.egg-info to /home/delewlew/software_for_robotics_part2/install/navigation_demos/lib/python3.10/site-packages/navigation_demos-0.0.0-py3.10.egg-info
+[5.366s] running install_scripts
+[5.440s] writing list of installed files to '/home/delewlew/software_for_robotics_part2/build/navigation_demos/install.log'
+[5.525s] Invoked command in '/home/delewlew/software_for_robotics_part2/src/navigation_demos' returned '0': PYTHONPATH=/home/delewlew/software_for_robotics_part2/build/navigation_demos/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/delewlew/software_for_robotics_part2/install/navigation_demos/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/navigation_demos build --build-base /home/delewlew/software_for_robotics_part2/build/navigation_demos/build install --record /home/delewlew/software_for_robotics_part2/build/navigation_demos/install.log --single-version-externally-managed install_data

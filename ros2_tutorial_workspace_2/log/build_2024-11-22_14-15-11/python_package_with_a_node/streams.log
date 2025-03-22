@@ -1,0 +1,22 @@
+[3.137s] Invoking command in '/home/delewlew/ros2_tutorial_workspace_2/src/python_package_with_a_node': PYTHONPATH=/home/delewlew/ros2_tutorial_workspace_2/build/python_package_with_a_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/delewlew/ros2_tutorial_workspace_2/install/python_package_with_a_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/python_package_with_a_node build --build-base /home/delewlew/ros2_tutorial_workspace_2/build/python_package_with_a_node/build install --record /home/delewlew/ros2_tutorial_workspace_2/build/python_package_with_a_node/install.log --single-version-externally-managed install_data
+[3.953s] running egg_info
+[3.955s] writing ../../build/python_package_with_a_node/python_package_with_a_node.egg-info/PKG-INFO
+[3.956s] writing dependency_links to ../../build/python_package_with_a_node/python_package_with_a_node.egg-info/dependency_links.txt
+[3.957s] writing entry points to ../../build/python_package_with_a_node/python_package_with_a_node.egg-info/entry_points.txt
+[3.958s] writing requirements to ../../build/python_package_with_a_node/python_package_with_a_node.egg-info/requires.txt
+[3.958s] writing top-level names to ../../build/python_package_with_a_node/python_package_with_a_node.egg-info/top_level.txt
+[3.963s] reading manifest file '../../build/python_package_with_a_node/python_package_with_a_node.egg-info/SOURCES.txt'
+[3.966s] writing manifest file '../../build/python_package_with_a_node/python_package_with_a_node.egg-info/SOURCES.txt'
+[3.967s] running build
+[3.967s] running build_py
+[3.970s] running install
+[3.971s] running install_lib
+[3.975s] running install_data
+[3.977s] running install_egg_info
+[3.981s] removing '/home/delewlew/ros2_tutorial_workspace_2/install/python_package_with_a_node/lib/python3.10/site-packages/python_package_with_a_node-0.0.0-py3.10.egg-info' (and everything under it)
+[3.982s] Copying ../../build/python_package_with_a_node/python_package_with_a_node.egg-info to /home/delewlew/ros2_tutorial_workspace_2/install/python_package_with_a_node/lib/python3.10/site-packages/python_package_with_a_node-0.0.0-py3.10.egg-info
+[3.985s] running install_scripts
+[4.035s] Installing print_forever_node script to /home/delewlew/ros2_tutorial_workspace_2/install/python_package_with_a_node/lib/python_package_with_a_node
+[4.036s] Installing sample_python_node script to /home/delewlew/ros2_tutorial_workspace_2/install/python_package_with_a_node/lib/python_package_with_a_node
+[4.037s] writing list of installed files to '/home/delewlew/ros2_tutorial_workspace_2/build/python_package_with_a_node/install.log'
+[4.177s] Invoked command in '/home/delewlew/ros2_tutorial_workspace_2/src/python_package_with_a_node' returned '0': PYTHONPATH=/home/delewlew/ros2_tutorial_workspace_2/build/python_package_with_a_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/delewlew/ros2_tutorial_workspace_2/install/python_package_with_a_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/python_package_with_a_node build --build-base /home/delewlew/ros2_tutorial_workspace_2/build/python_package_with_a_node/build install --record /home/delewlew/ros2_tutorial_workspace_2/build/python_package_with_a_node/install.log --single-version-externally-managed install_data

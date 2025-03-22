@@ -1,0 +1,37 @@
+[0.522s] Invoking command in '/home/delewlew/assessments/week10/cesky_fousek_pkg': PYTHONPATH=/home/delewlew/assessments/week10/build/cesky_fousek_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/delewlew/assessments/week10/install/cesky_fousek_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/cesky_fousek_pkg build --build-base /home/delewlew/assessments/week10/build/cesky_fousek_pkg/build install --record /home/delewlew/assessments/week10/build/cesky_fousek_pkg/install.log --single-version-externally-managed install_data
+[0.681s] running egg_info
+[0.681s] creating ../build/cesky_fousek_pkg/cesky_fousek_pkg.egg-info
+[0.681s] writing ../build/cesky_fousek_pkg/cesky_fousek_pkg.egg-info/PKG-INFO
+[0.682s] writing dependency_links to ../build/cesky_fousek_pkg/cesky_fousek_pkg.egg-info/dependency_links.txt
+[0.682s] writing entry points to ../build/cesky_fousek_pkg/cesky_fousek_pkg.egg-info/entry_points.txt
+[0.682s] writing requirements to ../build/cesky_fousek_pkg/cesky_fousek_pkg.egg-info/requires.txt
+[0.682s] writing top-level names to ../build/cesky_fousek_pkg/cesky_fousek_pkg.egg-info/top_level.txt
+[0.682s] writing manifest file '../build/cesky_fousek_pkg/cesky_fousek_pkg.egg-info/SOURCES.txt'
+[0.683s] reading manifest file '../build/cesky_fousek_pkg/cesky_fousek_pkg.egg-info/SOURCES.txt'
+[0.683s] writing manifest file '../build/cesky_fousek_pkg/cesky_fousek_pkg.egg-info/SOURCES.txt'
+[0.683s] running build
+[0.683s] running build_py
+[0.683s] creating /home/delewlew/assessments/week10/build/cesky_fousek_pkg/build
+[0.684s] creating /home/delewlew/assessments/week10/build/cesky_fousek_pkg/build/lib
+[0.684s] creating /home/delewlew/assessments/week10/build/cesky_fousek_pkg/build/lib/cesky_fousek_pkg
+[0.684s] copying cesky_fousek_pkg/__init__.py -> /home/delewlew/assessments/week10/build/cesky_fousek_pkg/build/lib/cesky_fousek_pkg
+[0.684s] running install
+[0.684s] running install_lib
+[0.684s] creating /home/delewlew/assessments/week10/install/cesky_fousek_pkg/lib/python3.10/site-packages/cesky_fousek_pkg
+[0.684s] copying /home/delewlew/assessments/week10/build/cesky_fousek_pkg/build/lib/cesky_fousek_pkg/__init__.py -> /home/delewlew/assessments/week10/install/cesky_fousek_pkg/lib/python3.10/site-packages/cesky_fousek_pkg
+[0.685s] byte-compiling /home/delewlew/assessments/week10/install/cesky_fousek_pkg/lib/python3.10/site-packages/cesky_fousek_pkg/__init__.py to __init__.cpython-310.pyc
+[0.685s] running install_data
+[0.685s] creating /home/delewlew/assessments/week10/install/cesky_fousek_pkg/share/ament_index
+[0.685s] creating /home/delewlew/assessments/week10/install/cesky_fousek_pkg/share/ament_index/resource_index
+[0.685s] creating /home/delewlew/assessments/week10/install/cesky_fousek_pkg/share/ament_index/resource_index/packages
+[0.685s] copying resource/cesky_fousek_pkg -> /home/delewlew/assessments/week10/install/cesky_fousek_pkg/share/ament_index/resource_index/packages
+[0.685s] copying package.xml -> /home/delewlew/assessments/week10/install/cesky_fousek_pkg/share/cesky_fousek_pkg
+[0.685s] creating /home/delewlew/assessments/week10/install/cesky_fousek_pkg/share/cesky_fousek_pkg/launch
+[0.685s] creating /home/delewlew/assessments/week10/install/cesky_fousek_pkg/share/cesky_fousek_pkg/config
+[0.685s] copying config/decelea.yaml -> /home/delewlew/assessments/week10/install/cesky_fousek_pkg/share/cesky_fousek_pkg/config
+[0.685s] copying config/tingi.yaml -> /home/delewlew/assessments/week10/install/cesky_fousek_pkg/share/cesky_fousek_pkg/config
+[0.685s] running install_egg_info
+[0.686s] Copying ../build/cesky_fousek_pkg/cesky_fousek_pkg.egg-info to /home/delewlew/assessments/week10/install/cesky_fousek_pkg/lib/python3.10/site-packages/cesky_fousek_pkg-0.0.0-py3.10.egg-info
+[0.687s] running install_scripts
+[0.701s] writing list of installed files to '/home/delewlew/assessments/week10/build/cesky_fousek_pkg/install.log'
+[0.717s] Invoked command in '/home/delewlew/assessments/week10/cesky_fousek_pkg' returned '0': PYTHONPATH=/home/delewlew/assessments/week10/build/cesky_fousek_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/delewlew/assessments/week10/install/cesky_fousek_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/cesky_fousek_pkg build --build-base /home/delewlew/assessments/week10/build/cesky_fousek_pkg/build install --record /home/delewlew/assessments/week10/build/cesky_fousek_pkg/install.log --single-version-externally-managed install_data

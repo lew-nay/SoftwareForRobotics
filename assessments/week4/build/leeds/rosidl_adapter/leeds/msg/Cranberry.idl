@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from leeds/msg/Cranberry.msg
+// generated code does not contain a copyright notice
+
+
+module leeds {
+  module msg {
+    struct Cranberry {
+      boolean taste;
+
+      string acidity;
+    };
+  };
+};

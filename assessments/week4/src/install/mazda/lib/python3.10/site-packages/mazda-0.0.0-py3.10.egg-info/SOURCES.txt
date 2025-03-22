@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../build/mazda/mazda.egg-info/PKG-INFO
+../build/mazda/mazda.egg-info/SOURCES.txt
+../build/mazda/mazda.egg-info/dependency_links.txt
+../build/mazda/mazda.egg-info/entry_points.txt
+../build/mazda/mazda.egg-info/requires.txt
+../build/mazda/mazda.egg-info/top_level.txt
+../build/mazda/mazda.egg-info/zip-safe
+mazda/__init__.py
+mazda/engine.py
+resource/mazda
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

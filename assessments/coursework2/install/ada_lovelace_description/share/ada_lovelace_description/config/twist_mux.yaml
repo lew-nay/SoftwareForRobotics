@@ -1,0 +1,15 @@
+---
+_mux:
+  ros__parameters:
+    subscribers:
+      teleop_cmd_vel:
+        topic: /teleop/cmd_vel
+        timeout: 0.5
+        priority: 100
+      nav_cmd_vel:
+        topic: /move_base/cmd_vel
+        timeout: 0.5
+        priority: 50
+
+    output:
+      topic: /ada_lovelace/cmd_vel

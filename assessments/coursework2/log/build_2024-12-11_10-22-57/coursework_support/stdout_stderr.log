@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/coursework_support/coursework_support.egg-info
+writing ../../build/coursework_support/coursework_support.egg-info/PKG-INFO
+writing dependency_links to ../../build/coursework_support/coursework_support.egg-info/dependency_links.txt
+writing entry points to ../../build/coursework_support/coursework_support.egg-info/entry_points.txt
+writing requirements to ../../build/coursework_support/coursework_support.egg-info/requires.txt
+writing top-level names to ../../build/coursework_support/coursework_support.egg-info/top_level.txt
+writing manifest file '../../build/coursework_support/coursework_support.egg-info/SOURCES.txt'
+reading manifest file '../../build/coursework_support/coursework_support.egg-info/SOURCES.txt'
+writing manifest file '../../build/coursework_support/coursework_support.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/delewlew/assessments/coursework2/build/coursework_support/build
+creating /home/delewlew/assessments/coursework2/build/coursework_support/build/lib
+creating /home/delewlew/assessments/coursework2/build/coursework_support/build/lib/coursework_support
+copying coursework_support/__init__.py -> /home/delewlew/assessments/coursework2/build/coursework_support/build/lib/coursework_support
+running install
+running install_lib
+creating /home/delewlew/assessments/coursework2/install/coursework_support/lib/python3.10/site-packages/coursework_support
+copying /home/delewlew/assessments/coursework2/build/coursework_support/build/lib/coursework_support/__init__.py -> /home/delewlew/assessments/coursework2/install/coursework_support/lib/python3.10/site-packages/coursework_support
+byte-compiling /home/delewlew/assessments/coursework2/install/coursework_support/lib/python3.10/site-packages/coursework_support/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/delewlew/assessments/coursework2/install/coursework_support/share/ament_index
+creating /home/delewlew/assessments/coursework2/install/coursework_support/share/ament_index/resource_index
+creating /home/delewlew/assessments/coursework2/install/coursework_support/share/ament_index/resource_index/packages
+copying resource/coursework_support -> /home/delewlew/assessments/coursework2/install/coursework_support/share/ament_index/resource_index/packages
+copying package.xml -> /home/delewlew/assessments/coursework2/install/coursework_support/share/coursework_support
+creating /home/delewlew/assessments/coursework2/install/coursework_support/share/coursework_support/launch
+copying launch/sim_bringup.launch.py -> /home/delewlew/assessments/coursework2/install/coursework_support/share/coursework_support/launch
+creating /home/delewlew/assessments/coursework2/install/coursework_support/share/coursework_support/rviz
+copying rviz/view_robot.rviz -> /home/delewlew/assessments/coursework2/install/coursework_support/share/coursework_support/rviz
+creating /home/delewlew/assessments/coursework2/install/coursework_support/share/coursework_support/worlds
+copying worlds/tb3.sdf -> /home/delewlew/assessments/coursework2/install/coursework_support/share/coursework_support/worlds
+copying worlds/meshes/wall.dae -> /home/delewlew/assessments/coursework2/install/coursework_support/share/coursework_support/worlds
+copying worlds/meshes/hexagon.dae -> /home/delewlew/assessments/coursework2/install/coursework_support/share/coursework_support/worlds
+running install_egg_info
+Copying ../../build/coursework_support/coursework_support.egg-info to /home/delewlew/assessments/coursework2/install/coursework_support/lib/python3.10/site-packages/coursework_support-0.0.1-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/delewlew/assessments/coursework2/build/coursework_support/install.log'

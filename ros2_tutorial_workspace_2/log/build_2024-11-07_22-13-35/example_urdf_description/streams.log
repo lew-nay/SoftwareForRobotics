@@ -1,0 +1,22 @@
+[2.945s] Invoking command in '/home/delewlew/ros2_tutorial_workspace_2/src/example_urdf_description': PYTHONPATH=/home/delewlew/ros2_tutorial_workspace_2/build/example_urdf_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/delewlew/ros2_tutorial_workspace_2/install/example_urdf_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/example_urdf_description build --build-base /home/delewlew/ros2_tutorial_workspace_2/build/example_urdf_description/build install --record /home/delewlew/ros2_tutorial_workspace_2/build/example_urdf_description/install.log --single-version-externally-managed install_data
+[3.713s] running egg_info
+[3.716s] writing ../../build/example_urdf_description/example_urdf_description.egg-info/PKG-INFO
+[3.720s] writing dependency_links to ../../build/example_urdf_description/example_urdf_description.egg-info/dependency_links.txt
+[3.721s] writing entry points to ../../build/example_urdf_description/example_urdf_description.egg-info/entry_points.txt
+[3.722s] writing requirements to ../../build/example_urdf_description/example_urdf_description.egg-info/requires.txt
+[3.722s] writing top-level names to ../../build/example_urdf_description/example_urdf_description.egg-info/top_level.txt
+[3.724s] reading manifest file '../../build/example_urdf_description/example_urdf_description.egg-info/SOURCES.txt'
+[3.726s] adding license file 'LICENSE'
+[3.728s] writing manifest file '../../build/example_urdf_description/example_urdf_description.egg-info/SOURCES.txt'
+[3.728s] running build
+[3.728s] running build_py
+[3.730s] running install
+[3.731s] running install_lib
+[3.740s] running install_data
+[3.743s] copying urdf/diff_drive.urdf -> /home/delewlew/ros2_tutorial_workspace_2/install/example_urdf_description/share/example_urdf_description/urdf
+[3.743s] running install_egg_info
+[3.746s] removing '/home/delewlew/ros2_tutorial_workspace_2/install/example_urdf_description/lib/python3.10/site-packages/example_urdf_description-0.0.0-py3.10.egg-info' (and everything under it)
+[3.746s] Copying ../../build/example_urdf_description/example_urdf_description.egg-info to /home/delewlew/ros2_tutorial_workspace_2/install/example_urdf_description/lib/python3.10/site-packages/example_urdf_description-0.0.0-py3.10.egg-info
+[3.749s] running install_scripts
+[3.789s] writing list of installed files to '/home/delewlew/ros2_tutorial_workspace_2/build/example_urdf_description/install.log'
+[3.837s] Invoked command in '/home/delewlew/ros2_tutorial_workspace_2/src/example_urdf_description' returned '0': PYTHONPATH=/home/delewlew/ros2_tutorial_workspace_2/build/example_urdf_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/delewlew/ros2_tutorial_workspace_2/install/example_urdf_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/example_urdf_description build --build-base /home/delewlew/ros2_tutorial_workspace_2/build/example_urdf_description/build install --record /home/delewlew/ros2_tutorial_workspace_2/build/example_urdf_description/install.log --single-version-externally-managed install_data

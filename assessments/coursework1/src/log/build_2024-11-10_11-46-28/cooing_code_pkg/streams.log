@@ -1,0 +1,37 @@
+[0.793s] Invoking command in '/home/delewlew/assessments/coursework1/src/cooing_code_pkg': AMENT_PREFIX_PATH=/home/delewlew/assessments/coursework1/src/install/cooing_code_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/delewlew/assessments/coursework1/src/install/cooing_code_interfaces LD_LIBRARY_PATH=/home/delewlew/assessments/coursework1/src/install/cooing_code_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/delewlew/assessments/coursework1/src/build/cooing_code_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/delewlew/assessments/coursework1/src/install/cooing_code_pkg/lib/python3.10/site-packages:/home/delewlew/assessments/coursework1/src/install/cooing_code_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/cooing_code_pkg build --build-base /home/delewlew/assessments/coursework1/src/build/cooing_code_pkg/build install --record /home/delewlew/assessments/coursework1/src/build/cooing_code_pkg/install.log --single-version-externally-managed install_data
+[1.001s] running egg_info
+[1.001s] creating ../build/cooing_code_pkg/cooing_code_pkg.egg-info
+[1.002s] writing ../build/cooing_code_pkg/cooing_code_pkg.egg-info/PKG-INFO
+[1.002s] writing dependency_links to ../build/cooing_code_pkg/cooing_code_pkg.egg-info/dependency_links.txt
+[1.002s] writing entry points to ../build/cooing_code_pkg/cooing_code_pkg.egg-info/entry_points.txt
+[1.002s] writing requirements to ../build/cooing_code_pkg/cooing_code_pkg.egg-info/requires.txt
+[1.002s] writing top-level names to ../build/cooing_code_pkg/cooing_code_pkg.egg-info/top_level.txt
+[1.003s] writing manifest file '../build/cooing_code_pkg/cooing_code_pkg.egg-info/SOURCES.txt'
+[1.004s] reading manifest file '../build/cooing_code_pkg/cooing_code_pkg.egg-info/SOURCES.txt'
+[1.006s] writing manifest file '../build/cooing_code_pkg/cooing_code_pkg.egg-info/SOURCES.txt'
+[1.006s] running build
+[1.007s] running build_py
+[1.007s] creating /home/delewlew/assessments/coursework1/src/build/cooing_code_pkg/build
+[1.007s] creating /home/delewlew/assessments/coursework1/src/build/cooing_code_pkg/build/lib
+[1.007s] creating /home/delewlew/assessments/coursework1/src/build/cooing_code_pkg/build/lib/cooing_code_pkg
+[1.007s] copying cooing_code_pkg/cooing_code_node.py -> /home/delewlew/assessments/coursework1/src/build/cooing_code_pkg/build/lib/cooing_code_pkg
+[1.007s] copying cooing_code_pkg/__init__.py -> /home/delewlew/assessments/coursework1/src/build/cooing_code_pkg/build/lib/cooing_code_pkg
+[1.007s] running install
+[1.008s] running install_lib
+[1.009s] creating /home/delewlew/assessments/coursework1/src/install/cooing_code_pkg/lib/python3.10/site-packages/cooing_code_pkg
+[1.009s] copying /home/delewlew/assessments/coursework1/src/build/cooing_code_pkg/build/lib/cooing_code_pkg/cooing_code_node.py -> /home/delewlew/assessments/coursework1/src/install/cooing_code_pkg/lib/python3.10/site-packages/cooing_code_pkg
+[1.009s] copying /home/delewlew/assessments/coursework1/src/build/cooing_code_pkg/build/lib/cooing_code_pkg/__init__.py -> /home/delewlew/assessments/coursework1/src/install/cooing_code_pkg/lib/python3.10/site-packages/cooing_code_pkg
+[1.010s] byte-compiling /home/delewlew/assessments/coursework1/src/install/cooing_code_pkg/lib/python3.10/site-packages/cooing_code_pkg/cooing_code_node.py to cooing_code_node.cpython-310.pyc
+[1.010s] byte-compiling /home/delewlew/assessments/coursework1/src/install/cooing_code_pkg/lib/python3.10/site-packages/cooing_code_pkg/__init__.py to __init__.cpython-310.pyc
+[1.010s] running install_data
+[1.010s] creating /home/delewlew/assessments/coursework1/src/install/cooing_code_pkg/share/ament_index
+[1.010s] creating /home/delewlew/assessments/coursework1/src/install/cooing_code_pkg/share/ament_index/resource_index
+[1.010s] creating /home/delewlew/assessments/coursework1/src/install/cooing_code_pkg/share/ament_index/resource_index/packages
+[1.010s] copying resource/cooing_code_pkg -> /home/delewlew/assessments/coursework1/src/install/cooing_code_pkg/share/ament_index/resource_index/packages
+[1.010s] copying package.xml -> /home/delewlew/assessments/coursework1/src/install/cooing_code_pkg/share/cooing_code_pkg
+[1.010s] running install_egg_info
+[1.012s] Copying ../build/cooing_code_pkg/cooing_code_pkg.egg-info to /home/delewlew/assessments/coursework1/src/install/cooing_code_pkg/lib/python3.10/site-packages/cooing_code_pkg-0.0.0-py3.10.egg-info
+[1.012s] running install_scripts
+[1.033s] Installing cooing_code_node script to /home/delewlew/assessments/coursework1/src/install/cooing_code_pkg/lib/cooing_code_pkg
+[1.033s] writing list of installed files to '/home/delewlew/assessments/coursework1/src/build/cooing_code_pkg/install.log'
+[1.066s] Invoked command in '/home/delewlew/assessments/coursework1/src/cooing_code_pkg' returned '0': AMENT_PREFIX_PATH=/home/delewlew/assessments/coursework1/src/install/cooing_code_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/delewlew/assessments/coursework1/src/install/cooing_code_interfaces LD_LIBRARY_PATH=/home/delewlew/assessments/coursework1/src/install/cooing_code_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/delewlew/assessments/coursework1/src/build/cooing_code_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/delewlew/assessments/coursework1/src/install/cooing_code_pkg/lib/python3.10/site-packages:/home/delewlew/assessments/coursework1/src/install/cooing_code_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/cooing_code_pkg build --build-base /home/delewlew/assessments/coursework1/src/build/cooing_code_pkg/build install --record /home/delewlew/assessments/coursework1/src/build/cooing_code_pkg/install.log --single-version-externally-managed install_data

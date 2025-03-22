@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/mazda/mazda.egg-info
+writing ../../build/mazda/mazda.egg-info/PKG-INFO
+writing dependency_links to ../../build/mazda/mazda.egg-info/dependency_links.txt
+writing entry points to ../../build/mazda/mazda.egg-info/entry_points.txt
+writing requirements to ../../build/mazda/mazda.egg-info/requires.txt
+writing top-level names to ../../build/mazda/mazda.egg-info/top_level.txt
+writing manifest file '../../build/mazda/mazda.egg-info/SOURCES.txt'
+reading manifest file '../../build/mazda/mazda.egg-info/SOURCES.txt'
+writing manifest file '../../build/mazda/mazda.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/delewlew/assessments/week4/build/mazda/build
+creating /home/delewlew/assessments/week4/build/mazda/build/lib
+creating /home/delewlew/assessments/week4/build/mazda/build/lib/mazda
+copying mazda/engine.py -> /home/delewlew/assessments/week4/build/mazda/build/lib/mazda
+copying mazda/__init__.py -> /home/delewlew/assessments/week4/build/mazda/build/lib/mazda
+running install
+running install_lib
+creating /home/delewlew/assessments/week4/install/mazda/lib/python3.10/site-packages/mazda
+copying /home/delewlew/assessments/week4/build/mazda/build/lib/mazda/engine.py -> /home/delewlew/assessments/week4/install/mazda/lib/python3.10/site-packages/mazda
+copying /home/delewlew/assessments/week4/build/mazda/build/lib/mazda/__init__.py -> /home/delewlew/assessments/week4/install/mazda/lib/python3.10/site-packages/mazda
+byte-compiling /home/delewlew/assessments/week4/install/mazda/lib/python3.10/site-packages/mazda/engine.py to engine.cpython-310.pyc
+byte-compiling /home/delewlew/assessments/week4/install/mazda/lib/python3.10/site-packages/mazda/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/delewlew/assessments/week4/install/mazda/share/ament_index
+creating /home/delewlew/assessments/week4/install/mazda/share/ament_index/resource_index
+creating /home/delewlew/assessments/week4/install/mazda/share/ament_index/resource_index/packages
+copying resource/mazda -> /home/delewlew/assessments/week4/install/mazda/share/ament_index/resource_index/packages
+copying package.xml -> /home/delewlew/assessments/week4/install/mazda/share/mazda
+running install_egg_info
+Copying ../../build/mazda/mazda.egg-info to /home/delewlew/assessments/week4/install/mazda/lib/python3.10/site-packages/mazda-0.0.0-py3.10.egg-info
+running install_scripts
+Installing engine script to /home/delewlew/assessments/week4/install/mazda/lib/mazda
+writing list of installed files to '/home/delewlew/assessments/week4/build/mazda/install.log'

@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../build/cesky_fousek_pkg/cesky_fousek_pkg.egg-info/PKG-INFO
+../build/cesky_fousek_pkg/cesky_fousek_pkg.egg-info/SOURCES.txt
+../build/cesky_fousek_pkg/cesky_fousek_pkg.egg-info/dependency_links.txt
+../build/cesky_fousek_pkg/cesky_fousek_pkg.egg-info/entry_points.txt
+../build/cesky_fousek_pkg/cesky_fousek_pkg.egg-info/requires.txt
+../build/cesky_fousek_pkg/cesky_fousek_pkg.egg-info/top_level.txt
+../build/cesky_fousek_pkg/cesky_fousek_pkg.egg-info/zip-safe
+cesky_fousek_pkg/__init__.py
+config/decelea.yaml
+config/tingi.yaml
+resource/cesky_fousek_pkg
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

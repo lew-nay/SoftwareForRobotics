@@ -1,0 +1,43 @@
+[2.550s] Invoking command in '/home/delewlew/software_for_robotics_part2/src/bt_demos': PYTHONPATH=/home/delewlew/software_for_robotics_part2/build/bt_demos/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/delewlew/software_for_robotics_part2/install/bt_demos/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/bt_demos build --build-base /home/delewlew/software_for_robotics_part2/build/bt_demos/build install --record /home/delewlew/software_for_robotics_part2/build/bt_demos/install.log --single-version-externally-managed install_data
+[3.103s] running egg_info
+[3.104s] creating ../../build/bt_demos/bt_demos.egg-info
+[3.105s] writing ../../build/bt_demos/bt_demos.egg-info/PKG-INFO
+[3.105s] writing dependency_links to ../../build/bt_demos/bt_demos.egg-info/dependency_links.txt
+[3.105s] writing entry points to ../../build/bt_demos/bt_demos.egg-info/entry_points.txt
+[3.105s] writing requirements to ../../build/bt_demos/bt_demos.egg-info/requires.txt
+[3.105s] writing top-level names to ../../build/bt_demos/bt_demos.egg-info/top_level.txt
+[3.105s] writing manifest file '../../build/bt_demos/bt_demos.egg-info/SOURCES.txt'
+[3.107s] reading manifest file '../../build/bt_demos/bt_demos.egg-info/SOURCES.txt'
+[3.108s] writing manifest file '../../build/bt_demos/bt_demos.egg-info/SOURCES.txt'
+[3.109s] running build
+[3.109s] running build_py
+[3.109s] creating /home/delewlew/software_for_robotics_part2/build/bt_demos/build
+[3.109s] creating /home/delewlew/software_for_robotics_part2/build/bt_demos/build/lib
+[3.109s] creating /home/delewlew/software_for_robotics_part2/build/bt_demos/build/lib/bt_demos
+[3.109s] copying bt_demos/__init__.py -> /home/delewlew/software_for_robotics_part2/build/bt_demos/build/lib/bt_demos
+[3.111s] running install
+[3.112s] running install_lib
+[3.112s] creating /home/delewlew/software_for_robotics_part2/install/bt_demos/lib/python3.10/site-packages/bt_demos
+[3.113s] copying /home/delewlew/software_for_robotics_part2/build/bt_demos/build/lib/bt_demos/__init__.py -> /home/delewlew/software_for_robotics_part2/install/bt_demos/lib/python3.10/site-packages/bt_demos
+[3.115s] byte-compiling /home/delewlew/software_for_robotics_part2/install/bt_demos/lib/python3.10/site-packages/bt_demos/__init__.py to __init__.cpython-310.pyc
+[3.115s] running install_data
+[3.115s] creating /home/delewlew/software_for_robotics_part2/install/bt_demos/share/ament_index
+[3.115s] creating /home/delewlew/software_for_robotics_part2/install/bt_demos/share/ament_index/resource_index
+[3.116s] creating /home/delewlew/software_for_robotics_part2/install/bt_demos/share/ament_index/resource_index/packages
+[3.116s] copying resource/bt_demos -> /home/delewlew/software_for_robotics_part2/install/bt_demos/share/ament_index/resource_index/packages
+[3.116s] copying package.xml -> /home/delewlew/software_for_robotics_part2/install/bt_demos/share/bt_demos
+[3.116s] creating /home/delewlew/software_for_robotics_part2/install/bt_demos/share/bt_demos/behavior_tree_xml
+[3.116s] copying behavior_tree_xml/week11_exercise_1_nav.xml -> /home/delewlew/software_for_robotics_part2/install/bt_demos/share/bt_demos/behavior_tree_xml
+[3.116s] copying behavior_tree_xml/bt_simple_nav.xml -> /home/delewlew/software_for_robotics_part2/install/bt_demos/share/bt_demos/behavior_tree_xml
+[3.117s] copying behavior_tree_xml/week11_exercise_2_nav.xml -> /home/delewlew/software_for_robotics_part2/install/bt_demos/share/bt_demos/behavior_tree_xml
+[3.117s] creating /home/delewlew/software_for_robotics_part2/install/bt_demos/share/bt_demos/launch
+[3.117s] copying launch/bt_demo.launch.py -> /home/delewlew/software_for_robotics_part2/install/bt_demos/share/bt_demos/launch
+[3.117s] creating /home/delewlew/software_for_robotics_part2/install/bt_demos/share/bt_demos/config
+[3.117s] copying config/bt_nav.yaml -> /home/delewlew/software_for_robotics_part2/install/bt_demos/share/bt_demos/config
+[3.117s] copying config/controller.yaml -> /home/delewlew/software_for_robotics_part2/install/bt_demos/share/bt_demos/config
+[3.117s] copying config/planner.yaml -> /home/delewlew/software_for_robotics_part2/install/bt_demos/share/bt_demos/config
+[3.117s] running install_egg_info
+[3.118s] Copying ../../build/bt_demos/bt_demos.egg-info to /home/delewlew/software_for_robotics_part2/install/bt_demos/lib/python3.10/site-packages/bt_demos-0.0.0-py3.10.egg-info
+[3.118s] running install_scripts
+[3.148s] writing list of installed files to '/home/delewlew/software_for_robotics_part2/build/bt_demos/install.log'
+[3.182s] Invoked command in '/home/delewlew/software_for_robotics_part2/src/bt_demos' returned '0': PYTHONPATH=/home/delewlew/software_for_robotics_part2/build/bt_demos/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/delewlew/software_for_robotics_part2/install/bt_demos/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/bt_demos build --build-base /home/delewlew/software_for_robotics_part2/build/bt_demos/build install --record /home/delewlew/software_for_robotics_part2/build/bt_demos/install.log --single-version-externally-managed install_data

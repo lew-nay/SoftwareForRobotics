@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/residence_hall/residence_hall.egg-info
+writing ../../build/residence_hall/residence_hall.egg-info/PKG-INFO
+writing dependency_links to ../../build/residence_hall/residence_hall.egg-info/dependency_links.txt
+writing entry points to ../../build/residence_hall/residence_hall.egg-info/entry_points.txt
+writing requirements to ../../build/residence_hall/residence_hall.egg-info/requires.txt
+writing top-level names to ../../build/residence_hall/residence_hall.egg-info/top_level.txt
+writing manifest file '../../build/residence_hall/residence_hall.egg-info/SOURCES.txt'
+reading manifest file '../../build/residence_hall/residence_hall.egg-info/SOURCES.txt'
+writing manifest file '../../build/residence_hall/residence_hall.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/delewlew/assessments/week4/build/residence_hall/build
+creating /home/delewlew/assessments/week4/build/residence_hall/build/lib
+creating /home/delewlew/assessments/week4/build/residence_hall/build/lib/residence_hall
+copying residence_hall/auditorium.py -> /home/delewlew/assessments/week4/build/residence_hall/build/lib/residence_hall
+copying residence_hall/__init__.py -> /home/delewlew/assessments/week4/build/residence_hall/build/lib/residence_hall
+running install
+running install_lib
+creating /home/delewlew/assessments/week4/install/residence_hall/lib/python3.10/site-packages/residence_hall
+copying /home/delewlew/assessments/week4/build/residence_hall/build/lib/residence_hall/auditorium.py -> /home/delewlew/assessments/week4/install/residence_hall/lib/python3.10/site-packages/residence_hall
+copying /home/delewlew/assessments/week4/build/residence_hall/build/lib/residence_hall/__init__.py -> /home/delewlew/assessments/week4/install/residence_hall/lib/python3.10/site-packages/residence_hall
+byte-compiling /home/delewlew/assessments/week4/install/residence_hall/lib/python3.10/site-packages/residence_hall/auditorium.py to auditorium.cpython-310.pyc
+byte-compiling /home/delewlew/assessments/week4/install/residence_hall/lib/python3.10/site-packages/residence_hall/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/delewlew/assessments/week4/install/residence_hall/share/ament_index
+creating /home/delewlew/assessments/week4/install/residence_hall/share/ament_index/resource_index
+creating /home/delewlew/assessments/week4/install/residence_hall/share/ament_index/resource_index/packages
+copying resource/residence_hall -> /home/delewlew/assessments/week4/install/residence_hall/share/ament_index/resource_index/packages
+copying package.xml -> /home/delewlew/assessments/week4/install/residence_hall/share/residence_hall
+running install_egg_info
+Copying ../../build/residence_hall/residence_hall.egg-info to /home/delewlew/assessments/week4/install/residence_hall/lib/python3.10/site-packages/residence_hall-0.0.0-py3.10.egg-info
+running install_scripts
+Installing auditorium script to /home/delewlew/assessments/week4/install/residence_hall/lib/residence_hall
+writing list of installed files to '/home/delewlew/assessments/week4/build/residence_hall/install.log'

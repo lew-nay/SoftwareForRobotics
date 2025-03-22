@@ -1,0 +1,16 @@
+LICENSE
+package.xml
+setup.cfg
+setup.py
+example_urdf_description/__init__.py
+example_urdf_description.egg-info/PKG-INFO
+example_urdf_description.egg-info/SOURCES.txt
+example_urdf_description.egg-info/dependency_links.txt
+example_urdf_description.egg-info/requires.txt
+example_urdf_description.egg-info/top_level.txt
+example_urdf_description.egg-info/zip-safe
+resource/example_urdf_description
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
+urdf/diff_drive.urdf

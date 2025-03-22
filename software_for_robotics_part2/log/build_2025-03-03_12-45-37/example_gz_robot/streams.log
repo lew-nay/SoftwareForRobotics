@@ -1,0 +1,20 @@
+[8.324s] Invoking command in '/home/delewlew/software_for_robotics_part2/src/example_gz_robot': PYTHONPATH=/home/delewlew/software_for_robotics_part2/build/example_gz_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/delewlew/software_for_robotics_part2/install/example_gz_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/example_gz_robot build --build-base /home/delewlew/software_for_robotics_part2/build/example_gz_robot/build install --record /home/delewlew/software_for_robotics_part2/build/example_gz_robot/install.log --single-version-externally-managed install_data
+[9.769s] running egg_info
+[9.772s] writing ../../build/example_gz_robot/example_gz_robot.egg-info/PKG-INFO
+[9.781s] writing dependency_links to ../../build/example_gz_robot/example_gz_robot.egg-info/dependency_links.txt
+[9.782s] writing entry points to ../../build/example_gz_robot/example_gz_robot.egg-info/entry_points.txt
+[9.782s] writing requirements to ../../build/example_gz_robot/example_gz_robot.egg-info/requires.txt
+[9.782s] writing top-level names to ../../build/example_gz_robot/example_gz_robot.egg-info/top_level.txt
+[9.800s] reading manifest file '../../build/example_gz_robot/example_gz_robot.egg-info/SOURCES.txt'
+[9.809s] writing manifest file '../../build/example_gz_robot/example_gz_robot.egg-info/SOURCES.txt'
+[9.811s] running build
+[9.811s] running build_py
+[9.814s] running install
+[9.829s] running install_lib
+[9.829s] running install_data
+[9.838s] running install_egg_info
+[9.851s] removing '/home/delewlew/software_for_robotics_part2/install/example_gz_robot/lib/python3.10/site-packages/example_gz_robot-0.0.0-py3.10.egg-info' (and everything under it)
+[9.856s] Copying ../../build/example_gz_robot/example_gz_robot.egg-info to /home/delewlew/software_for_robotics_part2/install/example_gz_robot/lib/python3.10/site-packages/example_gz_robot-0.0.0-py3.10.egg-info
+[9.866s] running install_scripts
+[9.973s] writing list of installed files to '/home/delewlew/software_for_robotics_part2/build/example_gz_robot/install.log'
+[10.121s] Invoked command in '/home/delewlew/software_for_robotics_part2/src/example_gz_robot' returned '0': PYTHONPATH=/home/delewlew/software_for_robotics_part2/build/example_gz_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/delewlew/software_for_robotics_part2/install/example_gz_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/example_gz_robot build --build-base /home/delewlew/software_for_robotics_part2/build/example_gz_robot/build install --record /home/delewlew/software_for_robotics_part2/build/example_gz_robot/install.log --single-version-externally-managed install_data

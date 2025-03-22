@@ -1,0 +1,42 @@
+[0.510s] Invoking command in '/home/delewlew/assessments/week8/src/CA8_package_incomplete': PYTHONPATH=/home/delewlew/assessments/week8/src/build/CA8_package_incomplete/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/delewlew/assessments/week8/src/install/CA8_package_incomplete/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/CA8_package_incomplete build --build-base /home/delewlew/assessments/week8/src/build/CA8_package_incomplete/build install --record /home/delewlew/assessments/week8/src/build/CA8_package_incomplete/install.log --single-version-externally-managed install_data
+[0.689s] running egg_info
+[0.689s] creating ../build/CA8_package_incomplete/CA8_package_incomplete.egg-info
+[0.689s] writing ../build/CA8_package_incomplete/CA8_package_incomplete.egg-info/PKG-INFO
+[0.690s] writing dependency_links to ../build/CA8_package_incomplete/CA8_package_incomplete.egg-info/dependency_links.txt
+[0.690s] writing entry points to ../build/CA8_package_incomplete/CA8_package_incomplete.egg-info/entry_points.txt
+[0.690s] writing requirements to ../build/CA8_package_incomplete/CA8_package_incomplete.egg-info/requires.txt
+[0.690s] writing top-level names to ../build/CA8_package_incomplete/CA8_package_incomplete.egg-info/top_level.txt
+[0.690s] writing manifest file '../build/CA8_package_incomplete/CA8_package_incomplete.egg-info/SOURCES.txt'
+[0.691s] reading manifest file '../build/CA8_package_incomplete/CA8_package_incomplete.egg-info/SOURCES.txt'
+[0.692s] adding license file 'LICENSE'
+[0.692s] writing manifest file '../build/CA8_package_incomplete/CA8_package_incomplete.egg-info/SOURCES.txt'
+[0.693s] running build
+[0.693s] running build_py
+[0.693s] creating /home/delewlew/assessments/week8/src/build/CA8_package_incomplete/build
+[0.693s] creating /home/delewlew/assessments/week8/src/build/CA8_package_incomplete/build/lib
+[0.693s] creating /home/delewlew/assessments/week8/src/build/CA8_package_incomplete/build/lib/CA8_package
+[0.693s] copying CA8_package/__init__.py -> /home/delewlew/assessments/week8/src/build/CA8_package_incomplete/build/lib/CA8_package
+[0.693s] running install
+[0.693s] running install_lib
+[0.694s] creating /home/delewlew/assessments/week8/src/install/CA8_package_incomplete/lib/python3.10/site-packages/CA8_package
+[0.694s] copying /home/delewlew/assessments/week8/src/build/CA8_package_incomplete/build/lib/CA8_package/__init__.py -> /home/delewlew/assessments/week8/src/install/CA8_package_incomplete/lib/python3.10/site-packages/CA8_package
+[0.695s] byte-compiling /home/delewlew/assessments/week8/src/install/CA8_package_incomplete/lib/python3.10/site-packages/CA8_package/__init__.py to __init__.cpython-310.pyc
+[0.695s] running install_data
+[0.695s] creating /home/delewlew/assessments/week8/src/install/CA8_package_incomplete/share/ament_index
+[0.695s] creating /home/delewlew/assessments/week8/src/install/CA8_package_incomplete/share/ament_index/resource_index
+[0.696s] creating /home/delewlew/assessments/week8/src/install/CA8_package_incomplete/share/ament_index/resource_index/packages
+[0.696s] copying resource/CA8_package_incomplete -> /home/delewlew/assessments/week8/src/install/CA8_package_incomplete/share/ament_index/resource_index/packages
+[0.696s] copying package.xml -> /home/delewlew/assessments/week8/src/install/CA8_package_incomplete/share/CA8_package_incomplete
+[0.696s] creating /home/delewlew/assessments/week8/src/install/CA8_package_incomplete/share/CA8_package_incomplete/urdf
+[0.696s] copying urdf/example_gazebo.xacro -> /home/delewlew/assessments/week8/src/install/CA8_package_incomplete/share/CA8_package_incomplete/urdf
+[0.696s] copying urdf/diff_drive.urdf.xacro -> /home/delewlew/assessments/week8/src/install/CA8_package_incomplete/share/CA8_package_incomplete/urdf
+[0.696s] creating /home/delewlew/assessments/week8/src/install/CA8_package_incomplete/share/CA8_package_incomplete/meshes
+[0.696s] copying meshes/Generic_100mm_lidar.stl -> /home/delewlew/assessments/week8/src/install/CA8_package_incomplete/share/CA8_package_incomplete/meshes
+[0.696s] creating /home/delewlew/assessments/week8/src/install/CA8_package_incomplete/share/CA8_package_incomplete/worlds
+[0.696s] creating /home/delewlew/assessments/week8/src/install/CA8_package_incomplete/share/CA8_package_incomplete/launch
+[0.696s] copying launch/sim_robot.launch.py -> /home/delewlew/assessments/week8/src/install/CA8_package_incomplete/share/CA8_package_incomplete/launch
+[0.696s] running install_egg_info
+[0.698s] Copying ../build/CA8_package_incomplete/CA8_package_incomplete.egg-info to /home/delewlew/assessments/week8/src/install/CA8_package_incomplete/lib/python3.10/site-packages/CA8_package_incomplete-0.0.0-py3.10.egg-info
+[0.699s] running install_scripts
+[0.715s] writing list of installed files to '/home/delewlew/assessments/week8/src/build/CA8_package_incomplete/install.log'
+[0.735s] Invoked command in '/home/delewlew/assessments/week8/src/CA8_package_incomplete' returned '0': PYTHONPATH=/home/delewlew/assessments/week8/src/build/CA8_package_incomplete/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/delewlew/assessments/week8/src/install/CA8_package_incomplete/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/CA8_package_incomplete build --build-base /home/delewlew/assessments/week8/src/build/CA8_package_incomplete/build install --record /home/delewlew/assessments/week8/src/build/CA8_package_incomplete/install.log --single-version-externally-managed install_data

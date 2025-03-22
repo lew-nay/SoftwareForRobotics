@@ -1,0 +1,20 @@
+[2.277s] Invoking command in '/home/delewlew/ros2_tutorial_workspace_2/src/the_simplest_python_package': PYTHONPATH=/home/delewlew/ros2_tutorial_workspace_2/src/build/the_simplest_python_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/delewlew/ros2_tutorial_workspace_2/src/install/the_simplest_python_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/the_simplest_python_package build --build-base /home/delewlew/ros2_tutorial_workspace_2/src/build/the_simplest_python_package/build install --record /home/delewlew/ros2_tutorial_workspace_2/src/build/the_simplest_python_package/install.log --single-version-externally-managed install_data
+[2.847s] running egg_info
+[2.849s] writing ../build/the_simplest_python_package/the_simplest_python_package.egg-info/PKG-INFO
+[2.849s] writing dependency_links to ../build/the_simplest_python_package/the_simplest_python_package.egg-info/dependency_links.txt
+[2.850s] writing entry points to ../build/the_simplest_python_package/the_simplest_python_package.egg-info/entry_points.txt
+[2.850s] writing requirements to ../build/the_simplest_python_package/the_simplest_python_package.egg-info/requires.txt
+[2.850s] writing top-level names to ../build/the_simplest_python_package/the_simplest_python_package.egg-info/top_level.txt
+[2.852s] reading manifest file '../build/the_simplest_python_package/the_simplest_python_package.egg-info/SOURCES.txt'
+[2.854s] writing manifest file '../build/the_simplest_python_package/the_simplest_python_package.egg-info/SOURCES.txt'
+[2.854s] running build
+[2.854s] running build_py
+[2.855s] running install
+[2.855s] running install_lib
+[2.857s] running install_data
+[2.857s] running install_egg_info
+[2.860s] removing '/home/delewlew/ros2_tutorial_workspace_2/src/install/the_simplest_python_package/lib/python3.10/site-packages/the_simplest_python_package-0.0.0-py3.10.egg-info' (and everything under it)
+[2.860s] Copying ../build/the_simplest_python_package/the_simplest_python_package.egg-info to /home/delewlew/ros2_tutorial_workspace_2/src/install/the_simplest_python_package/lib/python3.10/site-packages/the_simplest_python_package-0.0.0-py3.10.egg-info
+[2.861s] running install_scripts
+[2.897s] writing list of installed files to '/home/delewlew/ros2_tutorial_workspace_2/src/build/the_simplest_python_package/install.log'
+[3.187s] Invoked command in '/home/delewlew/ros2_tutorial_workspace_2/src/the_simplest_python_package' returned '0': PYTHONPATH=/home/delewlew/ros2_tutorial_workspace_2/src/build/the_simplest_python_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/delewlew/ros2_tutorial_workspace_2/src/install/the_simplest_python_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/the_simplest_python_package build --build-base /home/delewlew/ros2_tutorial_workspace_2/src/build/the_simplest_python_package/build install --record /home/delewlew/ros2_tutorial_workspace_2/src/build/the_simplest_python_package/install.log --single-version-externally-managed install_data

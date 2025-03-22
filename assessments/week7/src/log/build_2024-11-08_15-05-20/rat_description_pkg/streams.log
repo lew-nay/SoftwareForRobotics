@@ -1,0 +1,25 @@
+[0.530s] Invoking command in '/home/delewlew/assessments/week7/src/rat_description_pkg': PYTHONPATH=/home/delewlew/assessments/week7/src/build/rat_description_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/delewlew/assessments/week7/src/install/rat_description_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/rat_description_pkg build --build-base /home/delewlew/assessments/week7/src/build/rat_description_pkg/build install --record /home/delewlew/assessments/week7/src/build/rat_description_pkg/install.log --single-version-externally-managed install_data
+[0.745s] running egg_info
+[0.745s] creating ../build/rat_description_pkg/example_urdf_description.egg-info
+[0.745s] writing ../build/rat_description_pkg/example_urdf_description.egg-info/PKG-INFO
+[0.746s] writing dependency_links to ../build/rat_description_pkg/example_urdf_description.egg-info/dependency_links.txt
+[0.746s] writing entry points to ../build/rat_description_pkg/example_urdf_description.egg-info/entry_points.txt
+[0.746s] writing requirements to ../build/rat_description_pkg/example_urdf_description.egg-info/requires.txt
+[0.746s] writing top-level names to ../build/rat_description_pkg/example_urdf_description.egg-info/top_level.txt
+[0.746s] writing manifest file '../build/rat_description_pkg/example_urdf_description.egg-info/SOURCES.txt'
+[0.747s] reading manifest file '../build/rat_description_pkg/example_urdf_description.egg-info/SOURCES.txt'
+[0.748s] writing manifest file '../build/rat_description_pkg/example_urdf_description.egg-info/SOURCES.txt'
+[0.748s] running build
+[0.748s] running build_py
+[0.749s] creating /home/delewlew/assessments/week7/src/build/rat_description_pkg/build
+[0.749s] creating /home/delewlew/assessments/week7/src/build/rat_description_pkg/build/lib
+[0.749s] creating /home/delewlew/assessments/week7/src/build/rat_description_pkg/build/lib/rat_description_pkg
+[0.749s] copying rat_description_pkg/__init__.py -> /home/delewlew/assessments/week7/src/build/rat_description_pkg/build/lib/rat_description_pkg
+[0.749s] running install
+[0.749s] running install_lib
+[0.750s] creating /home/delewlew/assessments/week7/src/install/rat_description_pkg/lib/python3.10/site-packages/rat_description_pkg
+[0.750s] copying /home/delewlew/assessments/week7/src/build/rat_description_pkg/build/lib/rat_description_pkg/__init__.py -> /home/delewlew/assessments/week7/src/install/rat_description_pkg/lib/python3.10/site-packages/rat_description_pkg
+[0.750s] byte-compiling /home/delewlew/assessments/week7/src/install/rat_description_pkg/lib/python3.10/site-packages/rat_description_pkg/__init__.py to __init__.cpython-310.pyc
+[0.750s] running install_data
+[0.751s] error: can't copy 'resource/example_urdf_description': doesn't exist or not a regular file
+[0.766s] Invoked command in '/home/delewlew/assessments/week7/src/rat_description_pkg' returned '1': PYTHONPATH=/home/delewlew/assessments/week7/src/build/rat_description_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/delewlew/assessments/week7/src/install/rat_description_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/rat_description_pkg build --build-base /home/delewlew/assessments/week7/src/build/rat_description_pkg/build install --record /home/delewlew/assessments/week7/src/build/rat_description_pkg/install.log --single-version-externally-managed install_data

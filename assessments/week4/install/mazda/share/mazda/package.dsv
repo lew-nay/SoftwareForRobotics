@@ -1,0 +1,6 @@
+source;share/mazda/hook/pythonpath.ps1
+source;share/mazda/hook/pythonpath.dsv
+source;share/mazda/hook/pythonpath.sh
+source;share/mazda/hook/ament_prefix_path.ps1
+source;share/mazda/hook/ament_prefix_path.dsv
+source;share/mazda/hook/ament_prefix_path.sh

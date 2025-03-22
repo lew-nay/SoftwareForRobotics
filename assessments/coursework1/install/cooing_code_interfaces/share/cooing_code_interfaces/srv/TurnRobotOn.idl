@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from cooing_code_interfaces/srv/TurnRobotOn.srv
+// generated code does not contain a copyright notice
+
+
+module cooing_code_interfaces {
+  module srv {
+    struct TurnRobotOn_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct TurnRobotOn_Response {
+      boolean success;
+    };
+  };
+};

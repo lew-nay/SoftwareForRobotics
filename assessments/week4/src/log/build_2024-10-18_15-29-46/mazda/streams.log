@@ -1,0 +1,37 @@
+[0.844s] Invoking command in '/home/delewlew/assessments/week4/src/mazda': PYTHONPATH=/home/delewlew/assessments/week4/src/build/mazda/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/delewlew/assessments/week4/src/install/mazda/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/mazda build --build-base /home/delewlew/assessments/week4/src/build/mazda/build install --record /home/delewlew/assessments/week4/src/build/mazda/install.log --single-version-externally-managed install_data
+[1.076s] running egg_info
+[1.076s] creating ../build/mazda/mazda.egg-info
+[1.078s] writing ../build/mazda/mazda.egg-info/PKG-INFO
+[1.079s] writing dependency_links to ../build/mazda/mazda.egg-info/dependency_links.txt
+[1.079s] writing entry points to ../build/mazda/mazda.egg-info/entry_points.txt
+[1.079s] writing requirements to ../build/mazda/mazda.egg-info/requires.txt
+[1.079s] writing top-level names to ../build/mazda/mazda.egg-info/top_level.txt
+[1.079s] writing manifest file '../build/mazda/mazda.egg-info/SOURCES.txt'
+[1.080s] reading manifest file '../build/mazda/mazda.egg-info/SOURCES.txt'
+[1.081s] writing manifest file '../build/mazda/mazda.egg-info/SOURCES.txt'
+[1.082s] running build
+[1.082s] running build_py
+[1.082s] creating /home/delewlew/assessments/week4/src/build/mazda/build
+[1.082s] creating /home/delewlew/assessments/week4/src/build/mazda/build/lib
+[1.082s] creating /home/delewlew/assessments/week4/src/build/mazda/build/lib/mazda
+[1.082s] copying mazda/engine.py -> /home/delewlew/assessments/week4/src/build/mazda/build/lib/mazda
+[1.083s] copying mazda/__init__.py -> /home/delewlew/assessments/week4/src/build/mazda/build/lib/mazda
+[1.083s] running install
+[1.083s] running install_lib
+[1.084s] creating /home/delewlew/assessments/week4/src/install/mazda/lib/python3.10/site-packages/mazda
+[1.084s] copying /home/delewlew/assessments/week4/src/build/mazda/build/lib/mazda/engine.py -> /home/delewlew/assessments/week4/src/install/mazda/lib/python3.10/site-packages/mazda
+[1.084s] copying /home/delewlew/assessments/week4/src/build/mazda/build/lib/mazda/__init__.py -> /home/delewlew/assessments/week4/src/install/mazda/lib/python3.10/site-packages/mazda
+[1.084s] byte-compiling /home/delewlew/assessments/week4/src/install/mazda/lib/python3.10/site-packages/mazda/engine.py to engine.cpython-310.pyc
+[1.085s] byte-compiling /home/delewlew/assessments/week4/src/install/mazda/lib/python3.10/site-packages/mazda/__init__.py to __init__.cpython-310.pyc
+[1.085s] running install_data
+[1.085s] creating /home/delewlew/assessments/week4/src/install/mazda/share/ament_index
+[1.085s] creating /home/delewlew/assessments/week4/src/install/mazda/share/ament_index/resource_index
+[1.085s] creating /home/delewlew/assessments/week4/src/install/mazda/share/ament_index/resource_index/packages
+[1.085s] copying resource/mazda -> /home/delewlew/assessments/week4/src/install/mazda/share/ament_index/resource_index/packages
+[1.085s] copying package.xml -> /home/delewlew/assessments/week4/src/install/mazda/share/mazda
+[1.085s] running install_egg_info
+[1.087s] Copying ../build/mazda/mazda.egg-info to /home/delewlew/assessments/week4/src/install/mazda/lib/python3.10/site-packages/mazda-0.0.0-py3.10.egg-info
+[1.087s] running install_scripts
+[1.109s] Installing engine script to /home/delewlew/assessments/week4/src/install/mazda/lib/mazda
+[1.110s] writing list of installed files to '/home/delewlew/assessments/week4/src/build/mazda/install.log'
+[1.151s] Invoked command in '/home/delewlew/assessments/week4/src/mazda' returned '0': PYTHONPATH=/home/delewlew/assessments/week4/src/build/mazda/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/delewlew/assessments/week4/src/install/mazda/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/mazda build --build-base /home/delewlew/assessments/week4/src/build/mazda/build install --record /home/delewlew/assessments/week4/src/build/mazda/install.log --single-version-externally-managed install_data

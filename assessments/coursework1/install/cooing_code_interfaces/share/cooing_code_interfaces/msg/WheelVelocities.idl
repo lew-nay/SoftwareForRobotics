@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from cooing_code_interfaces/msg/WheelVelocities.msg
+// generated code does not contain a copyright notice
+
+
+module cooing_code_interfaces {
+  module msg {
+    struct WheelVelocities {
+      double right_wheel_velocity;
+
+      double left_wheel_velocity;
+    };
+  };
+};

@@ -1,0 +1,22 @@
+[2.461s] Invoking command in '/home/delewlew/ros2_tutorial_workspace_2/src/python_package_that_uses_the_messages': PYTHONPATH=/home/delewlew/ros2_tutorial_workspace_2/src/build/python_package_that_uses_the_messages/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/delewlew/ros2_tutorial_workspace_2/src/install/python_package_that_uses_the_messages/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/python_package_that_uses_the_messages build --build-base /home/delewlew/ros2_tutorial_workspace_2/src/build/python_package_that_uses_the_messages/build install --record /home/delewlew/ros2_tutorial_workspace_2/src/build/python_package_that_uses_the_messages/install.log --single-version-externally-managed install_data
+[3.101s] running egg_info
+[3.104s] writing ../build/python_package_that_uses_the_messages/python_package_that_uses_the_messages.egg-info/PKG-INFO
+[3.105s] writing dependency_links to ../build/python_package_that_uses_the_messages/python_package_that_uses_the_messages.egg-info/dependency_links.txt
+[3.106s] writing entry points to ../build/python_package_that_uses_the_messages/python_package_that_uses_the_messages.egg-info/entry_points.txt
+[3.106s] writing requirements to ../build/python_package_that_uses_the_messages/python_package_that_uses_the_messages.egg-info/requires.txt
+[3.106s] writing top-level names to ../build/python_package_that_uses_the_messages/python_package_that_uses_the_messages.egg-info/top_level.txt
+[3.111s] reading manifest file '../build/python_package_that_uses_the_messages/python_package_that_uses_the_messages.egg-info/SOURCES.txt'
+[3.114s] writing manifest file '../build/python_package_that_uses_the_messages/python_package_that_uses_the_messages.egg-info/SOURCES.txt'
+[3.114s] running build
+[3.114s] running build_py
+[3.115s] running install
+[3.118s] running install_lib
+[3.120s] running install_data
+[3.120s] running install_egg_info
+[3.125s] removing '/home/delewlew/ros2_tutorial_workspace_2/src/install/python_package_that_uses_the_messages/lib/python3.10/site-packages/python_package_that_uses_the_messages-0.0.0-py3.10.egg-info' (and everything under it)
+[3.125s] Copying ../build/python_package_that_uses_the_messages/python_package_that_uses_the_messages.egg-info to /home/delewlew/ros2_tutorial_workspace_2/src/install/python_package_that_uses_the_messages/lib/python3.10/site-packages/python_package_that_uses_the_messages-0.0.0-py3.10.egg-info
+[3.128s] running install_scripts
+[3.190s] Installing amazing_quote_publisher_node script to /home/delewlew/ros2_tutorial_workspace_2/src/install/python_package_that_uses_the_messages/lib/python_package_that_uses_the_messages
+[3.190s] Installing amazing_quote_subscriber_node script to /home/delewlew/ros2_tutorial_workspace_2/src/install/python_package_that_uses_the_messages/lib/python_package_that_uses_the_messages
+[3.191s] writing list of installed files to '/home/delewlew/ros2_tutorial_workspace_2/src/build/python_package_that_uses_the_messages/install.log'
+[3.261s] Invoked command in '/home/delewlew/ros2_tutorial_workspace_2/src/python_package_that_uses_the_messages' returned '0': PYTHONPATH=/home/delewlew/ros2_tutorial_workspace_2/src/build/python_package_that_uses_the_messages/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/delewlew/ros2_tutorial_workspace_2/src/install/python_package_that_uses_the_messages/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/python_package_that_uses_the_messages build --build-base /home/delewlew/ros2_tutorial_workspace_2/src/build/python_package_that_uses_the_messages/build install --record /home/delewlew/ros2_tutorial_workspace_2/src/build/python_package_that_uses_the_messages/install.log --single-version-externally-managed install_data

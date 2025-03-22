@@ -1,0 +1,4 @@
+source;share/cooing_code_interfaces/local_setup.bash
+source;share/cooing_code_interfaces/local_setup.dsv
+source;share/cooing_code_interfaces/local_setup.sh
+source;share/cooing_code_interfaces/local_setup.zsh

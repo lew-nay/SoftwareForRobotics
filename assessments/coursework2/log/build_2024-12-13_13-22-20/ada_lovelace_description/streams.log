@@ -1,0 +1,21 @@
+[0.591s] Invoking command in '/home/delewlew/assessments/coursework2/src/ada_lovelace_description': PYTHONPATH=/home/delewlew/assessments/coursework2/build/ada_lovelace_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/delewlew/assessments/coursework2/install/ada_lovelace_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ada_lovelace_description build --build-base /home/delewlew/assessments/coursework2/build/ada_lovelace_description/build install --record /home/delewlew/assessments/coursework2/build/ada_lovelace_description/install.log --single-version-externally-managed install_data
+[0.806s] running egg_info
+[0.806s] writing ../../build/ada_lovelace_description/ada_lovelace_description.egg-info/PKG-INFO
+[0.806s] writing dependency_links to ../../build/ada_lovelace_description/ada_lovelace_description.egg-info/dependency_links.txt
+[0.807s] writing entry points to ../../build/ada_lovelace_description/ada_lovelace_description.egg-info/entry_points.txt
+[0.807s] writing requirements to ../../build/ada_lovelace_description/ada_lovelace_description.egg-info/requires.txt
+[0.807s] writing top-level names to ../../build/ada_lovelace_description/ada_lovelace_description.egg-info/top_level.txt
+[0.808s] reading manifest file '../../build/ada_lovelace_description/ada_lovelace_description.egg-info/SOURCES.txt'
+[0.810s] writing manifest file '../../build/ada_lovelace_description/ada_lovelace_description.egg-info/SOURCES.txt'
+[0.810s] running build
+[0.810s] running build_py
+[0.810s] running install
+[0.811s] running install_lib
+[0.812s] running install_data
+[0.812s] copying urdf/ada_lovelace.xacro.urdf -> /home/delewlew/assessments/coursework2/install/ada_lovelace_description/share/ada_lovelace_description/urdf
+[0.813s] running install_egg_info
+[0.815s] removing '/home/delewlew/assessments/coursework2/install/ada_lovelace_description/lib/python3.10/site-packages/ada_lovelace_description-0.0.0-py3.10.egg-info' (and everything under it)
+[0.815s] Copying ../../build/ada_lovelace_description/ada_lovelace_description.egg-info to /home/delewlew/assessments/coursework2/install/ada_lovelace_description/lib/python3.10/site-packages/ada_lovelace_description-0.0.0-py3.10.egg-info
+[0.816s] running install_scripts
+[0.841s] writing list of installed files to '/home/delewlew/assessments/coursework2/build/ada_lovelace_description/install.log'
+[0.863s] Invoked command in '/home/delewlew/assessments/coursework2/src/ada_lovelace_description' returned '0': PYTHONPATH=/home/delewlew/assessments/coursework2/build/ada_lovelace_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/delewlew/assessments/coursework2/install/ada_lovelace_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ada_lovelace_description build --build-base /home/delewlew/assessments/coursework2/build/ada_lovelace_description/build install --record /home/delewlew/assessments/coursework2/build/ada_lovelace_description/install.log --single-version-externally-managed install_data

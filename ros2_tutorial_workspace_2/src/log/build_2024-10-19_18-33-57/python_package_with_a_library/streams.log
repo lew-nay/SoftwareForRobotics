@@ -1,0 +1,23 @@
+[1.103s] Invoking command in '/home/delewlew/ros2_tutorial_workspace_2/src/python_package_with_a_library': PYTHONPATH=/home/delewlew/ros2_tutorial_workspace_2/src/build/python_package_with_a_library/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/delewlew/ros2_tutorial_workspace_2/src/install/python_package_with_a_library/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/python_package_with_a_library build --build-base /home/delewlew/ros2_tutorial_workspace_2/src/build/python_package_with_a_library/build install --record /home/delewlew/ros2_tutorial_workspace_2/src/build/python_package_with_a_library/install.log --single-version-externally-managed install_data
+[1.378s] running egg_info
+[1.379s] writing ../build/python_package_with_a_library/python_package_with_a_library.egg-info/PKG-INFO
+[1.379s] writing dependency_links to ../build/python_package_with_a_library/python_package_with_a_library.egg-info/dependency_links.txt
+[1.380s] writing entry points to ../build/python_package_with_a_library/python_package_with_a_library.egg-info/entry_points.txt
+[1.380s] writing requirements to ../build/python_package_with_a_library/python_package_with_a_library.egg-info/requires.txt
+[1.380s] writing top-level names to ../build/python_package_with_a_library/python_package_with_a_library.egg-info/top_level.txt
+[1.382s] reading manifest file '../build/python_package_with_a_library/python_package_with_a_library.egg-info/SOURCES.txt'
+[1.383s] writing manifest file '../build/python_package_with_a_library/python_package_with_a_library.egg-info/SOURCES.txt'
+[1.383s] running build
+[1.383s] running build_py
+[1.384s] copying python_package_with_a_library/sample_python_library/_sample_class.py -> /home/delewlew/ros2_tutorial_workspace_2/src/build/python_package_with_a_library/build/lib/python_package_with_a_library/sample_python_library
+[1.384s] running install
+[1.384s] running install_lib
+[1.385s] copying /home/delewlew/ros2_tutorial_workspace_2/src/build/python_package_with_a_library/build/lib/python_package_with_a_library/sample_python_library/_sample_class.py -> /home/delewlew/ros2_tutorial_workspace_2/src/install/python_package_with_a_library/lib/python3.10/site-packages/python_package_with_a_library/sample_python_library
+[1.386s] byte-compiling /home/delewlew/ros2_tutorial_workspace_2/src/install/python_package_with_a_library/lib/python3.10/site-packages/python_package_with_a_library/sample_python_library/_sample_class.py to _sample_class.cpython-310.pyc
+[1.386s] running install_data
+[1.386s] running install_egg_info
+[1.389s] removing '/home/delewlew/ros2_tutorial_workspace_2/src/install/python_package_with_a_library/lib/python3.10/site-packages/python_package_with_a_library-0.0.0-py3.10.egg-info' (and everything under it)
+[1.389s] Copying ../build/python_package_with_a_library/python_package_with_a_library.egg-info to /home/delewlew/ros2_tutorial_workspace_2/src/install/python_package_with_a_library/lib/python3.10/site-packages/python_package_with_a_library-0.0.0-py3.10.egg-info
+[1.390s] running install_scripts
+[1.416s] writing list of installed files to '/home/delewlew/ros2_tutorial_workspace_2/src/build/python_package_with_a_library/install.log'
+[1.453s] Invoked command in '/home/delewlew/ros2_tutorial_workspace_2/src/python_package_with_a_library' returned '0': PYTHONPATH=/home/delewlew/ros2_tutorial_workspace_2/src/build/python_package_with_a_library/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/delewlew/ros2_tutorial_workspace_2/src/install/python_package_with_a_library/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/python_package_with_a_library build --build-base /home/delewlew/ros2_tutorial_workspace_2/src/build/python_package_with_a_library/build install --record /home/delewlew/ros2_tutorial_workspace_2/src/build/python_package_with_a_library/install.log --single-version-externally-managed install_data

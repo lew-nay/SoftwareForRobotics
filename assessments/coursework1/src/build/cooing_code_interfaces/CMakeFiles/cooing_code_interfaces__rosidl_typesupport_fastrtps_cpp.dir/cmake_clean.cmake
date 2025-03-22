@@ -1,0 +1,25 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/cooing_code_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cooing_code_interfaces/msg/detail/dds_fastrtps/task_space_pose__type_support.cpp.o"
+  "CMakeFiles/cooing_code_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cooing_code_interfaces/msg/detail/dds_fastrtps/task_space_pose__type_support.cpp.o.d"
+  "CMakeFiles/cooing_code_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cooing_code_interfaces/msg/detail/dds_fastrtps/wheel_velocities__type_support.cpp.o"
+  "CMakeFiles/cooing_code_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cooing_code_interfaces/msg/detail/dds_fastrtps/wheel_velocities__type_support.cpp.o.d"
+  "CMakeFiles/cooing_code_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cooing_code_interfaces/srv/detail/dds_fastrtps/turn_robot_off__type_support.cpp.o"
+  "CMakeFiles/cooing_code_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cooing_code_interfaces/srv/detail/dds_fastrtps/turn_robot_off__type_support.cpp.o.d"
+  "CMakeFiles/cooing_code_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cooing_code_interfaces/srv/detail/dds_fastrtps/turn_robot_on__type_support.cpp.o"
+  "CMakeFiles/cooing_code_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cooing_code_interfaces/srv/detail/dds_fastrtps/turn_robot_on__type_support.cpp.o.d"
+  "libcooing_code_interfaces__rosidl_typesupport_fastrtps_cpp.pdb"
+  "libcooing_code_interfaces__rosidl_typesupport_fastrtps_cpp.so"
+  "rosidl_typesupport_fastrtps_cpp/cooing_code_interfaces/msg/detail/dds_fastrtps/task_space_pose__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/cooing_code_interfaces/msg/detail/dds_fastrtps/wheel_velocities__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/cooing_code_interfaces/msg/detail/task_space_pose__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/cooing_code_interfaces/msg/detail/wheel_velocities__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/cooing_code_interfaces/srv/detail/dds_fastrtps/turn_robot_off__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/cooing_code_interfaces/srv/detail/dds_fastrtps/turn_robot_on__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/cooing_code_interfaces/srv/detail/turn_robot_off__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/cooing_code_interfaces/srv/detail/turn_robot_on__rosidl_typesupport_fastrtps_cpp.hpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/cooing_code_interfaces__rosidl_typesupport_fastrtps_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

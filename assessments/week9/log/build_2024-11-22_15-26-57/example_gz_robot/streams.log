@@ -1,0 +1,52 @@
+[1.018s] Invoking command in '/home/delewlew/assessments/week9/src/CA9_incomplete/example_gz_robot': PYTHONPATH=/home/delewlew/assessments/week9/build/example_gz_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/delewlew/assessments/week9/install/example_gz_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/example_gz_robot build --build-base /home/delewlew/assessments/week9/build/example_gz_robot/build install --record /home/delewlew/assessments/week9/build/example_gz_robot/install.log --single-version-externally-managed install_data
+[1.314s] running egg_info
+[1.316s] creating ../../../build/example_gz_robot/example_gz_robot.egg-info
+[1.317s] writing ../../../build/example_gz_robot/example_gz_robot.egg-info/PKG-INFO
+[1.323s] writing dependency_links to ../../../build/example_gz_robot/example_gz_robot.egg-info/dependency_links.txt
+[1.323s] writing entry points to ../../../build/example_gz_robot/example_gz_robot.egg-info/entry_points.txt
+[1.323s] writing requirements to ../../../build/example_gz_robot/example_gz_robot.egg-info/requires.txt
+[1.323s] writing top-level names to ../../../build/example_gz_robot/example_gz_robot.egg-info/top_level.txt
+[1.324s] writing manifest file '../../../build/example_gz_robot/example_gz_robot.egg-info/SOURCES.txt'
+[1.324s] reading manifest file '../../../build/example_gz_robot/example_gz_robot.egg-info/SOURCES.txt'
+[1.324s] writing manifest file '../../../build/example_gz_robot/example_gz_robot.egg-info/SOURCES.txt'
+[1.324s] running build
+[1.325s] running build_py
+[1.325s] creating /home/delewlew/assessments/week9/build/example_gz_robot/build
+[1.325s] creating /home/delewlew/assessments/week9/build/example_gz_robot/build/lib
+[1.326s] creating /home/delewlew/assessments/week9/build/example_gz_robot/build/lib/example_gz_robot
+[1.326s] copying example_gz_robot/__init__.py -> /home/delewlew/assessments/week9/build/example_gz_robot/build/lib/example_gz_robot
+[1.326s] running install
+[1.326s] running install_lib
+[1.326s] creating /home/delewlew/assessments/week9/install/example_gz_robot/lib/python3.10/site-packages/example_gz_robot
+[1.327s] copying /home/delewlew/assessments/week9/build/example_gz_robot/build/lib/example_gz_robot/__init__.py -> /home/delewlew/assessments/week9/install/example_gz_robot/lib/python3.10/site-packages/example_gz_robot
+[1.327s] byte-compiling /home/delewlew/assessments/week9/install/example_gz_robot/lib/python3.10/site-packages/example_gz_robot/__init__.py to __init__.cpython-310.pyc
+[1.327s] running install_data
+[1.327s] creating /home/delewlew/assessments/week9/install/example_gz_robot/share/ament_index
+[1.327s] creating /home/delewlew/assessments/week9/install/example_gz_robot/share/ament_index/resource_index
+[1.327s] creating /home/delewlew/assessments/week9/install/example_gz_robot/share/ament_index/resource_index/packages
+[1.328s] copying resource/example_gz_robot -> /home/delewlew/assessments/week9/install/example_gz_robot/share/ament_index/resource_index/packages
+[1.328s] copying package.xml -> /home/delewlew/assessments/week9/install/example_gz_robot/share/example_gz_robot
+[1.328s] creating /home/delewlew/assessments/week9/install/example_gz_robot/share/example_gz_robot/launch
+[1.328s] copying launch/cats_paw.launch.py -> /home/delewlew/assessments/week9/install/example_gz_robot/share/example_gz_robot/launch
+[1.328s] copying launch/simulation_bringup.launch.py -> /home/delewlew/assessments/week9/install/example_gz_robot/share/example_gz_robot/launch
+[1.328s] copying launch/sim_robot.launch.py -> /home/delewlew/assessments/week9/install/example_gz_robot/share/example_gz_robot/launch
+[1.328s] copying launch/localisation.launch.py -> /home/delewlew/assessments/week9/install/example_gz_robot/share/example_gz_robot/launch
+[1.328s] copying launch/map_server.launch.py -> /home/delewlew/assessments/week9/install/example_gz_robot/share/example_gz_robot/launch
+[1.328s] copying launch/slam.launch.py -> /home/delewlew/assessments/week9/install/example_gz_robot/share/example_gz_robot/launch
+[1.329s] creating /home/delewlew/assessments/week9/install/example_gz_robot/share/example_gz_robot/rviz
+[1.329s] copying rviz/localisation.rviz -> /home/delewlew/assessments/week9/install/example_gz_robot/share/example_gz_robot/rviz
+[1.329s] copying rviz/slam.rviz -> /home/delewlew/assessments/week9/install/example_gz_robot/share/example_gz_robot/rviz
+[1.329s] creating /home/delewlew/assessments/week9/install/example_gz_robot/share/example_gz_robot/worlds
+[1.329s] copying worlds/assessment_env.sdf -> /home/delewlew/assessments/week9/install/example_gz_robot/share/example_gz_robot/worlds
+[1.329s] copying worlds/tb3.sdf -> /home/delewlew/assessments/week9/install/example_gz_robot/share/example_gz_robot/worlds
+[1.330s] copying worlds/meshes/wall.dae -> /home/delewlew/assessments/week9/install/example_gz_robot/share/example_gz_robot/worlds
+[1.330s] copying worlds/meshes/hexagon.dae -> /home/delewlew/assessments/week9/install/example_gz_robot/share/example_gz_robot/worlds
+[1.330s] creating /home/delewlew/assessments/week9/install/example_gz_robot/share/example_gz_robot/config
+[1.330s] creating /home/delewlew/assessments/week9/install/example_gz_robot/share/example_gz_robot/maps
+[1.330s] copying maps/turtlebot3_world.yaml -> /home/delewlew/assessments/week9/install/example_gz_robot/share/example_gz_robot/maps
+[1.330s] copying maps/turtlebot3_world.pgm -> /home/delewlew/assessments/week9/install/example_gz_robot/share/example_gz_robot/maps
+[1.331s] running install_egg_info
+[1.331s] Copying ../../../build/example_gz_robot/example_gz_robot.egg-info to /home/delewlew/assessments/week9/install/example_gz_robot/lib/python3.10/site-packages/example_gz_robot-0.0.0-py3.10.egg-info
+[1.331s] running install_scripts
+[1.371s] writing list of installed files to '/home/delewlew/assessments/week9/build/example_gz_robot/install.log'
+[1.407s] Invoked command in '/home/delewlew/assessments/week9/src/CA9_incomplete/example_gz_robot' returned '0': PYTHONPATH=/home/delewlew/assessments/week9/build/example_gz_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/delewlew/assessments/week9/install/example_gz_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/example_gz_robot build --build-base /home/delewlew/assessments/week9/build/example_gz_robot/build install --record /home/delewlew/assessments/week9/build/example_gz_robot/install.log --single-version-externally-managed install_data

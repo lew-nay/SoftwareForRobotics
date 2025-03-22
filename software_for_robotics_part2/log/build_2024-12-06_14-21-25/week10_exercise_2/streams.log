@@ -1,0 +1,39 @@
+[2.071s] Invoking command in '/home/delewlew/software_for_robotics_part2/src/week10_exercise_2': PYTHONPATH=/home/delewlew/software_for_robotics_part2/build/week10_exercise_2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/delewlew/software_for_robotics_part2/install/week10_exercise_2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/week10_exercise_2 build --build-base /home/delewlew/software_for_robotics_part2/build/week10_exercise_2/build install --record /home/delewlew/software_for_robotics_part2/build/week10_exercise_2/install.log --single-version-externally-managed install_data
+[2.450s] running egg_info
+[2.450s] creating ../../build/week10_exercise_2/week10_exercise_2.egg-info
+[2.450s] writing ../../build/week10_exercise_2/week10_exercise_2.egg-info/PKG-INFO
+[2.450s] writing dependency_links to ../../build/week10_exercise_2/week10_exercise_2.egg-info/dependency_links.txt
+[2.451s] writing entry points to ../../build/week10_exercise_2/week10_exercise_2.egg-info/entry_points.txt
+[2.451s] writing requirements to ../../build/week10_exercise_2/week10_exercise_2.egg-info/requires.txt
+[2.451s] writing top-level names to ../../build/week10_exercise_2/week10_exercise_2.egg-info/top_level.txt
+[2.451s] writing manifest file '../../build/week10_exercise_2/week10_exercise_2.egg-info/SOURCES.txt'
+[2.451s] reading manifest file '../../build/week10_exercise_2/week10_exercise_2.egg-info/SOURCES.txt'
+[2.454s] writing manifest file '../../build/week10_exercise_2/week10_exercise_2.egg-info/SOURCES.txt'
+[2.455s] running build
+[2.455s] running build_py
+[2.455s] creating /home/delewlew/software_for_robotics_part2/build/week10_exercise_2/build
+[2.455s] creating /home/delewlew/software_for_robotics_part2/build/week10_exercise_2/build/lib
+[2.455s] creating /home/delewlew/software_for_robotics_part2/build/week10_exercise_2/build/lib/week10_exercise2
+[2.456s] copying week10_exercise2/__init__.py -> /home/delewlew/software_for_robotics_part2/build/week10_exercise_2/build/lib/week10_exercise2
+[2.456s] running install
+[2.456s] running install_lib
+[2.457s] creating /home/delewlew/software_for_robotics_part2/install/week10_exercise_2/lib/python3.10/site-packages/week10_exercise2
+[2.457s] copying /home/delewlew/software_for_robotics_part2/build/week10_exercise_2/build/lib/week10_exercise2/__init__.py -> /home/delewlew/software_for_robotics_part2/install/week10_exercise_2/lib/python3.10/site-packages/week10_exercise2
+[2.458s] byte-compiling /home/delewlew/software_for_robotics_part2/install/week10_exercise_2/lib/python3.10/site-packages/week10_exercise2/__init__.py to __init__.cpython-310.pyc
+[2.458s] running install_data
+[2.459s] creating /home/delewlew/software_for_robotics_part2/install/week10_exercise_2/share/ament_index
+[2.459s] creating /home/delewlew/software_for_robotics_part2/install/week10_exercise_2/share/ament_index/resource_index
+[2.459s] creating /home/delewlew/software_for_robotics_part2/install/week10_exercise_2/share/ament_index/resource_index/packages
+[2.459s] copying resource/week10_exercise_2 -> /home/delewlew/software_for_robotics_part2/install/week10_exercise_2/share/ament_index/resource_index/packages
+[2.459s] copying package.xml -> /home/delewlew/software_for_robotics_part2/install/week10_exercise_2/share/week10_exercise_2
+[2.459s] creating /home/delewlew/software_for_robotics_part2/install/week10_exercise_2/share/week10_exercise_2/launch
+[2.460s] copying launch/nav_demo.launch.py -> /home/delewlew/software_for_robotics_part2/install/week10_exercise_2/share/week10_exercise_2/launch
+[2.460s] creating /home/delewlew/software_for_robotics_part2/install/week10_exercise_2/share/week10_exercise_2/config
+[2.460s] copying config/bt_nav.yaml -> /home/delewlew/software_for_robotics_part2/install/week10_exercise_2/share/week10_exercise_2/config
+[2.460s] copying config/controller.yaml -> /home/delewlew/software_for_robotics_part2/install/week10_exercise_2/share/week10_exercise_2/config
+[2.460s] copying config/planner.yaml -> /home/delewlew/software_for_robotics_part2/install/week10_exercise_2/share/week10_exercise_2/config
+[2.461s] running install_egg_info
+[2.465s] Copying ../../build/week10_exercise_2/week10_exercise_2.egg-info to /home/delewlew/software_for_robotics_part2/install/week10_exercise_2/lib/python3.10/site-packages/week10_exercise_2-0.0.0-py3.10.egg-info
+[2.465s] running install_scripts
+[2.502s] writing list of installed files to '/home/delewlew/software_for_robotics_part2/build/week10_exercise_2/install.log'
+[2.560s] Invoked command in '/home/delewlew/software_for_robotics_part2/src/week10_exercise_2' returned '0': PYTHONPATH=/home/delewlew/software_for_robotics_part2/build/week10_exercise_2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/delewlew/software_for_robotics_part2/install/week10_exercise_2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/week10_exercise_2 build --build-base /home/delewlew/software_for_robotics_part2/build/week10_exercise_2/build install --record /home/delewlew/software_for_robotics_part2/build/week10_exercise_2/install.log --single-version-externally-managed install_data

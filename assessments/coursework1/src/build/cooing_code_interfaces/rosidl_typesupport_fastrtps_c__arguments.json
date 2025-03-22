@@ -1,0 +1,25 @@
+{
+  "package_name": "cooing_code_interfaces",
+  "output_dir": "/home/delewlew/assessments/coursework1/src/build/cooing_code_interfaces/rosidl_typesupport_fastrtps_c/cooing_code_interfaces",
+  "template_dir": "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource",
+  "idl_tuples": [
+    "/home/delewlew/assessments/coursework1/src/build/cooing_code_interfaces/rosidl_adapter/cooing_code_interfaces:msg/WheelVelocities.idl",
+    "/home/delewlew/assessments/coursework1/src/build/cooing_code_interfaces/rosidl_adapter/cooing_code_interfaces:msg/TaskSpacePose.idl",
+    "/home/delewlew/assessments/coursework1/src/build/cooing_code_interfaces/rosidl_adapter/cooing_code_interfaces:srv/TurnRobotOn.idl",
+    "/home/delewlew/assessments/coursework1/src/build/cooing_code_interfaces/rosidl_adapter/cooing_code_interfaces:srv/TurnRobotOff.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/lib/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_fastrtps_c/__init__.py",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/idl__rosidl_typesupport_fastrtps_c.h.em",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/idl__type_support_c.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/msg__rosidl_typesupport_fastrtps_c.h.em",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/msg__type_support_c.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/srv__rosidl_typesupport_fastrtps_c.h.em",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/srv__type_support_c.cpp.em",
+    "/home/delewlew/assessments/coursework1/src/build/cooing_code_interfaces/rosidl_adapter/cooing_code_interfaces/msg/WheelVelocities.idl",
+    "/home/delewlew/assessments/coursework1/src/build/cooing_code_interfaces/rosidl_adapter/cooing_code_interfaces/msg/TaskSpacePose.idl",
+    "/home/delewlew/assessments/coursework1/src/build/cooing_code_interfaces/rosidl_adapter/cooing_code_interfaces/srv/TurnRobotOn.idl",
+    "/home/delewlew/assessments/coursework1/src/build/cooing_code_interfaces/rosidl_adapter/cooing_code_interfaces/srv/TurnRobotOff.idl"
+  ]
+}

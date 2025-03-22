@@ -1,0 +1,3 @@
+[console_scripts]
+cooing_code_node = cooing_code_pkg.cooing_code_node:main
+

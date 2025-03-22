@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+python_package_with_a_library/__init__.py
+python_package_with_a_library.egg-info/PKG-INFO
+python_package_with_a_library.egg-info/SOURCES.txt
+python_package_with_a_library.egg-info/dependency_links.txt
+python_package_with_a_library.egg-info/requires.txt
+python_package_with_a_library.egg-info/top_level.txt
+python_package_with_a_library.egg-info/zip-safe
+python_package_with_a_library/sample_python_library/__init__.py
+python_package_with_a_library/sample_python_library/_sample_function.py
+resource/python_package_with_a_library
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
